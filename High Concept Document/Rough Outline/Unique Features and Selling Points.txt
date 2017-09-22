@@ -1,0 +1,17 @@
+Unique Features and Selling Points
+
+Combines multiple genres and gameplay style 
+	genre: platform, action, RPG, Metroidvania. 
+	gameplay style: combat, puzzle soloving, combat with puzzle solving.
+
+
+Flexible class systems that allow the player to experiement with different characters with different combat combo styles and dialogue stories.
+ 
+The mech-cifi Universe and Gundam character models allow the players to experience a gundam emerging world, which can attract fans of Gundam series.
+
+Multiple playable characters unlocked by beating bosses, players can pick levels they want to start their game after beating the whole game.
+
+Achievement system  allows player to try to challenge themselves. Achievement system unlocks after player fulfills requirements for any achievement. After the system is unlocked, the achievements can be viewed in main menu. Achievements show how much more they can do, players can feel proud of themselves everytime after they unlock a new achievement, there are hidden achievements for players to explore, the requirements are hidden.
+
+Collectible items system grants character different stats boost or differetn active weapons for main character to use, some items or weapons can only be unlocked after the player unlocks some special achievements.
+
