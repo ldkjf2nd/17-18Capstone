@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.8)  17 OCT 2017 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.8)  17 OCT 2017 22:50
 entering extended mode
 **"Requirement Document.tex"
 ("Requirement Document.tex"
@@ -495,34 +495,146 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks23
 \@floatcapt=\box31
 )
-No file "Requirement Document".aux.
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\base\fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\base\t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\babel\babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\00miktex\bblopts.cfg
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\babel\babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
+\babel@savecnt=\count110
+\U@D=\dimen125
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\datetime\datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\misc\etex.sty
+Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
+\et@xins=\count111
+)
+\etb@tempcnta=\count112
+)
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\fmtcount\fmtcount.sty
+Package: fmtcount 2017/09/16 v3.04
+
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\xkeyval\xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(D:\tools\Latex\TeXstudio\miketex\tex\generic\xkeyval\xkeyval.tex
+(D:\tools\Latex\TeXstudio\miketex\tex\generic\xkeyval\xkvutils.tex
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
+)
+\XKV@depth=\count113
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\fmtcount\fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\fmtcount\fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count114
+))
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks26
+\ex@=\dimen126
+)
+\c@padzeroesN=\count115
+\fc@tmpcatcode=\count116
+
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\fmtcount\fc-english.def
+File: fc-english.def 2016/01/12
+)
+\@DT@modctr=\count117
+\@ordinalctr=\count118
+\@orgargctr=\count119
+\@strctr=\count120
+\@tmpstrctr=\count121
+\@DT@loopN=\count122
+\@DT@X=\count123
+)
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\datetime\datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count124
+\@month=\count125
+\@year=\count126
+\c@HOUR=\count127
+\c@HOURXII=\count128
+\c@MINUTE=\count129
+\c@TOHOUR=\count130
+\c@TOMINUTE=\count131
+\c@SECOND=\count132
+\currenthour=\count133
+\currentminute=\count134
+\currentsecond=\count135
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count136
+\dayofyear=\count137
+\dayofweek=\count138
+LaTeX Info: Redefining \today on input line 736.
+
+(D:\tools\Latex\TeXstudio\miketex\tex\latex\datetime\dt-USenglish.def
+File: dt-USenglish.def 2013/09/10
+)
+\dt@a=\toks27
+\dt@b=\toks28
+)
+("Requirement Document.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+
 (D:\tools\Latex\TeXstudio\miketex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen125
+\scratchcounter=\count139
+\scratchdimen=\dimen127
 \scratchbox=\box32
-\nofMPsegments=\count111
-\nofMParguments=\count112
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen126
-\MPnumerator=\count114
-\makeMPintoPDFobject=\count115
-\everyMPtoPDFconversion=\toks25
+\nofMPsegments=\count140
+\nofMParguments=\count141
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count142
+\MPscratchDim=\dimen128
+\MPnumerator=\count143
+\makeMPintoPDFobject=\count144
+\everyMPtoPDFconversion=\toks30
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -559,548 +671,550 @@ LaTeX Font Info:    ... okay on input line 16.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring OFF on input line 16.
+Package hyperref Info: Link coloring OFF on input line 19.
 (D:\tools\Latex\TeXstudio\miketex\tex\latex\hyperref\nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (D:\tools\Latex\TeXstudio\miketex\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count116
+\c@section@level=\count145
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
-\@outlinefile=\write3
-\tf@toc=\write4
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 34.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 
+("Requirement Document.out") ("Requirement Document.out")
+\@outlinefile=\write3
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 25.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
+\tf@toc=\write4
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
 (D:\tools\Latex\TeXstudio\miketex\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
- [1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
+ [2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
-<product-boundary.png, id=32, 702.625pt x 570.13pt>
+<product-boundary.png, id=267, 702.625pt x 570.13pt>
 File: product-boundary.png Graphic file (type png)
- <use product-boundary.png>
-Package pdftex.def Info: product-boundary.png used on input line 100.
+
+<use product-boundary.png>
+Package pdftex.def Info: product-boundary.png used on input line 108.
 (pdftex.def)             Requested size: 341.11534pt x 276.7998pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
-[3]
+[4]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 107.
+(Font)              <7> on input line 115.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 107.
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 128.
+(Font)              <5> on input line 115.
 
- (D:\tools\Latex\TeXstudio\miketex\tex\latex\base\omlcmr.fd
-File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 128.
-
-Overfull \hbox (51.38881pt too wide) in paragraph at lines 107--130
+Overfull \hbox (51.00572pt too wide) in paragraph at lines 115--138
 [][] 
  []
 
-[4 <./product-boundary.png>] [5]
-Overfull \vbox (1.39064pt too high) has occurred while \output is active []
+[5 <./product-boundary.png>] [6]
+Overfull \vbox (1.38835pt too high) has occurred while \output is active []
 
-
-[6]
-Overfull \hbox (81.9722pt too wide) in paragraph at lines 133--151
-[][] 
- []
 
 [7]
-Overfull \hbox (2.26195pt too wide) in paragraph at lines 164--164
-[]|[]| 
- []
-
-
-Overfull \hbox (8.88318pt too wide) in paragraph at lines 158--167
-[][] 
- []
-
-
-Overfull \hbox (2.53972pt too wide) in paragraph at lines 178--180
-[]|[]| 
- []
-
-
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 172--183
-[][] 
- []
-
-
-Overfull \hbox (2.92859pt too wide) in paragraph at lines 195--203
-[]|[]| 
- []
-
-
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 189--206
+Overfull \hbox (81.58159pt too wide) in paragraph at lines 141--159
 [][] 
  []
 
 [8]
-Overfull \hbox (6.62317pt too wide) in paragraph at lines 219--223
+Overfull \hbox (1.89977pt too wide) in paragraph at lines 172--172
 []|[]| 
  []
 
 
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 213--226
+Overfull \hbox (8.86668pt too wide) in paragraph at lines 166--175
+[][] 
+ []
+
+
+Overfull \hbox (2.45518pt too wide) in paragraph at lines 186--188
+[]|[]| 
+ []
+
+
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 180--191
+[][] 
+ []
+
+
+Overfull \hbox (2.84398pt too wide) in paragraph at lines 203--211
+[]|[]| 
+ []
+
+
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 197--214
 [][] 
  []
 
 [9]
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 232--244
-[][] 
+Overfull \hbox (6.53752pt too wide) in paragraph at lines 227--231
+[]|[]| 
  []
 
 
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 248--262
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 221--234
 [][] 
  []
 
 [10]
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 266--279
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 240--252
 [][] 
  []
 
 
-Overfull \hbox (1.42867pt too wide) in paragraph at lines 288--292
-[]|[]| 
- []
-
-
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 282--295
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 256--270
 [][] 
  []
 
 [11]
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 298--311
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 274--287
 [][] 
  []
 
 
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 314--326
+Overfull \hbox (1.34435pt too wide) in paragraph at lines 296--300
+[]|[]| 
+ []
+
+
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 290--303
 [][] 
  []
 
 [12]
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 330--343
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 306--319
 [][] 
  []
 
 
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 347--360
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 322--334
 [][] 
  []
 
 [13]
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 363--376
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 338--351
 [][] 
  []
 
 
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 380--393
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 355--368
 [][] 
  []
 
 [14]
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 399--410
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 371--384
 [][] 
  []
 
 
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 413--424
-[][] 
- []
-
-
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 427--440
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 388--401
 [][] 
  []
 
 [15]
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 444--457
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 407--418
 [][] 
  []
 
 
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 460--474
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 421--432
 [][] 
  []
 
 
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 477--492
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 435--448
 [][] 
  []
 
 [16]
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 497--510
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 452--465
 [][] 
  []
 
 
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 514--529
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 468--482
+[][] 
+ []
+
+
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 485--500
 [][] 
  []
 
 [17]
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 533--545
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 505--518
 [][] 
  []
 
 
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 549--561
-[][] 
- []
-
-
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 565--577
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 522--537
 [][] 
  []
 
 [18]
-Overfull \hbox (11.68228pt too wide) in paragraph at lines 587--592
-[]|[]| 
- []
-
-
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 581--595
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 541--553
 [][] 
  []
 
 
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 598--610
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 557--569
+[][] 
+ []
+
+
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 573--585
 [][] 
  []
 
 [19]
-Overfull \hbox (11.68228pt too wide) in paragraph at lines 621--627
+Overfull \hbox (11.68228pt too wide) in paragraph at lines 595--600
 []|[]| 
  []
 
 
-Overfull \hbox (9.28317pt too wide) in paragraph at lines 615--630
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 589--603
+[][] 
+ []
+
+
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 606--618
 [][] 
  []
 
 [20]
-Overfull \hbox (285.7037pt too wide) in paragraph at lines 648--648
+Overfull \hbox (11.68228pt too wide) in paragraph at lines 629--635
 []|[]| 
  []
 
 
-Overfull \hbox (24.35497pt too wide) in paragraph at lines 642--652
-[][] 
- []
-
-
-Overfull \hbox (24.35497pt too wide) in paragraph at lines 657--667
-[][] 
- []
-
-
-Overfull \hbox (24.35497pt too wide) in paragraph at lines 672--682
+Overfull \hbox (9.26668pt too wide) in paragraph at lines 623--638
 [][] 
  []
 
 [21]
-Overfull \hbox (24.35497pt too wide) in paragraph at lines 686--696
-[][] 
- []
-
-
-Overfull \hbox (24.35497pt too wide) in paragraph at lines 699--709
-[][] 
- []
-
-[22]
-Overfull \hbox (24.35497pt too wide) in paragraph at lines 713--723
-[][] 
- []
-
-
-Overfull \hbox (24.35497pt too wide) in paragraph at lines 727--737
-[][] 
- []
-
-[23]
-Overfull \hbox (24.35497pt too wide) in paragraph at lines 741--751
-[][] 
- []
-
-
-Overfull \hbox (24.35497pt too wide) in paragraph at lines 754--764
-[][] 
- []
-
-[24]
-Overfull \hbox (17.27159pt too wide) in paragraph at lines 770--780
-[][] 
- []
-
-[25]
-Overfull \hbox (17.27159pt too wide) in paragraph at lines 786--796
-[][] 
- []
-
-
-Overfull \hbox (2.70335pt too wide) in paragraph at lines 805--805
+Overfull \hbox (285.54437pt too wide) in paragraph at lines 656--656
 []|[]| 
  []
 
 
-Overfull \hbox (17.27159pt too wide) in paragraph at lines 799--809
+Overfull \hbox (24.3394pt too wide) in paragraph at lines 650--660
+[][] 
+ []
+
+
+Overfull \hbox (24.3394pt too wide) in paragraph at lines 665--675
+[][] 
+ []
+
+
+Overfull \hbox (24.3394pt too wide) in paragraph at lines 680--690
+[][] 
+ []
+
+[22]
+Overfull \hbox (24.3394pt too wide) in paragraph at lines 694--704
+[][] 
+ []
+
+
+Overfull \hbox (24.3394pt too wide) in paragraph at lines 707--717
+[][] 
+ []
+
+[23]
+Overfull \hbox (24.3394pt too wide) in paragraph at lines 721--731
+[][] 
+ []
+
+
+Overfull \hbox (24.3394pt too wide) in paragraph at lines 735--745
+[][] 
+ []
+
+[24]
+Overfull \hbox (24.3394pt too wide) in paragraph at lines 749--759
+[][] 
+ []
+
+
+Overfull \hbox (24.3394pt too wide) in paragraph at lines 762--772
+[][] 
+ []
+
+[25]
+Overfull \hbox (17.2578pt too wide) in paragraph at lines 778--788
 [][] 
  []
 
 [26]
-Overfull \hbox (43.88277pt too wide) in paragraph at lines 812--822
+Overfull \hbox (17.2578pt too wide) in paragraph at lines 794--804
+[][] 
+ []
+
+
+Overfull \hbox (2.61346pt too wide) in paragraph at lines 813--813
+[]|[]| 
+ []
+
+
+Overfull \hbox (17.2578pt too wide) in paragraph at lines 807--817
 [][] 
  []
 
 [27]
-Overfull \hbox (53.32721pt too wide) in paragraph at lines 827--837
+Overfull \hbox (43.86241pt too wide) in paragraph at lines 820--830
 [][] 
  []
 
 [28]
-Overfull \hbox (17.27159pt too wide) in paragraph at lines 842--852
-[][] 
- []
-
-
-Overfull \hbox (27.21603pt too wide) in paragraph at lines 855--865
+Overfull \hbox (53.30455pt too wide) in paragraph at lines 835--845
 [][] 
  []
 
 [29]
-
-! Package array Error:  Illegal pream-token (1): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.870     \begin{tabular}{|1|1|1|}
-                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package array Error:  Illegal pream-token (1): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.870     \begin{tabular}{|1|1|1|}
-                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package array Error:  Illegal pream-token (1): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.870     \begin{tabular}{|1|1|1|}
-                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 1043) in paragraph at lines 875--875
-[]|\OT1/cmr/m/n/10 Require min-i-mum 6 Tracks for dif-fer-ent
- []
-
-
-Overfull \hbox (21.16649pt too wide) in paragraph at lines 870--877
+Overfull \hbox (17.2578pt too wide) in paragraph at lines 850--860
 [][] 
  []
 
 
-! Package array Error:  Illegal pream-token (1): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.880     \begin{tabular}{|1|1|1|}
-                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package array Error:  Illegal pream-token (1): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.880     \begin{tabular}{|1|1|1|}
-                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package array Error:  Illegal pream-token (1): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.880     \begin{tabular}{|1|1|1|}
-                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (8.70956pt too wide) in paragraph at lines 880--888
+Overfull \hbox (27.19981pt too wide) in paragraph at lines 863--873
 [][] 
  []
 
 [30]
-Overfull \hbox (26.85493pt too wide) in paragraph at lines 894--904
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.878 		\begin{tabular}{|1|1|1|}
+                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.878 		\begin{tabular}{|1|1|1|}
+                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.878 		\begin{tabular}{|1|1|1|}
+                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 883--883
+[]|\T1/cmr/m/n/10 Require min-i-mum 6 Tracks for dif-fer-ent
+ []
+
+
+Overfull \hbox (21.11285pt too wide) in paragraph at lines 878--885
 [][] 
  []
 
 
-Overfull \hbox (26.85493pt too wide) in paragraph at lines 908--918
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.888 		\begin{tabular}{|1|1|1|}
+                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.888 		\begin{tabular}{|1|1|1|}
+                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package array Error:  Illegal pream-token (1): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.888 		\begin{tabular}{|1|1|1|}
+                                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (8.66425pt too wide) in paragraph at lines 888--896
 [][] 
  []
 
 [31]
-Overfull \hbox (26.85493pt too wide) in paragraph at lines 923--933
+Overfull \hbox (26.83879pt too wide) in paragraph at lines 902--912
 [][] 
  []
 
 
-Overfull \hbox (83.32727pt too wide) in paragraph at lines 937--947
+Overfull \hbox (26.83879pt too wide) in paragraph at lines 916--926
 [][] 
  []
 
 [32]
-Overfull \hbox (26.85493pt too wide) in paragraph at lines 951--961
+Overfull \hbox (26.83879pt too wide) in paragraph at lines 931--941
 [][] 
  []
 
 
-Overfull \hbox (38.32716pt too wide) in paragraph at lines 966--976
+Overfull \hbox (83.29723pt too wide) in paragraph at lines 945--955
 [][] 
  []
 
 [33]
-Overfull \hbox (26.85493pt too wide) in paragraph at lines 980--990
+Overfull \hbox (26.83879pt too wide) in paragraph at lines 959--969
 [][] 
  []
 
 
-Overfull \hbox (26.85493pt too wide) in paragraph at lines 994--1004
+Overfull \hbox (38.30821pt too wide) in paragraph at lines 974--984
 [][] 
  []
 
 [34]
-Overfull \hbox (26.85493pt too wide) in paragraph at lines 1008--1018
+Overfull \hbox (26.83879pt too wide) in paragraph at lines 988--998
 [][] 
  []
 
 
-Overfull \hbox (26.85493pt too wide) in paragraph at lines 1022--1032
+Overfull \hbox (26.83879pt too wide) in paragraph at lines 1002--1012
 [][] 
  []
 
 [35]
-Overfull \hbox (26.85493pt too wide) in paragraph at lines 1036--1046
+Overfull \hbox (26.83879pt too wide) in paragraph at lines 1016--1026
 [][] 
  []
 
 
-Overfull \hbox (26.85493pt too wide) in paragraph at lines 1050--1060
+Overfull \hbox (26.83879pt too wide) in paragraph at lines 1030--1040
 [][] 
  []
 
 [36]
-Overfull \hbox (20.74382pt too wide) in paragraph at lines 1064--1073
+Overfull \hbox (26.83879pt too wide) in paragraph at lines 1044--1054
 [][] 
  []
 
 
-Overfull \hbox (17.27159pt too wide) in paragraph at lines 1077--1086
+Overfull \hbox (26.83879pt too wide) in paragraph at lines 1058--1068
 [][] 
  []
 
 [37]
-Overfull \hbox (17.27159pt too wide) in paragraph at lines 1090--1099
+Overfull \hbox (20.72917pt too wide) in paragraph at lines 1072--1081
 [][] 
  []
 
 
-Overfull \hbox (17.27159pt too wide) in paragraph at lines 1104--1113
+Overfull \hbox (17.2578pt too wide) in paragraph at lines 1085--1094
 [][] 
  []
 
 [38]
-Underfull \hbox (badness 10000) in paragraph at lines 1123--1124
+Overfull \hbox (17.2578pt too wide) in paragraph at lines 1098--1107
+[][] 
+ []
 
+
+Overfull \hbox (17.2578pt too wide) in paragraph at lines 1112--1121
+[][] 
  []
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 1169--1172
+Underfull \hbox (badness 10000) in paragraph at lines 1131--1132
 
  []
 
 [40]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1173.
- [41]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1173.
+Underfull \hbox (badness 10000) in paragraph at lines 1177--1180
+
+ []
+
+[41]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1181.
+ [42]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1181.
  ("Requirement Document.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1173.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1173.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1181.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1181.
 
+Package rerunfilecheck Info: File `"Requirement Document".out' has not changed.
 
-
-Package rerunfilecheck Warning: File `"Requirement Document".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Requirement Document".out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  6F7E9FEDF4565FF081BA1C2F96B3EBCB;4170.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1173.
+(rerunfilecheck)             Checksum: 6F7E9FEDF4565FF081BA1C2F96B3EBCB;4170.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1181.
  ) 
 Here is how much of TeX's memory you used:
- 6737 strings out of 493698
- 95716 string characters out of 3142423
- 198871 words of memory out of 3000000
- 9905 multiletter control sequences out of 15000+200000
- 5158 words of font info for 19 fonts, out of 3000000 for 9000
+ 8664 strings out of 493698
+ 121118 string characters out of 3142423
+ 245713 words of memory out of 3000000
+ 11749 multiletter control sequences out of 15000+200000
+ 11766 words of font info for 30 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,22n,35p,883b,388s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/tools/Latex/TeXstudio/miketex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-D:/tools/Latex/TeXstudio/miketex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/
-tools/Latex/TeXstudio/miketex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/too
-ls/Latex/TeXstudio/miketex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/tools/L
-atex/TeXstudio/miketex/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Requirement Document.pdf" (41 pages, 185546 bytes).
+ 41i,22n,44p,1086b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\bill2\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecbx1000.pk> <C:\Users\bill2\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecbx1200.pk> <C:\Users\bill2\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\bill2\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\bill2\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\bill2\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk><D:/tools/Latex/T
+eXstudio/miketex/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Requirement Document.pdf" (42 pages, 228865 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 104 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 766 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 494 words of extra memory for PDF output out of 10000 (max. 10000000)
 
