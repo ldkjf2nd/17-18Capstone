@@ -51,7 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\NewPlayModeTest.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionComponent.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionException.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\Assertions.cs" />
@@ -94,6 +93,8 @@
      <Compile Include="Assets\UnityTestTools\IntegrationTestsFramework\TestRunner\TestRunner.cs" />
      <Compile Include="Assets\UnityTestTools\IntegrationTestsFramework\TestRunner\TestRunnerCallbackList.cs" />
      <Compile Include="Assets\UnityTestTools\IntegrationTestsFramework\TestRunner\TestRunnerConfigurator.cs" />
+     <Compile Include="Assets\UnityTestTools\V&amp;V\HealthComponent.cs" />
+     <Compile Include="Assets\UnityTestTools\V&amp;V\HealthComponentTests.cs" />
      <None Include="Assets\UnityTestTools\Examples\IntegrationTestsFrameworkExamples\AngryBotsTests\Shaders\Fx\Cursor.shader" />
      <None Include="Assets\UnityTestTools\LICENSE.txt" />
      <None Include="Assets\UnityTestTools\Examples\IntegrationTestsFrameworkExamples\AngryBotsTests\Shaders\Fx\ParticleAdditiveBlend.shader" />
