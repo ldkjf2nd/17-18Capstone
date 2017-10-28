@@ -11,7 +11,7 @@ namespace Capstone
 		public void PlayerTakesDamage(float damageAmount) 
 		{
 			playerHealth -= damageAmount;
-			playerHasDied ();
+			hasPlayerDied ();
 		}
 
 		public void EnemyTakesDamage(float damageAmount) 
@@ -19,7 +19,7 @@ namespace Capstone
 			enemyHealth -= damageAmount;
 		}
 
-		public void playerHasDied() 
+		public void hasPlayerDied() 
 		{
 			if (playerHealth == 0f)
 				isPlayerDead = true;
