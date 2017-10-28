@@ -1,8 +1,11 @@
 
-V&V/Temp
-V&V/Library
-V&V/obj
+V&V/Temp/*
+
+V&V/Library/*
+
+V&V/obj/*
 
 *.dll
 
 *.mdb
+
