@@ -143,6 +143,9 @@
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>..\..\..\Library\Unity\cache\packages\packages.unity.com\com.unity.purchasing%401.0.1\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
+    <Compile Include="Assets\UnityTestTools\V&amp;V\MovementComponentTests.cs" />
+    <Compile Include="Assets\UnityTestTools\V&amp;V\MovementComponent.cs" />
+    <Compile Include="Assets\UnityTestTools\V&amp;V\Player.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

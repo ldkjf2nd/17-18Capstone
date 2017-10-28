@@ -25,6 +25,15 @@ namespace Capstone
 			health.EnemyTakesDamage (50f);
 			Assert.AreEqual (50f, health.enemyHealth);
 		}
+
+		[Test]
+		public void PlayerTakesFatalDamage_isPlayerDeadBoolSetToTrue() 
+		{
+			health.playerHealth = 100f;
+
+			health.PlayerTakesDamage (100f);
+			Assert.AreEqual (true, health.isPlayerDead);
+		}
 	}
 }
 
