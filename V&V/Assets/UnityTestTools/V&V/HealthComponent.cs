@@ -4,7 +4,9 @@ namespace Capstone
 {
 	public class HealthComponent
 	{
-		public float playerHealth;
+		Player player = new Player ();
+
+		public float playerHealth = player.playerHealth;
 		public float enemyHealth;
 		public bool isPlayerDead = false;
 
