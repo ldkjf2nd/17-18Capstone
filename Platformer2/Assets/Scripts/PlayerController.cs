@@ -10,6 +10,7 @@ public class PlayerController	 : MonoBehaviour {
 	public float maxSpeed = 5f;
 	public static float jumpForce = 800f;
 	public Transform groundCheck; 
+	public Collider2D attack;
 
 	public static bool grounded = false;
 	private Animator anim;
@@ -47,9 +48,11 @@ public class PlayerController	 : MonoBehaviour {
 		if (jump){
 			PlayerJump ();
 		}
-		if(Input.GetKeydown("Fire1"){
-			
-	
+		if(Input.GetButtonDown("Fire1")){
+			anim.SetTrigger ("Attack");
+			//spawnEnemyLocation = enemySpawner.position;attackLocation = rb2d.position  
+			//Instantiate(attack, attackLocation, Quaternion.identity);
+		}
 	}
 
 	void PlayerJump (){
