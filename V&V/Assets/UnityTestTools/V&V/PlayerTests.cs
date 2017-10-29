@@ -35,6 +35,37 @@ namespace Capstone
 			Assert.AreEqual (100f, player.playerHealth);
 		}
 
+		[Test]
+		public void PlayerTakesDamage_PostitiveAmount_GreaterThanCurrentHealth_HealthShouldNotGoBelow0() 
+		{
+			player.playerHealth = 57f;
+
+			player.PlayerTakesDamage (60f);
+			Assert.AreEqual (0f, player.playerHealth);
+		}
+
+		[Test]
+		public void PlayerPicksUpNewWeapon_EquipPickpedUpWeapon()
+		{
+			var sword = new Object ();
+
+			player.pickUpWeapon (sword);
+			Assert.AreEqual (sword, player.equippedWeapon);
+		}
+
+		[Test]
+		public void PlayerPressesButtonToViewPlayerStatus_ShowPlayerStatus()
+		{
+			player.viewPlayerStatus ();
+			Assert.Fail ();
+		}
+
+		[Test]
+		public void PlayerPressesButtonToViewGearStatus_ShowGearStatus()
+		{
+			player.viewGearStatus ();
+			Assert.Fail ();
+		}
 	}
 }
 
