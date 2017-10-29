@@ -9,7 +9,9 @@ namespace Capstone
 
 		public void PlayerTakesDamage(float damageAmount) 
 		{
-			playerHealth -= damageAmount;
+			if (damageAmount > 0)
+				playerHealth -= damageAmount;
+			
 			hasPlayerDied ();
 		}
 

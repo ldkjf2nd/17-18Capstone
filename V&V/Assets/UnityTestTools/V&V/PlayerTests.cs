@@ -7,6 +7,7 @@ namespace Capstone
 	public class PlayerTests
 	{
 		Player player = new Player();
+
 		[Test]
 		public void PlayerTakesDamage_PositiveAmount_HealthUpdated() 
 		{
@@ -24,6 +25,16 @@ namespace Capstone
 			player.PlayerTakesDamage (100f);
 			Assert.AreEqual (true, player.isPlayerDead);
 		}
+
+		[Test]
+		public void PlayerTakesDamage_NegativeAmount_HealthShouldNotUpdate() 
+		{
+			player.playerHealth = 100f;
+
+			player.PlayerTakesDamage (-10f);
+			Assert.AreEqual (100f, player.playerHealth);
+		}
+
 	}
 }
 
