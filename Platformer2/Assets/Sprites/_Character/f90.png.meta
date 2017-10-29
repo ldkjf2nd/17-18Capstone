@@ -1,0 +1,2962 @@
+fileFormatVersion: 2
+guid: c88e6deb5e4d9a94397eb562ff40545a
+timeCreated: 1505782571
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: f90_0
+    21300002: f90_1
+    21300004: f90_2
+    21300006: f90_3
+    21300008: f90_4
+    21300010: f90_5
+    21300012: f90_6
+    21300014: f90_7
+    21300016: f90_8
+    21300018: f90_9
+    21300020: f90_10
+    21300022: f90_11
+    21300024: f90_12
+    21300026: f90_13
+    21300028: f90_14
+    21300030: f90_15
+    21300032: f90_16
+    21300034: f90_17
+    21300036: f90_18
+    21300038: f90_19
+    21300040: f90_20
+    21300042: f90_21
+    21300044: f90_22
+    21300046: f90_23
+    21300048: f90_24
+    21300050: f90_25
+    21300052: f90_26
+    21300054: f90_27
+    21300056: f90_28
+    21300058: f90_29
+    21300060: f90_30
+    21300062: f90_31
+    21300064: f90_32
+    21300066: f90_33
+    21300068: f90_34
+    21300070: f90_35
+    21300072: f90_36
+    21300074: f90_37
+    21300076: f90_38
+    21300078: f90_39
+    21300080: f90_40
+    21300082: f90_41
+    21300084: f90_42
+    21300086: f90_43
+    21300088: f90_44
+    21300090: f90_45
+    21300092: f90_46
+    21300094: f90_47
+    21300096: f90_48
+    21300098: f90_49
+    21300100: f90_50
+    21300102: f90_51
+    21300104: f90_52
+    21300106: f90_53
+    21300108: f90_54
+    21300110: f90_55
+    21300112: f90_56
+    21300114: f90_57
+    21300116: f90_58
+    21300118: f90_59
+    21300120: f90_60
+    21300122: f90_61
+    21300124: f90_62
+    21300126: f90_63
+    21300128: f90_64
+    21300130: f90_65
+    21300132: f90_66
+    21300134: f90_67
+    21300136: f90_68
+    21300138: f90_69
+    21300140: f90_70
+    21300142: f90_71
+    21300144: f90_72
+    21300146: f90_73
+    21300148: f90_74
+    21300150: f90_75
+    21300152: f90_76
+    21300154: f90_77
+    21300156: f90_78
+    21300158: f90_79
+    21300160: f90_80
+    21300162: f90_81
+    21300164: f90_82
+    21300166: f90_83
+    21300168: f90_84
+    21300170: f90_85
+    21300172: f90_86
+    21300174: f90_87
+    21300176: f90_88
+    21300178: f90_89
+    21300180: f90_90
+    21300182: f90_91
+    21300184: f90_92
+    21300186: f90_93
+    21300188: f90_94
+    21300190: f90_95
+    21300192: f90_96
+    21300194: f90_97
+    21300196: f90_98
+    21300198: f90_99
+    21300200: f90_100
+    21300202: f90_101
+    21300204: f90_102
+    21300206: f90_103
+    21300208: f90_104
+    21300210: f90_105
+    21300212: f90_106
+    21300214: f90_107
+    21300216: f90_108
+    21300218: f90_109
+    21300220: f90_110
+    21300222: f90_111
+    21300224: f90_112
+    21300226: f90_113
+    21300228: f90_114
+    21300230: f90_115
+    21300232: f90_116
+    21300234: f90_117
+    21300236: f90_118
+    21300238: f90_119
+    21300240: f90_120
+    21300242: f90_121
+    21300244: f90_122
+    21300246: f90_123
+    21300248: f90_124
+    21300250: f90_125
+    21300252: f90_126
+    21300254: f90_127
+    21300256: f90_128
+    21300258: f90_129
+    21300260: f90_130
+    21300262: f90_131
+    21300264: f90_132
+    21300266: f90_133
+    21300268: f90_134
+    21300270: f90_135
+    21300272: f90_136
+    21300274: f90_137
+    21300276: f90_138
+    21300278: f90_139
+    21300280: f90_140
+    21300282: f90_141
+    21300284: f90_142
+    21300286: f90_143
+    21300288: f90_144
+    21300290: f90_145
+    21300292: f90_146
+    21300294: f90_147
+    21300296: f90_148
+    21300298: f90_149
+    21300300: f90_150
+    21300302: f90_151
+    21300304: f90_152
+    21300306: f90_153
+    21300308: f90_154
+    21300310: f90_155
+    21300312: f90_156
+    21300314: f90_157
+    21300316: f90_158
+    21300318: f90_159
+    21300320: f90_160
+    21300322: f90_161
+    21300324: f90_162
+    21300326: f90_163
+    21300328: f90_164
+    21300330: f90_165
+    21300332: f90_166
+    21300334: f90_167
+    21300336: f90_168
+    21300338: f90_169
+    21300340: f90_170
+    21300342: f90_171
+    21300344: f90_172
+    21300346: f90_173
+    21300348: f90_174
+    21300350: f90_175
+    21300352: f90_176
+    21300354: f90_177
+    21300356: f90_178
+    21300358: f90_179
+    21300360: f90_180
+    21300362: f90_181
+    21300364: f90_182
+    21300366: f90_183
+    21300368: f90_184
+    21300370: f90_185
+    21300372: f90_186
+    21300374: f90_187
+    21300376: f90_188
+    21300378: f90_189
+    21300380: f90_190
+    21300382: f90_191
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: f90_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2418
+        width: 205
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2414
+        width: 210
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2404
+        width: 189
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_3
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 2399
+        width: 199
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_4
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 2387
+        width: 217
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_5
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 2377
+        width: 190
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_6
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 2378
+        width: 175
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_7
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 2382
+        width: 203
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_8
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 2155
+        width: 168
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_9
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 2149
+        width: 24
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_10
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 2149
+        width: 36
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_11
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 2164
+        width: 91
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_12
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 2246
+        width: 34
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_13
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2229
+        width: 41
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_14
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 2246
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_15
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 2304
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_16
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 2304
+        width: 95
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2152
+        width: 190
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_18
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 2153
+        width: 212
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_19
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 2147
+        width: 143
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_20
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 2130
+        width: 189
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_21
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 2236
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_22
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 2235
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_23
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 2246
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_24
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2230
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_25
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 2187
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_26
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 2188
+        width: 76
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_27
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 2136
+        width: 89
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_28
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 2180
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_29
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 2195
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_30
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 2084
+        width: 117
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_31
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 2087
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_32
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 2071
+        width: 121
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_33
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 2112
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_34
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 2121
+        width: 75
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_35
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1944
+        width: 238
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_36
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1913
+        width: 229
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_37
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 2072
+        width: 124
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_38
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 2067
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_39
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1925
+        width: 243
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_40
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1916
+        width: 238
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_41
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 1927
+        width: 158
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_42
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1786
+        width: 150
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_43
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1772
+        width: 163
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_44
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1907
+        width: 120
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_45
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1689
+        width: 394
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_46
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1691
+        width: 242
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_47
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1685
+        width: 250
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_48
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1652
+        width: 245
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_49
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1674
+        width: 224
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_50
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1638
+        width: 178
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_51
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1616
+        width: 147
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_52
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1750
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_53
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1468
+        width: 258
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_54
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1445
+        width: 206
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_55
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1417
+        width: 258
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_56
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1516
+        width: 129
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_57
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1519
+        width: 102
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_58
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 1517
+        width: 189
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_59
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 1504
+        width: 220
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_60
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 1505
+        width: 215
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_61
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 1517
+        width: 213
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_62
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1160
+        width: 170
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_63
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1303
+        width: 34
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_64
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1362
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_65
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 1334
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_66
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1327
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_67
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 1171
+        width: 405
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_68
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 1183
+        width: 418
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_69
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 1171
+        width: 275
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_70
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1187
+        width: 180
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_71
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1171
+        width: 204
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_72
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1196
+        width: 39
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_73
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1289
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_74
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1292
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_75
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1191
+        width: 187
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_76
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1146
+        width: 125
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_77
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1161
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_78
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1146
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_79
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 992
+        width: 187
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_80
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 870
+        width: 244
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_81
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 868
+        width: 221
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_82
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 873
+        width: 228
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_83
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 885
+        width: 206
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_84
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 652
+        width: 493
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_85
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 775
+        width: 194
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_86
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 785
+        width: 221
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_87
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 594
+        width: 394
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 626
+        width: 194
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_89
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 627
+        width: 182
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_90
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 622
+        width: 230
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_91
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 636
+        width: 215
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_92
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 527
+        width: 174
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_93
+      rect:
+        serializedVersion: 2
+        x: 2542
+        y: 586
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_94
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 603
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_95
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 595
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_96
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 592
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_97
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 589
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_98
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 580
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_99
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 569
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_100
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 580
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_101
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 384
+        width: 208
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_102
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 386
+        width: 201
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_103
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 412
+        width: 98
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_104
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 568
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_105
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 570
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_106
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 554
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_107
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 367
+        width: 170
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_108
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 369
+        width: 180
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_109
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 554
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_110
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 367
+        width: 163
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_111
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 546
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_112
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 544
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_113
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 374
+        width: 197
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_114
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 370
+        width: 245
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_115
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 363
+        width: 245
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_116
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 363
+        width: 245
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_117
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 366
+        width: 98
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_118
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 484
+        width: 75
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_119
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 458
+        width: 20
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_120
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 460
+        width: 15
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_121
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 307
+        width: 257
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_122
+      rect:
+        serializedVersion: 2
+        x: 2477
+        y: 369
+        width: 63
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_123
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 462
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_124
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 209
+        width: 221
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_125
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 326
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_126
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 386
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_127
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 197
+        width: 191
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_128
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 179
+        width: 147
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_129
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 368
+        width: 73
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_130
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 258
+        width: 77
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_131
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 179
+        width: 165
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_132
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 181
+        width: 172
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_133
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 222
+        width: 98
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_134
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 243
+        width: 89
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_135
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 263
+        width: 15
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_136
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 299
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_137
+      rect:
+        serializedVersion: 2
+        x: 2868
+        y: 292
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_138
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 294
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_139
+      rect:
+        serializedVersion: 2
+        x: 2899
+        y: 298
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_140
+      rect:
+        serializedVersion: 2
+        x: 2915
+        y: 269
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_141
+      rect:
+        serializedVersion: 2
+        x: 2915
+        y: 297
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_142
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 111
+        width: 206
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_143
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 242
+        width: 106
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_144
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 269
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_145
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 283
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_146
+      rect:
+        serializedVersion: 2
+        x: 2867
+        y: 279
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_147
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 140
+        width: 213
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_148
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 111
+        width: 218
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_149
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 268
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_150
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 264
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_151
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 129
+        width: 211
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_152
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 257
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_153
+      rect:
+        serializedVersion: 2
+        x: 2870
+        y: 254
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_154
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 59
+        width: 130
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_155
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 146
+        width: 104
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_156
+      rect:
+        serializedVersion: 2
+        x: 2492
+        y: 168
+        width: 119
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_157
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 69
+        width: 99
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_158
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 62
+        width: 121
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_159
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 61
+        width: 211
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_160
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 48
+        width: 55
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_161
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 133
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_162
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 128
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_163
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 127
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_164
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 122
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_165
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 119
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_166
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 116
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_167
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 116
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_168
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 111
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_169
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 116
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_170
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 109
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_171
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 109
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_172
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 113
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_173
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 108
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_174
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 109
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_175
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 102
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_176
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 97
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_177
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 46
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_178
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 94
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_179
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 95
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_180
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 87
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_181
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 89
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_182
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 81
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_183
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 84
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_184
+      rect:
+        serializedVersion: 2
+        x: 2397
+        y: 81
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_185
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 84
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_186
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 76
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_187
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 78
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_188
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 78
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_189
+      rect:
+        serializedVersion: 2
+        x: 2426
+        y: 77
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_190
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 71
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: f90_191
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 73
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
