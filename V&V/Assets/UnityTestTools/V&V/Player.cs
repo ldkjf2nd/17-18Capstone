@@ -32,6 +32,14 @@ namespace Capstone
 			
 		}
 
+		public void interactWithItem(object item)
+		{
+			//Will be implemented later
+			//if item == health potion
+			//	healplayer()
+			//etc.
+		}
+
 		public void viewPlayerStatus()
 		{
 			//Will be implemented later
@@ -44,6 +52,29 @@ namespace Capstone
 
 		}
 			
+		public void viewItems()
+		{
+			//Will be implemented later
+
+		}
+
+		public void performMeleeAttack()
+		{
+			//Will be implemented later
+
+		}
+
+		public void performRangedAttack()
+		{
+			//Will be implemented later
+
+		}
+
+		public void performComboAttack()
+		{
+			//Will be implemented later
+
+		}
 		public void showGameOverScreen()
 		{
 			//will be implemented later

@@ -54,6 +54,28 @@ namespace Capstone
 		}
 
 		[Test]
+		public void PlayerDrinksHealthPotion_AlreadyAtMaxHealth_HealthShouldNotGoAboveMax()
+		{
+			var healthPotion = new Object ();
+			player.playerHealth = 100f;
+			player.interactWithItem (healthPotion);
+
+			//Currently we havent decided how to handle items therefore this test fails.
+			Assert.Fail ();
+		}
+
+		[Test]
+		public void PlayerDrinksHealthPotion_IncreasePlayerHealthBySetAmount()
+		{
+			var healthPotion = new Object ();
+
+			player.interactWithItem (healthPotion);
+
+			//Currently we havent decided how to handle items therefore this test fails.
+			Assert.Fail ();
+		}
+
+		[Test]
 		public void PlayerPressesButtonToViewPlayerStatus_ShowPlayerStatus()
 		{
 			player.viewPlayerStatus ();
@@ -64,6 +86,34 @@ namespace Capstone
 		public void PlayerPressesButtonToViewGearStatus_ShowGearStatus()
 		{
 			player.viewGearStatus ();
+			Assert.Fail ();
+		}
+
+		[Test]
+		public void PlayerPressesButtonToViewItems_ShowItemsScreen()
+		{
+			player.viewItems ();
+			Assert.Fail ();
+		}
+
+		[Test]
+		public void PlayerPressesButtonToPerformMeleeAttack_PerformMeleeAttack()
+		{
+			player.performMeleeAttack ();
+			Assert.Fail ();
+		}
+
+		[Test]
+		public void PlayerPressesButtonToPerformRangedAttack_PerformRangedAttack()
+		{
+			player.performRangedAttack ();
+			Assert.Fail ();
+		}
+
+		[Test]
+		public void PlayerPressesButtonsToPerformComboAttack_PerformComboAttack()
+		{
+			player.performComboAttack ();
 			Assert.Fail ();
 		}
 	}
