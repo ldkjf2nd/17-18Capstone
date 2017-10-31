@@ -7,13 +7,13 @@ public class RobotEnemy : BaseEnemy {
 	Vector2 bulletPos;
 	public float fireRate = 0.5f;
 	public float nextFire = 0.0f;
-	// Use this for initialization
+
 	void Start () {
 		
 	}
 	
 	void Update () {
-		if (Input.GetButtonDown ("Fire1") && Time.time > nextFire) {
+		if (Time.time > nextFire) {
 			nextFire = Time.time + fireRate;
 			fire ();
 		}

@@ -9,13 +9,12 @@ public class BaseEnemy: MonoBehaviour {
 	public float chanceToDropScrap;
 	public bool doesDropScrap;
 
-	// Use this for initialization
 	void Start () {
 		
 	}
-
-	// Update is called once per frame
+		
 	void Update () {
+		
 	}
 
 	public void EnemyTakesDamage(float damageAmount) 

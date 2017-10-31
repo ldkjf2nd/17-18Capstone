@@ -7,6 +7,7 @@ namespace Capstone
 	public class BaseEnemyTests
 	{
 		BaseEnemy enemy = new BaseEnemy();
+		RobotEnemy robotEnemy = new RobotEnemy();
 
 
 		[Test]
@@ -75,6 +76,12 @@ namespace Capstone
 			if (enemy.enemyHealth <= 0)
 				enemy.dropScrap ();
 
+			Assert.Fail ();
+		}
+
+		[Test]
+		public void RobotEnemyShouldFireProjectileEverySecond() 
+		{
 			Assert.Fail ();
 		}
 			
