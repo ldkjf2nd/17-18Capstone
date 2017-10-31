@@ -8,7 +8,7 @@ public class BaseEnemy: MonoBehaviour {
 	public GameObject equippedWeapon;
 	public float chanceToDropScrap;
 	public bool doesDropScrap;
-  
+
 	// Use this for initialization
 	void Start () {
 		

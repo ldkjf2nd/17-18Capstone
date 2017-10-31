@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\BaseEnemy.cs" />
      <Compile Include="Assets\BaseEnemyTests.cs" />
+     <Compile Include="Assets\bullet.cs" />
      <Compile Include="Assets\RobotEnemy.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionComponent.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionException.cs" />

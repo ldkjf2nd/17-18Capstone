@@ -3,14 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RobotEnemy : BaseEnemy {
-	public object weapon;
+	public GameObject bullet;
+	Vector2 bulletPos;
+	public float fireRate = 0.5f;
+	public float nextFire = 0.0f;
 	// Use this for initialization
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
 	void Update () {
-		
+		if (Input.GetButtonDown ("Fire1") && Time.time > nextFire) {
+			nextFire = Time.time + fireRate;
+			fire ();
+		}
+	}
+
+	void fire() {
+		bulletPos = transform.position;
+		bulletPos += new Vector2 (1.27f, 0f);
+		Instantiate (bullet, bulletPos, Quaternion.identity);
 	}
 }
