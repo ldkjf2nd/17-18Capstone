@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseEnemy : MonoBehaviour {
+public class BaseEnemy {
 	public float enemyHealth;
-	public object equippedWeapon;
+	public float armorRating = 50f;
+	public GameObject equippedWeapon;
 	public float chanceToDropScrap;
 	public bool doesDropScrap;
   
@@ -19,12 +20,19 @@ public class BaseEnemy : MonoBehaviour {
 
 	public void EnemyTakesDamage(float damageAmount) 
 	{
-		enemyHealth -= damageAmount;
+		enemyHealth -= calculateHealthLossAfterArmor(damageAmount);
+	}
+
+	public float calculateHealthLossAfterArmor(float damageAmount)
+	{
+		float returable;
+		returable = damageAmount * (1f - (armorRating / 100f));
+
+		return returable;
 	}
 
 	public void findPlayerOnScreen()
 	{
-		
 	}
 
 	public void useBasicAttack()
