@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/RobotEnemy.unity
+  isLoaded: 1
+  isActive: 1

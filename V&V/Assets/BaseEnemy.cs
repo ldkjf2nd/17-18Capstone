@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseEnemy {
+public class BaseEnemy: MonoBehaviour {
 	public float enemyHealth;
 	public float armorRating = 50f;
 	public GameObject equippedWeapon;
