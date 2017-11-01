@@ -170,6 +170,11 @@ Prefab:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 212991404264556198, guid: e185735e4ec4e4a7c830c9bf2c0ddaf1,
+        type: 2}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e185735e4ec4e4a7c830c9bf2c0ddaf1, type: 2}
   m_IsPrefabParent: 0
@@ -216,9 +221,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealth: 0
   armorRating: 50
-  equippedWeapon: {fileID: 0}
   chanceToDropScrap: 0
   doesDropScrap: 0
+  equippedWeapon: {fileID: 0}
   bullet: {fileID: 1174527839163368, guid: eb2039f9098f34015b3b7056de7ac045, type: 2}
   fireRate: 0.5
   nextFire: 0
