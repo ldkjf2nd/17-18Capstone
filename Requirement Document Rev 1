@@ -35,108 +35,108 @@
     \end{center}
 	\newpage
 	\tableofcontents
-	
+
 	\section{Purpose of the Project}
 	The purpose of this project is to produce the game designed by the team: Mech-APEX Zero. Mech-APEX Zero is the combination of classical 2D games like Metroid, Castlevania, and Street Fighter. This game will reinvigorate the love for such classics and the modern spin of new combat mechanics will attract new players.
-	
+
 	\subsection{Background}
 	The concept of this game was conceived to revitalize a very saturated genre of video games: Platformer. Currently on Steam, new releases of the Platformer Genre has 1167 results. The motivation of the team is to make a game that would stand out amongst the over one thousand competitors. In order to achieve our goal, we have examined the classics and commercial successes to create our project.
-	
+
 	\subsection{Goals}
 	The goals of Team Chicken Sausage is to produce an entertaining game to satisfies the needs of our clients. We want our audience to get the enjoyment of playing a platformer and to be dazzled and surprised by our creative story and universe.
-	
+
 	\section{Stakeholders}
 	\subsection{Development Team} Prepared by team Chicken and Sausages. Team members: Tian Guo, Saim Zahid, Jonathan Yu, Yicheng Chen and Yanting Zhang.
-	\subsection{Instructor} Dr. Jacques Carette  
+	\subsection{Instructor} Dr. Jacques Carette
 	Professor for the Software Engineering (Game Design) capstone course (SE4GP6).  Dr. Carette approves of the project content and final grades. Any requirements that he provides must be accommodated.
 	\subsection{Game Critics}
 	\begin{itemize}
-		\item Dr. Jacques Carette - 
+		\item Dr. Jacques Carette -
 		Professor for the Software Engineering (Game Design) capstone course (SE4GP6).  Dr. Carette approves of the project content and final grades. Any requirements that he provides must be accommodated.
-		\item Daniel Szymczak - 
+		\item Daniel Szymczak -
 		Teaching assistant for the Software Engineering (Game Design) capstone course(SE4GP6). Mr. Szymczak grades the project content and provides feedback for improvements. He reports directly to Dr. Carette.
-		
+
 	\end{itemize}
 	\subsection{User Participation}
 	    Player - The players who enjoy platformers and beat em up games.
-	\subsection{Judges} 
-	
-	
+	\subsection{Judges}
+
+
 	\section{Mandated Constraints}
-% 	The game must have a certain degree of complexity attached to it, as required from Dr. Carrete, to gauge the students game development abilities better. This complexity goes hand in hand with the difficulty of developing the game as it is very easy to make tic tac toe compared to a game such as Skyrim. 
+% 	The game must have a certain degree of complexity attached to it, as required from Dr. Carrete, to gauge the students game development abilities better. This complexity goes hand in hand with the difficulty of developing the game as it is very easy to make tic tac toe compared to a game such as Skyrim.
 	\begin{itemize}
 	\subsection{Solution Constraints}
 	\item Any requirements that Dr. Carette describes must be met. Currently, he has mandated that the game engine must be Unity and Unity Assets are free to use with references.
 	\item Any feedbacks and comments from Mr. Szymczak should be adjust and fix in the next revision.
-	
+
 	\subsection{Implementation Environment of the Current System}
 	\item The final product will be able to run on Windows, Mac OS, and Linux systems, as the Unity library allows to build project for all three platforms.
 	\item Due to the nature of the game being a combo focused action platformer, control methods such as mouse control or touch screen will not be ideal. The development team will focus its effort on establishing keyboard as the main method of controls. Controllers such as Dualshock 4 and Xbox Controller are options, but do not have plans to implement these currently.
-	
+
 	\subsection{Partner or Collaborative Applications}
 	\item The product of this project will comply with all policies of the Unity Free User's Licence Agreement.
 	\item This product will not be used for commercial purposes as the assets used were of other Games.
-	
+
 	\subsection{Off-the-Shelf Software}
 	\item Unity\\
-	Usable as a free license for individual work. 
-	
+	Usable as a free license for individual work.
+
 % 	\item Some assets used in this project is created through the use of GIMP. The final product shall comply with GIMP's user agreement.
-	
+
 	\subsection{Schedule Constraints}
 	\item The deadline of the Project must be within the 2017-2018 Capstone Course terms. Revision 0 of the product must be completed by December of 2017.
-	
+
 	\subsection{Budget Constraints}
 	\item No funding for the project will be provided. Any expenses that occur will be paid individually
-	
+
 	\section{Naming Conventions and Terminology}
 
-		
+
 		\item Unity \\ A cross-platform game engine developed by Unity Technologies, which is primarily used to develop video games and simulations for computers, consoles and mobile devices.
 		\item Platformer \\
 		A type of video game that involves the player jumping from platform to platform to cross the environment.
-		\item RPG \\ 
+		\item RPG \\
 		RPG stands for role playing game is a type of video game in which players assume the roles of characters in a fictional setting.
-		\item Mobile Suit \\ a robotic suit 
+		\item Mobile Suit \\ a robotic suit
 		\item Respawn \\ The recreation of an entity after its death or destruction
 		\item Check Point \\ The location where respawning takes place
 		\item Product Use Case (PUC) \\ A product use case elaborates on a scenario, showing event name, trigger, preconditions, system requirements, and outcome.
 		\item Input (IN)
 		\item Output (OUT)
 	\end{itemize}
-	
+
 	\section{Relevant Facts and Assumptions}
 	\subsection{Relevant Facts}
-	
+
 	\begin{itemize}
 	    \item The game will follow the standard RPG progression where the player starts with the barebones necessary to complete the initial levels and will be rewarded with better armor/weapons/upgrades as they progress. The player can also scavenge for better loot.
-	    \item As with most games that utilize combos; combos that do more damage will require more keys to be pressed. 
+	    \item As with most games that utilize combos; combos that do more damage will require more keys to be pressed.
 	\end{itemize}
 	\subsection{Assumptions}
 	\begin{itemize}
-		\item The player meets minimum hardware requirements to run the game. 
+		\item The player meets minimum hardware requirements to run the game.
 		\item The player is running the latest version of Windows or Mac OS.
-		\item The player is familiar with a mouse and keyboard setup. 
-		\item The player is able-bodied. 
+		\item The player is familiar with a mouse and keyboard setup.
+		\item The player is able-bodied.
 		\item The player has enough dexterity to hit multiple keys in quick succession to perform combos.
 		\item The user can read English.
 	\end{itemize}
-	
+
 	\section{The Scope of the Work}
 	\subsection{Existing Inspirations}
 	The biggest inspiration for this project is the Metroid and Castlevania franchises. The cohesive aesthetics and level design are areas that this project will attempt to achieve the same level of competence as the classics of this Genre. The fighting mechanics of Super Smash Bros Franchise will be used to inspire the combat mechanics of this game to introduce new elements of the old platformer formula.
 	\subsection{Context of the Work}
 	The player should be motivated by the story, gameplay, and the gameplay rewards. In order to know what happens next, the player must play through the levels. The player can unlock achievements and other Mobile Suits through playing the game.
-	
+
 	\section{The Scope of the Product}
 	\subsection{Product Boundary}
 	Project boundaries identify what should be included in the project as well as what should not be included.\\
-	
+
 	\includegraphics[width=0.8\textwidth]{product-boundary.png} \\
-	
+
 	The focus will be to complete the fighting mechanic, various character sprite movesets, level design, and Story. Implementing elements of RPG should not be worked on at this time, when the core mechanics are not functional. Features such as combo meter, score system, achievements, and unlockables should be be focused on at later dates if enough development time is available.
 	\subsection{Product Use Case (PUC) Table}
-	
+
 	\renewcommand{\arraystretch}{2.5}
 	\begin{table}[H]
 		\begin{tabular}{|l|l|p{4cm}|p{4cm}|
@@ -163,7 +163,7 @@
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{18}} & \multicolumn{1}{l|}{Player Death}                     & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{health \textless 0 (In), reload checkpoint (OUT)}                \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|p{4cm}|p{4cm}|
 				>{\columncolor[HTML]{C0C0C0}}l lll}
@@ -175,20 +175,20 @@
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{22}} & \multicolumn{1}{l|}{Viewing achievements}             & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), Achievement Menu(OUT)}                            \\ \hline
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{23}} & \multicolumn{1}{l|}{Exit game}                        & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN)}                                                   \\ \hline
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{24}} & \multicolumn{1}{l|}{Selecting new playable character} & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), success Message(OUT)}                             \\ \hline
-			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{25}} & \multicolumn{1}{l|}{Displaying the Game Settings}     & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), current game 
+			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{25}} & \multicolumn{1}{l|}{Displaying the Game Settings}     & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), current game
 				settings(OUT)}                       \\ \hline
-			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{26}} & \multicolumn{1}{l|}{Changing the Game Settings}       & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), 
+			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{26}} & \multicolumn{1}{l|}{Changing the Game Settings}       & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN),
 				current game settings(OUT)} \\ \hline
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{27}} & \multicolumn{1}{l|}{Moving the Camera}                & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{2D position vector(IN/OUT)}                                      \\ \hline
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{28}} & \multicolumn{1}{l|}{Interacting with Gundam Maintenance}                & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), Gear upgrading Menu(OUT)}                                      \\ \hline
-			
+
 		\end{tabular}
 	\end{table}
-	
+
 	\newpage
 	\subsection{Individual Product Use Cases(PUCs)}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -200,9 +200,9 @@
 			\textbf{Outcome}       & The character moves in a horizontal direction       \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
-	
+
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -216,10 +216,10 @@
 			\textbf{Outcome}       &The players character moves in a positive direction along the y-axis and comes back down                                                                                                                                                                                                                                              \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
-	
-	
+
+
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -234,17 +234,17 @@
 				b. If the item is a ranged weapon, replace the current ranged weapon with the\\ new one, if the old one is a non - starting weapon, then the old one will drop \\out.\\
 				c. If the item is a passive item(Power ups), put it in the player’s item bag.\\
 				d. If the item is a hp potion, recover player character’s health bar.
-				
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &The player puts the item in the item bag or recover health bar or get a new weapon         \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
-	
-	
+
+
+
+
 	\begin{table}[H]
-		
+
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
 			\hline
@@ -252,18 +252,18 @@
 			\textbf{Trigger}       &The player presses the button to open the status menu.                                                                                                                                                                                                                        \\ \hline
 			\textbf{Preconditions} & The player is in control of their avatar; Player is in the game world                                                                                                                                                                                                                      \\ \hline
 			\textbf{Procedure} & \begin{tabular}[c]{@{}l@{}}
-				1.Display the current status of the player and their gear. Clearly labelling all \\information 
+				1.Display the current status of the player and their gear. Clearly labelling all \\information
 				the player needs (current health, ammo count, gundam status etc.)
-				
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &The players can see the current status of their character and all the gear they have equipped.       \\ \hline
 		\end{tabular}
-		
+
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
-		
+
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
 			\hline
@@ -277,8 +277,8 @@
 			\textbf{Outcome}       &An item’s menu appears to a player    \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -290,13 +290,13 @@
 				1. Determine which type of melee attack the player performed and trigger its \\animation.\\
 				2. Determine if the attack is successful by calculating if an enemies hitbox is\\ within range\\ of the attack.\\
 				3. Calculate how much HP the enemy will lose\\
-				
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &The players performs a melee attack on the enemy, resulting them in losing a predetermined amount of HP    \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -312,7 +312,7 @@
 			\textbf{Outcome}       &The players shoots a projectile   \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -328,7 +328,7 @@
 			\textbf{Outcome}       &The players performs a combo attack on the enemy, resulting them in losing a predetermined amount of HP  \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -344,7 +344,7 @@
 			\textbf{Outcome}       &The player puts the item in the item bag.  \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -353,14 +353,14 @@
 			\textbf{Trigger}       &The player pressing ESC button on keyboard  \\ \hline
 			\textbf{Preconditions} & The player is in control of their avatar; Player is in the game world             \\ \hline
 			\textbf{Procedure} & \begin{tabular}[c]{@{}l@{}}
-				1. Set time scale to zero 
+				1. Set time scale to zero
 				2. Open a pause menu
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &The game is paused  \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -376,8 +376,8 @@
 			\textbf{Outcome}       &The game is paused  \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -393,7 +393,7 @@
 			\textbf{Outcome}       &The player will get hp recovered if they used a potion.  \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -404,13 +404,13 @@
 			\textbf{Procedure} & \begin{tabular}[c]{@{}l@{}}
 				1. Determine if the start new game button has been selected\\
 				2. Display available avatars to choose
-				
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &The player start the new game and has control of the avatar. \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -421,15 +421,15 @@
 			\textbf{Procedure} & \begin{tabular}[c]{@{}l@{}}
 				1.Determine if the player controls avatar to perform a collision with the\\ checkpoint\\
 				2. Set player checkpoint to the most recent checkpoint \\
-				
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &A message display “Progress has been saved successfully” \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
-	
-	
+
+
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -443,7 +443,7 @@
 			\textbf{Outcome}       &The player controls avatar to pick up any loot that the Boss was hoarding\\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -452,12 +452,12 @@
 			\textbf{Trigger}       &Enemy’s health is reduced to zero\\ \hline
 			\textbf{Preconditions} &The player is in control of their character; Located in the game world.    \\ \hline
 			\textbf{Procedure} & \begin{tabular}[c]{@{}l@{}}
-				1.Determine the chances for enemy drops any scrap. 
+				1.Determine the chances for enemy drops any scrap.
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &The player controls avatar to pick up any loot that the enemies was hoarding\\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -468,13 +468,13 @@
 			\textbf{Procedure} & \begin{tabular}[c]{@{}l@{}}
 				1.Determine and save the inventory and attribute of the player\\
 				2.Load the next level and the saved information\\
-				
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &The player start the new level and has control of the avatar\\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -485,12 +485,12 @@
 			\textbf{Procedure} & \begin{tabular}[c]{@{}l@{}}
 				1. Determine the last saved checkpoint.\\
 				2. Restore the player’s avatar to full HP.\\
-				
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &The player’s avatar is respawned at the last checkpoint.\\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -500,14 +500,14 @@
 			\textbf{Preconditions} &The player is in control of their character; Located in the game world.  \\ \hline
 			\textbf{Procedure} &
 			\begin{tabular}[c]{@{}l@{}}
-				1. Determine the if the gear is within the player’s range\\ 
+				1. Determine the if the gear is within the player’s range\\
 				2. Get in the gear and play gear transformation animation.
-				
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &The main character is replaced with a new sprite    \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -519,15 +519,15 @@
 				1. Check what the level the player is on\\
 				2. Grab the level objective text \\
 				3. Show level objective text\\
-				
-				
+
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &  Objective text is shown to the player  \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
-	
+
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -538,13 +538,13 @@
 			\textbf{Procedure} & \begin{tabular}[c]{@{}l@{}}
 				1. Kill all enemies and boss or complete puzzle objectives\\
 				2. Wait 5 seconds.
-				
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &Game will load next level.    \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -556,14 +556,14 @@
 				1. Get achievement list\\
 				2. Generate achievement list for print\\
 				3. Print achievement list\\
-				
-				
+
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &   Achievement list  \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -573,13 +573,13 @@
 			\textbf{Preconditions} &Player must be in the pause menu  associated with the gameworld    \\ \hline
 			\textbf{Procedure} & \begin{tabular}[c]{@{}l@{}}
 				1. The player selects "Return to main menu" in the pause menu.
-				
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &Game exits and main menu shows up    \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -589,13 +589,13 @@
 			\textbf{Preconditions} &Player must be in the character selection menu.    \\ \hline
 			\textbf{Procedure} & \begin{tabular}[c]{@{}l@{}}
 				1. The player presses "Enter" in the character selection menu.
-				
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &Player enters the game with the character selected.    \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -605,13 +605,13 @@
 			\textbf{Preconditions} &Player must be in the main menu/pause menu.    \\ \hline
 			\textbf{Procedure} & \begin{tabular}[c]{@{}l@{}}
 				1. Player hits "Options" option in main menu/pause menu
-				
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &The game settings menu shows up    \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -623,12 +623,12 @@
 				1. Player selects the setting options.\\
 				2. a. If the player hits "Apply", then the settings changed will be saved.\\
 				\hspace*{0.4cm} b. If the player did not hit apply and player hits "cancel", then the settings change will not be saved.
-				
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &The game settings are changed/unchanged depends on player's action    \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -638,14 +638,14 @@
 			\textbf{Preconditions} &The player is in control of their character; Located in the game world, and the camera is fixed on the player character.     \\ \hline
 			\textbf{Procedure} & \begin{tabular}[c]{@{}l@{}}
 				1. The player moves, and the camera is fixed on the player character.
-				
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &The camera moves as player moves    \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
-	
+
+
+
 	\begin{table}[H]
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
@@ -658,18 +658,18 @@
 				2. A menu list of the gear is on top of the current environment.\\
 				3. Calculate how much scraps would spend on the selected gear for mobile suit upgrade.\\
 				4. New mobile suit preview will be present.
-				
+
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &The menu of mobile suit upgrade preview will show up    \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
-	
+
+
+
 	\newpage
 	\newpage
-	
-	
+
+
 	\section{Functional Requirements}
 	\subsection{Core Mechanic}
 	\begin{table}[H]
@@ -685,7 +685,7 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -698,7 +698,7 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -722,8 +722,8 @@
 			Satisfaction: 5 & Dissatisfaction: 5 & Priority: Very High \\ \hline
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
-	\end{table}	
-	
+	\end{table}
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -736,8 +736,8 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -750,7 +750,7 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 		\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -763,8 +763,8 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -777,8 +777,8 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-		
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -804,7 +804,7 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -817,7 +817,7 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -830,7 +830,7 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 		\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -844,7 +844,7 @@
 		\end{tabular}
 	\end{table}
 
-	
+
 		\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -909,9 +909,9 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
-		
+
 		\begin{tabular}{|l|l|l|}
 			\hline
 			ID:015 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
@@ -923,9 +923,9 @@
 			Conflicts:N/A & Supporting Material:N/A &  \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
-	
+
+
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -938,10 +938,10 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
 
-	
+
+
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -954,8 +954,8 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -968,8 +968,8 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -982,12 +982,12 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
 
-	
+
+
 	\subsection{Primary Gameplay Mode}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -1000,10 +1000,10 @@
 			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\subsection{Alternate Game Modes}
-	
-	
+
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -1016,7 +1016,7 @@
 			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -1029,7 +1029,7 @@
 			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -1042,7 +1042,46 @@
 			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
+	\begin{table}[H]
+		\begin{tabular}{|l|l|l|}
+			\hline
+			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			PUC:10, 11, 25, 26 & \multicolumn{2}{l|}{Originator: Tian Guo} \\ \hline
+			Description & \multicolumn{2}{m{0.85\textwidth}|}{During game missions if the player has paused the game the player will have ability to return to their game session by pressing the “Resume” button. They could also use the "Back to Title" button to return to main menu.} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{During missions while the game is paused, the player should have the ability to return to the game.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}The pause menu should have a button called "Resume" which gives the player the ability to return back to their game session.\end{tabular}} \\ \hline
+			Satisfaction: & Dissatisfaction: & Priority: High\\ \hline
+			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
+		\end{tabular}
+	\end{table}
+
+	\begin{table}[H]
+		\begin{tabular}{|l|l|l|}
+			\hline
+			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			PUC:10, 11, 25, 26 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
+			Description & \multicolumn{2}{m{0.85\textwidth}|}{Enemies will actively try to harm the player's avatar, potentially even kill the avatar.} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Every game needs an element that is thrilling to the player, more often than not this is knowing that fact that their avatar can die. Adding this to our game will make it more marketable and will keep players intrested for longer. This will also make the game more challenging which is appealing to most gamers.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}When the player encounters an enemy, the enemy will use their equipped weapon to harm/kill the player. It will not cease until the player has killed it.\end{tabular}} \\ \hline
+			Satisfaction: & Dissatisfaction: & Priority: High\\ \hline
+			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
+		\end{tabular}
+	\end{table}
+
+		\begin{table}[H]
+		\begin{tabular}{|l|l|l|}
+			\hline
+			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			PUC:10, 11, 25, 26 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
+			Description & \multicolumn{2}{m{0.85\textwidth}|}{As the player progess's in the game and meets newer enemies, the players weapons will do the same amount of damage but the enemies will lose less health then the player's weapon's base damage, as the newer enemies will have better armor.} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The game should feel progressively harder, in terms of defeating enemies, to make it more challenging. Rather than weakening the players weapons or giving them worse gear, giving the ememies better armor will give the player a better challenge, all the while not making them feel like they regressed by weakening their weapons.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}As the player encounters stronger enemies as the progress in the game, the enemies will have better armor, making them harder to defeat.\end{tabular}} \\ \hline
+			Satisfaction: & Dissatisfaction: & Priority: High\\ \hline
+			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
+		\end{tabular}
+	\end{table}
+
 	\section{Look and Feel Requirements}
 	\subsection{Appearance Requirements}
 	\begin{table}[H]
@@ -1057,9 +1096,9 @@
 			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\subsection{Style Requirements}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -1072,7 +1111,7 @@
 			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -1085,7 +1124,7 @@
 			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\subsection{Requisite Assets}
 	\subsubsection{Audio}
 	\begin{table}[H]
@@ -1108,8 +1147,8 @@
 			Foreground Sprite & 6 Sets &\multicolumn{1}{m{0.5\textwidth}|}{ Require minimum 6 sets for foreground objects and platforms}\\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\section{Usability and Humanity Requirements}
 	\subsection{Ease of Use Requirements}
 	\begin{table}[H]
@@ -1124,7 +1163,7 @@
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\subsection{Personalization Requirements}
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -1138,8 +1177,8 @@
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	
+
+
 	\subsection{Learning Requirements}
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -1153,7 +1192,7 @@
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\subsection{Understandability and Politeness Requirements}
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -1167,7 +1206,7 @@
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\subsection{Accessibility Requirements}
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -1181,7 +1220,7 @@
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\section{Performance Requirements}
 	\subsection{Speed and Latency Requirements}
 	\begin{table}[H]
@@ -1196,7 +1235,7 @@
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\subsection{Precision or Accuracy Requirements}
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -1210,7 +1249,7 @@
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\subsection{Reliability and Availability Requirements}
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -1224,7 +1263,7 @@
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\subsection{Robustness or Fault Tolerance Requirements}
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -1238,7 +1277,7 @@
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\subsection{Capacity Requirements}
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -1252,7 +1291,7 @@
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\section{Scalability and Extensibility Requirements}
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -1266,7 +1305,7 @@
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\section{Longevity Requirements}
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -1280,7 +1319,7 @@
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\section{Operational and Environmental Requirements}
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -1293,7 +1332,7 @@
 			Priority: Low \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\section{Cultural Requirements}
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -1306,7 +1345,7 @@
 			Priority& \multicolumn{2}{m{0.85\textwidth}|}{Low }\\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\section{Legal Requirements}
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -1319,9 +1358,9 @@
 			Priority& \multicolumn{2}{m{0.85\textwidth}|}{Very High} \\ \hline
 		\end{tabular}
 	\end{table}
-	
+
 	\section{Standard Requirements}
-	
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -1332,15 +1371,15 @@
 			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{Product must receive passing grade} \\ \hline
 			Priority& \multicolumn{2}{m{0.85\textwidth}|}{Very High} \\ \hline
 		\end{tabular}
-	\end{table} 
-	
+	\end{table}
+
 	\section{Release Requirements}
 	Desktop: OS: Windows XP SP2+, Mac OS X 10.9+, Ubuntu 12.04+, SteamOS+. \\
 	Graphics card: DX9 (shader model 3.0) or DX11 with feature level 9.3 capabilities\\
 	CPU: SSE2 instruction set support. \\
 	Audio levels: Recommended to be listened to at a comfortable level. \\
 	Lighting levels: Recommended 200 lux or a lit room.
-	
+
 	\section{Project Schedule}
 	The project will follow the guide up on the courses webpage. The work will be done before the deadline of every task set up by Dr. Carette.\\
 	\begin{itemize}
@@ -1352,20 +1391,20 @@
 		\item Finalization and Testing: Dec 1
 	\end{itemize}
 	Schedule subject to change based on progress.
-	
+
 	\section{Risks}
 	\begin{itemize}
 		\item The product demands a large portion of time and commitment, once the project has been started, future commitments and opportunity are now lost.
 		\item If the game is a massive hit with the community  there could be potential copyright claims.
-		\item if the project isn’t implement up to standard than our course grade will be affected 
+		\item if the project isn’t implement up to standard than our course grade will be affected
 	\end{itemize}
-	
+
 	\section{Costs}
 	\begin{itemize}
-		\item The entire product will be funded by team. As of now the free version of Unity is being utilized coupled with free, open-source assets. In the future we might have to buy certain assets that fit the theme of the game better. The financial costs will be limited to purchases of assets.  
-		\item The game should be completed by the end of April 2018. Considering the level design, multiple playable characters, multiple weapons, combo based attacks which require a unique animation the game will take entire alloted time to complete. 
+		\item The entire product will be funded by team. As of now the free version of Unity is being utilized coupled with free, open-source assets. In the future we might have to buy certain assets that fit the theme of the game better. The financial costs will be limited to purchases of assets.
+		\item The game should be completed by the end of April 2018. Considering the level design, multiple playable characters, multiple weapons, combo based attacks which require a unique animation the game will take entire alloted time to complete.
 	\end{itemize}
-	
+
 	\section{User Documentation and Training}
 	\begin{itemize}
 		\item User Documentation Requirements.
@@ -1374,10 +1413,10 @@
 		\end{itemize}
 		\item Training Requirements
 		\begin{itemize}
-			\item The game will be very easy to learn and understand, accordingly we intend for the player to learn as they go. They should be familiar with the the basic movement and attacking commands within the completion of the first level of the game. We encourage player autonomy therefore the player can learn which ever combos they wish to use by looking them up in the user manual. As of now we do not intend to put in a standalone training level before the game actually starts. 
+			\item The game will be very easy to learn and understand, accordingly we intend for the player to learn as they go. They should be familiar with the the basic movement and attacking commands within the completion of the first level of the game. We encourage player autonomy therefore the player can learn which ever combos they wish to use by looking them up in the user manual. As of now we do not intend to put in a standalone training level before the game actually starts.
 		\end{itemize}
 	\end{itemize}
-	
+
 	\section{Waiting List}
 	\begin{itemize}
 		\item Expansions to the game introducing new weapons and even more combos.(PUC No.8)
@@ -1386,10 +1425,10 @@
 		\item Interact with Gundam Gear(PUC No.19)
 		\item Use items and items pick up(PUC No.3)
 	\end{itemize}
-	
+
 	\section{Ideas for Solution}
 	Enemy Ai is very large and difficult problem within many games. There are many ways in order to implement the ai within the game and here are some ideas. The first idea, that will apply to many enemies,  is to have  the Ai constantly grab the location of the player’s avatar and a add force in the direction of the player, if the player location is close enough than the enemy should attack. If the enemy is a ranged enemy and  they share the same y coordinate with the player, then the enemy should shoot a bullet in the direction of the player. \\
 	The second idea is enemies can have few attacks that can be cycled through against the player. Enemies once within aggression range will move towards the player. Enemy can shoot at the player while moving, and can also start using melee attack cycles when close enough to the player.\\
 	The third idea is to have predetermined movement for enemies. Enemies will move in the same direction regardless of the player. \\
-	
+
 \end{document}
