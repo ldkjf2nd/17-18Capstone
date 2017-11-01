@@ -29,6 +29,15 @@ namespace Capstone
 		}
 
 		[Test]
+		public void EnemyIsInvulnerable_TakesPositiveDamage_ShouldNotTakeAnyDamage() 
+		{
+			enemy.armorRating = 100f;
+			float healthLoss = enemy.calculateHealthLossAfterArmor (10f);
+
+			Assert.AreEqual (0f, healthLoss);
+		}
+
+		[Test]
 		public void PlayerAppearsOnScreen_EnemyShouldSuccessfullyFindThemOnScreen() 
 		{
 			enemy.findPlayerOnScreen ();
@@ -60,11 +69,22 @@ namespace Capstone
 			Assert.Fail ();
 		}
 
+
+		[Test]
+		public void EnemyHPBarShouldShowFeedBack_ByGoingGrey_WhenEnemyTakesDamage() 
+		{	
+			enemy.EnemyTakesDamage (30f);
+			enemy.EnemyTakesDamage (10f);
+
+			Assert.Fail ();
+		}
+
 		[Test]
 		public void EnemyReaches0HP_ShouldShowDeathAnimation() 
 		{	
 			if (enemy.enemyHealth <= 0)
 				enemy.showDeathAnimation ();
+				enemy.showDefeatBanner ();
 
 			Assert.Fail ();
 		}
@@ -82,6 +102,7 @@ namespace Capstone
 		[Test]
 		public void RobotEnemyShouldFireProjectileEverySecond() 
 		{
+			robotEnemy.fire ();
 			Assert.Fail ();
 		}
 			

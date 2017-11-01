@@ -75,9 +75,25 @@ namespace Capstone
 			//Will be implemented later
 
 		}
+
+		public void interactWithGundamGear()
+		{
+			//Will be implemented later
+
+		}
+
+		public void showDeathAnimation()
+		{
+			//Will be implemented later
+		}
+
+		public void openShopMenu()
+		{
+			//Will be implemented later
+		}
 		public void showGameOverScreen()
 		{
-			//will be implemented later
+			//Will be implemented later
 		}
 	}
 }

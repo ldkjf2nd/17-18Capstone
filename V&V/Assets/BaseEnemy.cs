@@ -5,9 +5,11 @@ using UnityEngine;
 public class BaseEnemy: MonoBehaviour {
 	public float enemyHealth;
 	public float armorRating = 50f;
-	public GameObject equippedWeapon;
 	public float chanceToDropScrap;
+
 	public bool doesDropScrap;
+
+	public GameObject equippedWeapon;
 
 	void Start () {
 		
@@ -47,6 +49,10 @@ public class BaseEnemy: MonoBehaviour {
 	}
 
 	public void showDeathAnimation()
+	{
+	}
+
+	public void showDefeatBanner()
 	{
 	}
 

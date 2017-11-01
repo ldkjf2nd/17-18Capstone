@@ -17,6 +17,15 @@ namespace AssemblyCSharp
 				loadGame();
 		}
 
+		public void loadNextLevel()
+		{
+			//will be implemented later
+		}
+
+		public void reloadCurrentLevel(object currentGameState)
+		{
+			//will be implemented later
+		}
 		public void loadGame()
 		{
 			//will be implemented later

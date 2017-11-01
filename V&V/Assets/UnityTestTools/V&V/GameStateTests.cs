@@ -34,6 +34,20 @@ namespace AssemblyCSharp
 			game.saveGame ();
 			Assert.Fail ();
 		}
+
+		[Test]
+		public void PlayerCompletesALevel_ProceedtoNextLevel()
+		{
+			game.loadNextLevel ();
+			Assert.Fail ();
+		}
+
+		[Test]
+		public void PlayerDies_ReloadCurrentLevel()
+		{
+			game.reloadCurrentLevel ();
+			Assert.Fail ();
+		}
 	}
 }
 

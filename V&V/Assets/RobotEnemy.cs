@@ -19,7 +19,7 @@ public class RobotEnemy : BaseEnemy {
 		}
 	}
 
-	void fire() {
+	public void fire() {
 		bulletPos = transform.position;
 		bulletPos += new Vector2 (1.27f, 0f);
 		Instantiate (bullet, bulletPos, Quaternion.identity);

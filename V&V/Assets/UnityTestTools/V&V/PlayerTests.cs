@@ -8,6 +8,17 @@ namespace Capstone
 	{
 		Player player = new Player();
 
+
+		[Test]
+		public void PlayerInteractsWithShop_NearTheShop() 
+		{
+			bool isPlayerNearTheShop = true;
+			if (isPlayerNearTheShop)
+				player.openShopMenu ();
+
+			Assert.Fail ();
+		}
+
 		[Test]
 		public void PlayerTakesDamage_PositiveAmount_HealthUpdated() 
 		{
@@ -52,6 +63,17 @@ namespace Capstone
 			player.pickUpWeapon (sword);
 			Assert.AreEqual (sword, player.equippedWeapon);
 		}
+
+		[Test]
+		public void PlayerInteractsWithItem_GiveFeedback_ApplyItemsModifiers()
+		{
+			var testItem = new Object ();
+			player.interactWithItem (testItem);
+
+			//Currently we havent decided how to handle items therefore this test fails.
+			Assert.Fail ();
+		}
+
 
 		[Test]
 		public void PlayerDrinksHealthPotion_AlreadyAtMaxHealth_HealthShouldNotGoAboveMax()
@@ -114,6 +136,20 @@ namespace Capstone
 		public void PlayerPressesButtonsToPerformComboAttack_PerformComboAttack()
 		{
 			player.performComboAttack ();
+			Assert.Fail ();
+		}
+
+		[Test]
+		public void PlayerReaches0HP_ShowDeathAnimation()
+		{
+			player.showDeathAnimation ();
+			Assert.Fail ();
+		}
+
+		[Test]
+		public void PlayerPressesButtonToInteractWithGundamGear_ShowAppropraiteAnimation_AssocatiatedWithInteraction()
+		{
+			player.interactWithGundamGear ();
 			Assert.Fail ();
 		}
 	}
