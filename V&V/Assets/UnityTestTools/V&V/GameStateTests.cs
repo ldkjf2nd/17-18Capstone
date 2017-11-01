@@ -45,7 +45,8 @@ namespace AssemblyCSharp
 		[Test]
 		public void PlayerDies_ReloadCurrentLevel()
 		{
-			game.reloadCurrentLevel ();
+			Object curentLevel = new Object ();
+			game.reloadCurrentLevel(curentLevel);
 			Assert.Fail ();
 		}
 	}
