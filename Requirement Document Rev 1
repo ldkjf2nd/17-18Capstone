@@ -1069,14 +1069,27 @@
 		\end{tabular}
 	\end{table}
 
-		\begin{table}[H]
+	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
 			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:10, 11, 25, 26 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
-			Description & \multicolumn{2}{m{0.85\textwidth}|}{As the player progess's in the game and meets newer enemies, the players weapons will do the same amount of damage but the enemies will lose less health then the player's weapon's base damage, as the newer enemies will have better armor.} \\ \hline
-			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The game should feel progressively harder, in terms of defeating enemies, to make it more challenging. Rather than weakening the players weapons or giving them worse gear, giving the ememies better armor will give the player a better challenge, all the while not making them feel like they regressed by weakening their weapons.} \\ \hline
-			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}As the player encounters stronger enemies as the progress in the game, the enemies will have better armor, making them harder to defeat.\end{tabular}} \\ \hline
+			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player's avatar will be able to lose HP, when they get hit by enemies basic attacks.} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Giving the enemies a basic attack will help players understand the enemies patterns and help beat them. A completely unpredicatble enemy is very hard to beat and frustrarting the player is not good in many cases.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}Every enemy in the game will have a basic attack they use to harm the enemy.\end{tabular}} \\ \hline
+			Satisfaction: & Dissatisfaction: & Priority: High\\ \hline
+			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
+		\end{tabular}
+	\end{table}
+
+	\begin{table}[H]
+		\begin{tabular}{|l|l|l|}
+			\hline
+			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			PUC:10, 11, 25, 26 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
+			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player's avatar will be able to lose HP, when they get hit by enemies special attacks.} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Giving the enemies a special attack will add a new dimension to the fight. They will be alot stronger and have a new animation. This will make the fight alot more thrilling all the while making it more challenging.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}Every enemy in the game will have a special attack they use to harm the enemy. There will be a certain trigger condition that actiavtes this type of attack. Mostly it will be when the enemy falls below an HP threshold.\end{tabular}} \\ \hline
 			Satisfaction: & Dissatisfaction: & Priority: High\\ \hline
 			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
 		\end{tabular}
