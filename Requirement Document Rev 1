@@ -1060,7 +1060,7 @@
 		\begin{tabular}{|l|l|l|}
 			\hline
 			ID:0028 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
-			PUC:10, 11, 25, 26 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
+			PUC: & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{Enemies will actively try to harm the player's avatar, potentially even kill the avatar.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Every game needs an element that is thrilling to the player, more often than not this is knowing that fact that their avatar can die. Adding this to our game will make it more marketable and will keep players intrested for longer. This will also make the game more challenging which is appealing to most gamers.} \\ \hline
 			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}When the player encounters an enemy, the enemy will use their equipped weapon to harm/kill the player. It will not cease until the player has killed it.\end{tabular}} \\ \hline
@@ -1069,14 +1069,67 @@
 		\end{tabular}
 	\end{table}
 
-		\begin{table}[H]
+	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
 			ID:0029 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
-			PUC:10, 11, 25, 26 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
+			PUC: & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{As the player progess's in the game and meets newer enemies, the players weapons will do the same amount of damage but the enemies will lose less health then the player's weapon's base damage, as the newer enemies will have better armor.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The game should feel progressively harder, in terms of defeating enemies, to make it more challenging. Rather than weakening the players weapons or giving them worse gear, giving the ememies better armor will give the player a better challenge, all the while not making them feel like they regressed by weakening their weapons.} \\ \hline
 			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}As the player encounters stronger enemies as the progress in the game, the enemies will have better armor, making them harder to defeat.\end{tabular}} \\ \hline
+			Satisfaction: & Dissatisfaction: & Priority: High\\ \hline
+			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
+		\end{tabular}
+	\end{table}
+
+	\begin{table}[H]
+		\begin{tabular}{|l|l|l|}
+			\hline
+			ID:0030 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			PUC: & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
+			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player defeats the main boss of each level the enemy should give the player feedback that it has been defeated. This feedback includes an empty hp bar and a distinct death animation.} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The player needs to know when they have deafted the main boss. A depleting HP bar shows how much more damage the boss can sustain and also when players see they have an alomst empty HP bar on a tough boss fight it gives them the extra push to succeed. A death animation is good feedback to the player that the boss has ben defeated.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}When the player defeats a boss, the boss' sprite will show a distinct death animation marking the end of a fight.\end{tabular}} \\ \hline
+			Satisfaction: & Dissatisfaction: & Priority: High\\ \hline
+			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
+		\end{tabular}
+	\end{table}
+
+
+	\begin{table}[H]
+		\begin{tabular}{|l|l|l|}
+			\hline
+			ID:0031 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			PUC: & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
+			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player defeats an enemy, the enemy should give the player feedback that it has been defeated. This feedback includes an empty hp bar and a death animation.} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The player needs to know when they have deafted an enemy A depleting HP bar shows how much more damage the enemy can sustain. A death animation is good feedback to the player that the enemy has ben defeated.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}When the player defeats an enemy, the enemy's sprite will show a death animation marking the end of a fight.\end{tabular}} \\ \hline
+			Satisfaction: & Dissatisfaction: & Priority: High\\ \hline
+			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
+		\end{tabular}
+	\end{table}
+
+	\begin{table}[H]
+		\begin{tabular}{|l|l|l|}
+			\hline
+			ID:0032 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			PUC: & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
+			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player defeats an enemy, theres a chance they will drop scrap.} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Rewarding the player after defeating an enemy is crucial for them to like the game. Making the player work hard to acieve an objective then not rewarding them is not a good requirement. This also increases the longevity of the game as the player will want to play more to collect more scrap to upgrade their suit.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}When the player defeats an enemy, they might drop a piece of scrap that can be walked over to pick up..\end{tabular}} \\ \hline
+			Satisfaction: & Dissatisfaction: & Priority: High\\ \hline
+			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
+		\end{tabular}
+	\end{table}
+
+	\begin{table}[H]
+		\begin{tabular}{|l|l|l|}
+			\hline
+			ID:0033 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			PUC: & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
+			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player defeats a boss, the boss will drop scrap} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Rewarding the player after defeating a boss is crucial for them to like the game. Making the player work hard to acieve an objective then not rewarding them is not a good requirement. This also increases the longevity of the game as the player will want to play more to collect more scrap to upgrade their suit.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}When the player defeats a boss, the boss will drop scrap that can be walked over to pick up..\end{tabular}} \\ \hline
 			Satisfaction: & Dissatisfaction: & Priority: High\\ \hline
 			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
 		\end{tabular}
