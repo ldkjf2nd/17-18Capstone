@@ -731,7 +731,7 @@
 			PUC:3 & \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{After picking up an item, ensure that the attributes that the items modifies are accurate,in conjunction with a formula} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{It gives the player a feel of progression, making his machine stronger the longer he plays, also gives him a sub goal. The main idea is to destroy your enemies and take their gear to bolster your own} \\ \hline
-			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{ \begin{tabular}{m{0.8\textwidth}}When the player collides with an item his attributes are changed depending on the type of item. For example if he collects and attack upgrade, he will do a larger \% of damage.\\ 1. There will be damage upgrade items. When Avatar collides with item, there will be a multiplier to attack value.\\ 2. There will be speed upgrade items. When Avatar collides with item, there will be multiplier to movement speed and jump velocity value.\\ 3. There will be health upgrade items. When Avatar collides with item, maximum health value will be increased.\\ 4. There will be usable items. When Avatar collides with item, item will be added to inventory, can be used by pressing the designated button and item will no longer be in inventory.\end{tabular}} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{ \begin{tabular}{m{0.8\textwidth}}When the player collides with an item his attributes are changed depending on the type of item. For example if he collects and attack upgrade, he will do a larger amount of damage.\\ 1. There will be damage upgrade items. When Avatar collides with item, there will be a multiplier to attack value.\\ 2. There will be speed upgrade items. When Avatar collides with item, there will be multiplier to movement speed and jump velocity value.\\ 3. There will be health upgrade items. When Avatar collides with item, maximum health value will be increased.\\ 4. There will be usable items. When Avatar collides with item, item will be added to inventory, can be used by pressing the designated button and item will no longer be in inventory.\end{tabular}} \\ \hline
 			Satisfaction: 5 & Dissatisfaction: 5 & Priority: Medium \\ \hline
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
@@ -1130,6 +1130,19 @@
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player defeats a boss, the boss will drop scrap} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Rewarding the player after defeating a boss is crucial for them to like the game. Making the player work hard to acieve an objective then not rewarding them is not a good requirement. This also increases the longevity of the game as the player will want to play more to collect more scrap to upgrade their suit.} \\ \hline
 			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}When the player defeats a boss, the boss will drop scrap that can be walked over to pick up..\end{tabular}} \\ \hline
+			Satisfaction: & Dissatisfaction: & Priority: High\\ \hline
+			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
+		\end{tabular}
+	\end{table}
+
+	\begin{table}[H]
+		\begin{tabular}{|l|l|l|}
+			\hline
+			ID:0034 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			PUC: & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
+			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player encounters a useable weapon they can pick it up to use it.} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{When the player collides with a weapon they can pick it up. This is will keep the combot fresh as they will get to use newer/better weapon. This will also allow them to personalize their avatar as they can use which ever type of wepaon they like.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}When a player picks up a weapon it becomes their currently equipped weapon and they can use it freely.\end{tabular}} \\ \hline
 			Satisfaction: & Dissatisfaction: & Priority: High\\ \hline
 			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
 		\end{tabular}
