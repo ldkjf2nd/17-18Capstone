@@ -727,7 +727,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:004 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:005 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:3 & \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{After picking up an item, ensure that the attributes that the items modifies are accurate,in conjunction with a formula} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{It gives the player a feel of progression, making his machine stronger the longer he plays, also gives him a sub goal. The main idea is to destroy your enemies and take their gear to bolster your own} \\ \hline
@@ -741,7 +741,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:005 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:006 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:4 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to view their avatar's status} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The player will want to check the current status of their avatar(current health, ammo count, etc.)} \\ \hline
@@ -754,7 +754,7 @@
 		\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:006 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:007 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:4 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to view the avatar's gear's status} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The player will want to check the current status of their avatar gear.)} \\ \hline
@@ -768,7 +768,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:007 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:008 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:5 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to view the item's menu.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The player will want to check current items of the avatar. } \\ \hline
@@ -782,7 +782,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:008 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:009 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:4,5 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The system must be able to calculate and display the avatar's current attributes modified by the used items.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{If the system cannot calculate and display the avatar's current attributes including the equipped items, the player will not know what effect has been applied by a consumed item.} \\ \hline
@@ -795,7 +795,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:009 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0010 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:4,5 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to change the avatar's gears.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to change avatar's gear as well as view current gear attributes.} \\ \hline
@@ -808,7 +808,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0010 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0011 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:4,5 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The system must be able to calculate and display the avatar's current attributes modified by the used items.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{If the system cannot calculate and display the avatar's current attributes including the equipped items, the player will not know what effect has applied on with the new used item.} \\ \hline
@@ -821,7 +821,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:011 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0012 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:6 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to perform a melee attack} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Since the game is based around fighting and defeating enemies, being able to perform a melee attack is crucial to the game. Melee attacks are the backbone of most fighting games.} \\ \hline
@@ -834,7 +834,7 @@
 		\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:012 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:7 & \multicolumn{2}{l|}{Originator:Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to perform a ranged attack} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Since the game is based around fighting and defeating enemies, being able to perform a ranged attack is crucial to the game. Almost all successful fighting games supplment melee fighting with ranged attacks.} \\ \hline
@@ -848,7 +848,7 @@
 		\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:012 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0014 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:7 & \multicolumn{2}{l|}{Originator:Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to perform a combo attack} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Since the game is based around fighting and defeating enemies, being able to perform a combo attack is crucial to the game. } \\ \hline
@@ -861,7 +861,7 @@
 		\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0015 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:6,7,8 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The system must be able to calculate the damage for obstacles according to the selected attack performed.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{When player performs an attack on obstacles, the system should be able to determine how much damage will be applied against the obstacles. } \\ \hline
@@ -874,7 +874,7 @@
 		\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0016 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:10 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to pause the game} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{If the player wishes to do something while in game, they should be able to pause the game. } \\ \hline
@@ -887,7 +887,7 @@
 		\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0017 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:11 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to resume the paused the game} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{If the game is paused, the player must be able to resume the game. } \\ \hline
@@ -900,7 +900,7 @@
 
 	\begin{tabular}{|l|l|l|}
 			\hline
-			ID:014 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0018 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 16 & \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player’s avatar enters a level, a fixed amount of enemies are created. If all enemies are destroyed than, the game will load,to the next level.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The player requires a win condition to complete the level. } \\ \hline
@@ -914,7 +914,7 @@
 
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:015 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0019 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 18& \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player’s collides with an invisible preset boundary, the game reloads the level and the player’s lives are decremented by one, if the the players lives are less than 0 then the game loads the game over scene.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{To prevent the player from accessing a part of the level and creating a natural boundary for the intended game world.} \\ \hline
@@ -929,7 +929,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:016 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0020 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 18 & \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player’s collides with an enemy, the player loses a percentage of their total health depending on what enemy he collided with, if the player’s health reaches below zero than the game reloads the current level and the player’s lives are decremented by one, if the the players lives are less than 0 then the game loads the game over scene.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{One of the primary fail conditions for the player} \\ \hline
@@ -945,7 +945,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:017 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0021 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 18& \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{All characters will have their own health pool.}\\\hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Mobiles suits can only sustain so much damage before they are destroyed, health points are used as a representation of the about of damage  they can take. For game play experience and real life representation, different machines will have various amounts of hp. Boss characters will have the most.} \\ \hline
@@ -959,7 +959,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:018& \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0021 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 18& \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player attacks, he will instantiate a new box collider that covers the range of his attack, if that box collides with another object it loses a percentage  of their health that is scaled by the player’s attack, if their health goes below zero than play the death animation and destroy the object.}\\\hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The rides in a mobile suit as a weapon the player needs a means to destroy the enemy mobile suits} \\ \hline
@@ -973,7 +973,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:019& \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0022 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 23& \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The system must be able to return the game state to the title screen.}\\\hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{There must be a way for the player to exit the game from within it.} \\ \hline
@@ -991,7 +991,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:010 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0023 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 21 & \multicolumn{2}{l|}{Originator:} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The primary gameplay mode will be Story Mission Mode where players shall complete the each levels of the game. The win condition is to complete all levels.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Primary mode should be able to explore all levels by sequence and present the story.} \\ \hline
@@ -1007,7 +1007,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:011 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0024 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 24, 26 & \multicolumn{2}{l|}{Originator:} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{Free Mission Mode allows player can choose which playable character to use and which level to play. After select level is completed, return to mission select screen.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Alternate mode grants player more freedom. } \\ \hline
@@ -1020,7 +1020,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:012 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0025 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 25, 26 & \multicolumn{2}{l|}{Originator: Tian Guo} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{A start menu that allows the player to select Story Mission Mode, Free Mission Mode, Options to change game settings, and Exit to terminate the game.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Game should begin at menu to give player option to choose how to play and options to change settings.} \\ \hline
@@ -1033,7 +1033,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0026 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:10, 11, 25, 26 & \multicolumn{2}{l|}{Originator: Tian Guo} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{During game missions the player can open the pause menu to pause the game. The menu will consist of “Resume” to unpause the game from pause menu, Options to change certain settings, and Back to Title to return to main menu.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{During missions, player should have the ability to open pause menu if need be. Play can change settings in this screen if adjustments are needed.} \\ \hline
@@ -1046,7 +1046,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0027 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:10, 11, 25, 26 & \multicolumn{2}{l|}{Originator: Tian Guo} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{During game missions if the player has paused the game the player will have ability to return to their game session by pressing the “Resume” button. They could also use the "Back to Title" button to return to main menu.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{During missions while the game is paused, the player should have the ability to return to the game.} \\ \hline
@@ -1059,7 +1059,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0028 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:10, 11, 25, 26 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{Enemies will actively try to harm the player's avatar, potentially even kill the avatar.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Every game needs an element that is thrilling to the player, more often than not this is knowing that fact that their avatar can die. Adding this to our game will make it more marketable and will keep players intrested for longer. This will also make the game more challenging which is appealing to most gamers.} \\ \hline
@@ -1072,7 +1072,7 @@
 		\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0029 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:10, 11, 25, 26 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{As the player progess's in the game and meets newer enemies, the players weapons will do the same amount of damage but the enemies will lose less health then the player's weapon's base damage, as the newer enemies will have better armor.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The game should feel progressively harder, in terms of defeating enemies, to make it more challenging. Rather than weakening the players weapons or giving them worse gear, giving the ememies better armor will give the player a better challenge, all the while not making them feel like they regressed by weakening their weapons.} \\ \hline
