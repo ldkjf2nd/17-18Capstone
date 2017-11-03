@@ -1071,6 +1071,28 @@
 	\end{table}
 
 	\begin{table}[H]
+<<<<<<< HEAD
+		\begin{tabular}{|l|l|l|}
+			\hline
+			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			PUC:10, 11, 25, 26 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
+			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player's avatar will be able to lose HP, when they get hit by enemies basic attacks.} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Giving the enemies a basic attack will help players understand the enemies patterns and help beat them. A completely unpredicatble enemy is very hard to beat and frustrarting the player is not good in many cases.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}Every enemy in the game will have a basic attack they use to harm the enemy.\end{tabular}} \\ \hline
+			Satisfaction: & Dissatisfaction: & Priority: High\\ \hline
+			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
+		\end{tabular}
+	\end{table}
+
+	\begin{table}[H]
+		\begin{tabular}{|l|l|l|}
+			\hline
+			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			PUC:10, 11, 25, 26 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
+			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player's avatar will be able to lose HP, when they get hit by enemies special attacks.} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Giving the enemies a special attack will add a new dimension to the fight. They will be alot stronger and have a new animation. This will make the fight alot more thrilling all the while making it more challenging.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}Every enemy in the game will have a special attack they use to harm the enemy. There will be a certain trigger condition that actiavtes this type of attack. Mostly it will be when the enemy falls below an HP threshold.\end{tabular}} \\ \hline
+=======
 		\begin{tabular}{|l|l|l|}
 			\hline
 			ID:0029 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
