@@ -1010,7 +1010,7 @@
 			PUC: 24, 26 & \multicolumn{2}{l|}{Originator: Tian Guo} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{Free Mission Mode allows player can choose which playable character to use and which level to play. After select level is completed, return to mission select screen.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Alternate mode allows the player more freedom.} \\ \hline
-			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{Have a mode that can be started from the main menu which allows the player to choose which playable character to use and which level to play. } \\ \hline
 			Satisfaction: & Dissatisfaction: & Priority: Medium\\ \hline
 			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
 		\end{tabular}
