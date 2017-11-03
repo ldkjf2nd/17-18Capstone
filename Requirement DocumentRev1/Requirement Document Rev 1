@@ -672,7 +672,7 @@
 
 	\section{Functional Requirements}
 	\subsection{Core Mechanic}
-	\begin{table}[H]
+
 
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -711,6 +711,7 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
+	
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -751,7 +752,7 @@
 		\end{tabular}
 	\end{table}
 
-		\begin{table}[H]
+	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
 			ID:007 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
@@ -831,7 +832,7 @@
 		\end{tabular}
 	\end{table}
 
-		\begin{table}[H]
+	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
 			ID:0013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
@@ -845,7 +846,7 @@
 	\end{table}
 
 
-		\begin{table}[H]
+	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
 			ID:0014 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
@@ -858,7 +859,7 @@
 		\end{tabular}
 	\end{table}
 
-		\begin{table}[H]
+	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
 			ID:0015 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
@@ -871,7 +872,7 @@
 		\end{tabular}
 	\end{table}
 
-		\begin{table}[H]
+	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
 			ID:0016 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
@@ -884,7 +885,7 @@
 		\end{tabular}
 	\end{table}
 
-		\begin{table}[H]
+	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
 			ID:0017 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
@@ -897,8 +898,8 @@
 		\end{tabular}
 	\end{table}
 
-
-	\begin{tabular}{|l|l|l|}
+	\begin{table}[H]
+    	\begin{tabular}{|l|l|l|}
 			\hline
 			ID:0018 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 16 & \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
