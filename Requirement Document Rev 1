@@ -672,6 +672,8 @@
 
 	\section{Functional Requirements}
 	\subsection{Core Mechanic}
+
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
@@ -696,8 +698,6 @@
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
 	\end{table}
-
-
 
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -732,7 +732,7 @@
 			PUC:3 & \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{After picking up an item, ensure that the attributes that the items modifies are accurate,in conjunction with a formula} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{It gives the player a feel of progression, making his machine stronger the longer he plays, also gives him a sub goal. The main idea is to destroy your enemies and take their gear to bolster your own} \\ \hline
-			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{ \begin{tabular}{m{0.8\textwidth}}When the player collides with an item his attributes are changed depending on the type of item. For example if he collects and attack upgrade, he will do a larger \% of damage.\\ 1. There will be damage upgrade items. When Avatar collides with item, there will be a multiplier to attack value.\\ 2. There will be speed upgrade items. When Avatar collides with item, there will be multiplier to movement speed and jump velocity value.\\ 3. There will be health upgrade items. When Avatar collides with item, maximum health value will be increased.\\ 4. There will be usable items. When Avatar collides with item, item will be added to inventory, can be used by pressing the designated button and item will no longer be in inventory.\end{tabular}} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{ \begin{tabular}{m{0.8\textwidth}}When the player collides with an item his attributes are changed depending on the type of item. For example if he collects and attack upgrade, he will do a larger amount of damage.\\ 1. There will be damage upgrade items. When Avatar collides with item, there will be a multiplier to attack value.\\ 2. There will be speed upgrade items. When Avatar collides with item, there will be multiplier to movement speed and jump velocity value.\\ 3. There will be health upgrade items. When Avatar collides with item, maximum health value will be increased.\\ 4. There will be usable items. When Avatar collides with item, item will be added to inventory, can be used by pressing the designated button and item will no longer be in inventory.\end{tabular}} \\ \hline
 			Satisfaction: 5 & Dissatisfaction: 5 & Priority: Medium \\ \hline
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
@@ -796,7 +796,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:010 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0010 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:4,5 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to change the avatar's gears.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to change avatar's gear as well as view current gear attributes.} \\ \hline
@@ -809,7 +809,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:011 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0011 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:4,5 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The system must be able to calculate and display the avatar's current attributes modified by the used items.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{If the system cannot calculate and display the avatar's current attributes including the equipped items, the player will not know what effect has applied on with the new used item.} \\ \hline
@@ -822,7 +822,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:012 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0012 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:6 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to perform a melee attack} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Since the game is based around fighting and defeating enemies, being able to perform a melee attack is crucial to the game. Melee attacks are the backbone of most fighting games.} \\ \hline
@@ -835,7 +835,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:7 & \multicolumn{2}{l|}{Originator:Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to perform a ranged attack} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Since the game is based around fighting and defeating enemies, being able to perform a ranged attack is crucial to the game. Almost all successful fighting games supplment melee fighting with ranged attacks.} \\ \hline
@@ -845,14 +845,15 @@
 		\end{tabular}
 	\end{table}
 
+
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:014 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
-			PUC:8 & \multicolumn{2}{l|}{Originator:Saim Zahid} \\ \hline
+			ID:0014 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			PUC:7 & \multicolumn{2}{l|}{Originator:Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to perform a combo attack} \\ \hline
-			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{One of the main selling points of our game is being able to perform combo moves. It also adds a new dimesnsion to our games fighting elements. It also keeps it fresher for longer for players because learning and executing them takes a while.} \\ \hline
-			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{ \begin{tabular}{m{0.8\textwidth}}The player will press the buttons mapped to a combo attack, the players avatar will display the combo attack on the screen.\end{tabular}} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Since the game is based around fighting and defeating enemies, being able to perform a combo attack is crucial to the game. } \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{ \begin{tabular}{m{0.8\textwidth}}The player will press the button mapped to a combo attack, the players avatar will display the combo attack on the screen.\end{tabular}} \\ \hline
 			Satisfaction: 5 & Dissatisfaction: 5 & Priority: Medium \\ \hline
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
 		\end{tabular}
@@ -861,7 +862,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:015 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0015 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:6,7,8 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The system must be able to calculate the damage for obstacles according to the selected attack performed.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{When player performs an attack on obstacles, the system should be able to determine how much damage will be applied against the obstacles. } \\ \hline
@@ -874,7 +875,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:016 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0016 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:10 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to pause the game} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{If the player wishes to do something while in game, they should be able to pause the game. } \\ \hline
@@ -887,7 +888,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:017 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0017 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:11 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to resume the paused the game} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{If the game is paused, the player must be able to resume the game. } \\ \hline
@@ -899,8 +900,8 @@
 
 	\begin{table}[H]
     	\begin{tabular}{|l|l|l|}
-    	\hline
-			ID:018 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			\hline
+			ID:0018 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 16 & \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player’s avatar enters a level, a fixed amount of enemies are created. If all enemies are destroyed than, the game will load,to the next level.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The player requires a win condition to complete the level. } \\ \hline
@@ -914,7 +915,7 @@
 
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:019 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0019 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 18& \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player’s collides with an invisible preset boundary, the game reloads the level and the player’s lives are decremented by one, if the the players lives are less than 0 then the game loads the game over scene.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{To prevent the player from accessing a part of the level and creating a natural boundary for the intended game world.} \\ \hline
@@ -929,7 +930,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:020 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0020 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 18 & \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player’s collides with an enemy, the player loses a percentage of their total health depending on what enemy he collided with, if the player’s health reaches below zero than the game reloads the current level and the player’s lives are decremented by one, if the the players lives are less than 0 then the game loads the game over scene.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{One of the primary fail conditions for the player} \\ \hline
@@ -945,7 +946,7 @@
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:021 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0021 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 18& \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{All characters will have their own health pool.}\\\hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Mobiles suits can only sustain so much damage before they are destroyed, health points are used as a representation of the about of damage  they can take. For game play experience and real life representation, different machines will have various amounts of hp. Boss characters will have the most.} \\ \hline
@@ -984,6 +985,7 @@
 	\end{table}
 
 
+
 	\subsection{Primary Gameplay Mode}
 
 
@@ -1007,9 +1009,9 @@
 		\begin{tabular}{|l|l|l|}
 			\hline
 			ID:0025 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
-			PUC: 24, 26 & \multicolumn{2}{l|}{Originator: Tian Guo} \\ \hline
+			PUC: 24, 26 & \multicolumn{2}{l|}{Originator:} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{Free Mission Mode allows player can choose which playable character to use and which level to play. After select level is completed, return to mission select screen.} \\ \hline
-			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Alternate mode allows the player more freedom.} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Alternate mode grants player more freedom. } \\ \hline
 			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{} \\ \hline
 			Satisfaction: & Dissatisfaction: & Priority: Medium\\ \hline
 			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
@@ -1167,7 +1169,8 @@
 			PUC: & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player's avatar will be able to lose HP, when they get hit by enemies special attacks.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Giving the enemies a special attack will add a new dimension to the fight. They will be alot stronger and have a new animation. This will make the fight alot more thrilling all the while making it more challenging.} \\ \hline
-			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}Every enemy in the game will have a special attack they use to harm the enemy. There will be a certain trigger condition that actiavtes this type of attack. Mostly it will be when the enemy falls below an HP threshold.\end{tabular}} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{\begin{tabular}[c]{@{}l@{}}Every enemy in the game will have a special attack they use to harm the enemy. There will be a certain trigger condition that actiavtes this type of attack. Mostly it will be when the enemy falls below an HP threshold.\end{tabular}}
+			\\ \hline
 			Satisfaction: & Dissatisfaction: & Priority: High\\ \hline
 			Conflicts: & \multicolumn{2}{l|}{Supporting Material:} \\ \hline
 		\end{tabular}
