@@ -1,1 +1,13 @@
 citation:
+
+Music
+1. Gundam OST: Gundam Unicorn Original Sound Track, Sony Music Distribution, Composer Sawano Hiroyuki, Bandai
+	Banshee, UC0096, Unicorn, Angelo, MAD-NUG, GUNDAM, MOBILE SUIT, DESERT< MOBILE ARMOR, RX-0
+
+Sound Effects
+1. Federation vs Zeon Sound Effects: Mobile Suit Gundam Federation vs Zeon, Developer Capcom, Publisher Banda
+
+Asset
+1. Character Sprite 1: Gundam Wing Sprite, Gundam Wing Endless Duel, Developer Natsume, Publisher Bandai
+2. Character SPrite 2: Gundam Epeon Sprite, Gundam Wing Endless Duel, Developer Natsume, Publisher Bandai
+3. Enemy Mech Sprite 3: Freelance commisioned sprite, by User NCH85 on Deviant Art.
