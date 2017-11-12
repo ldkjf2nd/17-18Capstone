@@ -3,6 +3,7 @@ citation:
 Music
 1. Gundam OST: Gundam Unicorn Original Sound Track, Sony Music Distribution, Composer Sawano Hiroyuki, Bandai
 	Banshee, UC0096, Unicorn, Angelo, MAD-NUG, GUNDAM, MOBILE SUIT, DESERT< MOBILE ARMOR, RX-0
+2. Sci-fi Music: Sci-Fi/Space, from http://soundimage.org/sci-fi/
 
 Sound Effects
 1. Federation vs Zeon Sound Effects: Mobile Suit Gundam Federation vs Zeon, Developer Capcom, Publisher Banda
