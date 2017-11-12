@@ -11,3 +11,4 @@ Asset
 1. Character Sprite 1: Gundam Wing Sprite, Gundam Wing Endless Duel, Developer Natsume, Publisher Bandai
 2. Character SPrite 2: Gundam Epeon Sprite, Gundam Wing Endless Duel, Developer Natsume, Publisher Bandai
 3. Enemy Mech Sprite 3: Freelance commisioned sprite, by User NCH85 on Deviant Art.
+r. platform sprite: 2D Scifi Art Pack Demo, by Ryukin Studio
