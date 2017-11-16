@@ -13,4 +13,5 @@ Asset
 3. Enemy Mech Sprite 3: Freelance commisioned sprite, by User NCH85 on Deviant Art.
 4. Platform sprite 4: 2D Scifi Art Pack Demo, by Ryukin Studio
 5. Enemy Robot Sprite 5: Free open source sprite made by publisher Kin Ng on the Unity Asset Store.
-6. Shopkeepers Dayita and Mandar: Made by Sithjester, from http://untamed.wild-refuge.net/rmxpresources.php?characters.
+6. Shopkeepers Dayita and Mandar 6: Made by Sithjester, from http://untamed.wild-refuge.net/rmxpresources.php?characters.
+7. Icons(mainly for potions) 7: From Open Game Graphics, accessible from https://opengamegraphics.com/product/fantasy-rpg-icons/
