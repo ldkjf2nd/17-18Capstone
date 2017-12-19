@@ -1,0 +1,1633 @@
+fileFormatVersion: 2
+guid: 1919dd60994a5a94096e21f5fe47e9a4
+timeCreated: 1512420445
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mmx5_burndinorex_0
+    21300002: mmx5_burndinorex_1
+    21300004: mmx5_burndinorex_2
+    21300006: mmx5_burndinorex_3
+    21300008: mmx5_burndinorex_4
+    21300010: mmx5_burndinorex_5
+    21300012: mmx5_burndinorex_6
+    21300014: mmx5_burndinorex_7
+    21300016: mmx5_burndinorex_8
+    21300018: mmx5_burndinorex_9
+    21300020: mmx5_burndinorex_10
+    21300022: mmx5_burndinorex_11
+    21300024: mmx5_burndinorex_12
+    21300026: mmx5_burndinorex_13
+    21300028: mmx5_burndinorex_14
+    21300030: mmx5_burndinorex_15
+    21300032: mmx5_burndinorex_16
+    21300034: mmx5_burndinorex_17
+    21300036: mmx5_burndinorex_18
+    21300038: mmx5_burndinorex_19
+    21300040: mmx5_burndinorex_20
+    21300042: mmx5_burndinorex_21
+    21300044: mmx5_burndinorex_22
+    21300046: mmx5_burndinorex_23
+    21300048: mmx5_burndinorex_24
+    21300050: mmx5_burndinorex_25
+    21300052: mmx5_burndinorex_26
+    21300054: mmx5_burndinorex_27
+    21300056: mmx5_burndinorex_28
+    21300058: mmx5_burndinorex_29
+    21300060: mmx5_burndinorex_30
+    21300062: mmx5_burndinorex_31
+    21300064: mmx5_burndinorex_32
+    21300066: mmx5_burndinorex_33
+    21300068: mmx5_burndinorex_34
+    21300070: mmx5_burndinorex_35
+    21300072: mmx5_burndinorex_36
+    21300074: mmx5_burndinorex_37
+    21300076: mmx5_burndinorex_38
+    21300078: mmx5_burndinorex_39
+    21300080: mmx5_burndinorex_40
+    21300082: mmx5_burndinorex_41
+    21300084: mmx5_burndinorex_42
+    21300086: mmx5_burndinorex_43
+    21300088: mmx5_burndinorex_44
+    21300090: mmx5_burndinorex_45
+    21300092: mmx5_burndinorex_46
+    21300094: mmx5_burndinorex_47
+    21300096: mmx5_burndinorex_48
+    21300098: mmx5_burndinorex_49
+    21300100: mmx5_burndinorex_50
+    21300102: mmx5_burndinorex_51
+    21300104: mmx5_burndinorex_52
+    21300106: mmx5_burndinorex_53
+    21300108: mmx5_burndinorex_54
+    21300110: mmx5_burndinorex_55
+    21300112: mmx5_burndinorex_56
+    21300114: mmx5_burndinorex_57
+    21300116: mmx5_burndinorex_58
+    21300118: mmx5_burndinorex_59
+    21300120: mmx5_burndinorex_60
+    21300122: mmx5_burndinorex_61
+    21300124: mmx5_burndinorex_62
+    21300126: mmx5_burndinorex_63
+    21300128: mmx5_burndinorex_64
+    21300130: mmx5_burndinorex_65
+    21300132: mmx5_burndinorex_66
+    21300134: mmx5_burndinorex_67
+    21300136: mmx5_burndinorex_68
+    21300138: mmx5_burndinorex_69
+    21300140: mmx5_burndinorex_70
+    21300142: mmx5_burndinorex_71
+    21300144: mmx5_burndinorex_72
+    21300146: mmx5_burndinorex_73
+    21300148: mmx5_burndinorex_74
+    21300150: mmx5_burndinorex_75
+    21300152: mmx5_burndinorex_76
+    21300154: mmx5_burndinorex_77
+    21300156: mmx5_burndinorex_78
+    21300158: mmx5_burndinorex_79
+    21300160: mmx5_burndinorex_80
+    21300162: mmx5_burndinorex_81
+    21300164: mmx5_burndinorex_82
+    21300166: mmx5_burndinorex_83
+    21300168: mmx5_burndinorex_84
+    21300170: mmx5_burndinorex_85
+    21300172: mmx5_burndinorex_86
+    21300174: mmx5_burndinorex_87
+    21300176: mmx5_burndinorex_88
+    21300178: mmx5_burndinorex_89
+    21300180: mmx5_burndinorex_90
+    21300182: mmx5_burndinorex_91
+    21300184: mmx5_burndinorex_92
+    21300186: mmx5_burndinorex_93
+    21300188: mmx5_burndinorex_94
+    21300190: mmx5_burndinorex_95
+    21300192: mmx5_burndinorex_96
+    21300194: mmx5_burndinorex_97
+    21300196: mmx5_burndinorex_98
+    21300198: mmx5_burndinorex_99
+    21300200: mmx5_burndinorex_100
+    21300202: mmx5_burndinorex_101
+    21300204: mmx5_burndinorex_102
+    21300206: mmx5_burndinorex_103
+    21300208: mmx5_burndinorex_104
+    21300210: mmx5_burndinorex_105
+    21300212: mmx5_burndinorex_106
+    21300214: mmx5_burndinorex_107
+    21300216: mmx5_burndinorex_108
+    21300218: mmx5_burndinorex_109
+    21300220: mmx5_burndinorex_110
+    21300222: mmx5_burndinorex_111
+    21300224: mmx5_burndinorex_112
+    21300226: mmx5_burndinorex_113
+    21300228: mmx5_burndinorex_114
+    21300230: mmx5_burndinorex_115
+    21300232: mmx5_burndinorex_116
+    21300234: mmx5_burndinorex_117
+    21300236: mmx5_burndinorex_118
+    21300238: mmx5_burndinorex_119
+    21300240: mmx5_burndinorex_120
+    21300242: mmx5_burndinorex_121
+    21300244: mmx5_burndinorex_122
+    21300246: mmx5_burndinorex_123
+    21300248: mmx5_burndinorex_124
+    21300250: mmx5_burndinorex_125
+    21300252: mmx5_burndinorex_126
+    21300254: mmx5_burndinorex_127
+    21300256: mmx5_burndinorex_128
+    21300258: mmx5_burndinorex_129
+    21300260: mmx5_burndinorex_130
+    21300262: mmx5_burndinorex_131
+    21300264: mmx5_burndinorex_132
+    21300266: mmx5_burndinorex_133
+    21300268: mmx5_burndinorex_134
+    21300270: mmx5_burndinorex_135
+    21300272: mmx5_burndinorex_136
+    21300274: mmx5_burndinorex_137
+    21300276: mmx5_burndinorex_138
+    21300278: mmx5_burndinorex_139
+    21300280: mmx5_burndinorex_140
+    21300282: mmx5_burndinorex_141
+    21300284: mmx5_burndinorex_142
+    21300286: mmx5_burndinorex_143
+    21300288: mmx5_burndinorex_144
+    21300290: mmx5_burndinorex_145
+    21300292: mmx5_burndinorex_146
+    21300294: mmx5_burndinorex_147
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mmx5_burndinorex_0
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1313
+        width: 112
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1312
+        width: 111
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1312
+        width: 110
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1287
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_4
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1287
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_10
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1220
+        width: 71
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_11
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1221
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_12
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1222
+        width: 71
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_13
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1138
+        width: 127
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_14
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1138
+        width: 127
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_15
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1137
+        width: 127
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_16
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1137
+        width: 127
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1107
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_23
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1075
+        width: 74
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_25
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1075
+        width: 75
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_26
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1075
+        width: 72
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_27
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1020
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_28
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1020
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_29
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1020
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_30
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1022
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1028
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_32
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1026
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_33
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1026
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_34
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1026
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_35
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1026
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_36
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1026
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_37
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1029
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_38
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1029
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_39
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1029
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_40
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1029
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_41
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1030
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_42
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1030
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_43
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 923
+        width: 107
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_44
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 922
+        width: 137
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_45
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 898
+        width: 107
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_46
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 896
+        width: 74
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_47
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 925
+        width: 106
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_48
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 898
+        width: 107
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_52
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 748
+        width: 52
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_53
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 751
+        width: 53
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_54
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 752
+        width: 50
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_56
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 750
+        width: 53
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_58
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 857
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_65
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 752
+        width: 52
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_76
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 789
+        width: 78
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_77
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 791
+        width: 69
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_78
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 791
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_85
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 789
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_90
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 785
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_91
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 775
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_92
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 765
+        width: 79
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_96
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 762
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_98
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 600
+        width: 89
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_99
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 602
+        width: 89
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_100
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 601
+        width: 89
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_101
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 603
+        width: 89
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_102
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 561
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_103
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 560
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_104
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 560
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_105
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 452
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_106
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 451
+        width: 167
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_107
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 451
+        width: 127
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_108
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 404
+        width: 62
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_110
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 396
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_111
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 404
+        width: 135
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_112
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 357
+        width: 167
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_113
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 357
+        width: 172
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_115
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 247
+        width: 14
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_116
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 216
+        width: 46
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_117
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 215
+        width: 62
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_118
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 215
+        width: 57
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_119
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 215
+        width: 53
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_120
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 193
+        width: 32
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_121
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 196
+        width: 31
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_122
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 194
+        width: 31
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_123
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 194
+        width: 29
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_124
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 288
+        width: 27
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_125
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 193
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_126
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 193
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_127
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 193
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_128
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 193
+        width: 29
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_129
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 193
+        width: 31
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_130
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 80
+        width: 108
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_131
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 56
+        width: 73
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_132
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 39
+        width: 61
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_133
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 39
+        width: 61
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_134
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 19
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_135
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 19
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_136
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 26
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_137
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 26
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_138
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 25
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_139
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 21
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_140
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 21
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_141
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 30
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_142
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 28
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_143
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 20
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_144
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 5
+        width: 127
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_145
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 5
+        width: 123
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_146
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 5
+        width: 123
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx5_burndinorex_147
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 5
+        width: 125
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
