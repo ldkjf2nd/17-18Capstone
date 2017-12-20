@@ -16,10 +16,8 @@ public class PlayerController	 : MonoBehaviour {
 	public bool attacking = false;
 	public Transform groundCheck; 
 	public Collider2D attack;
-    public float h; //horizontal input index
+    public float h; 
 	private int boostMeter = 100;
-	//public Transform boostBar;
-	//public int health = 100;
 	public static bool grounded = false;
 	public Animator anim;
 	public Rigidbody2D rb2d;
@@ -38,31 +36,25 @@ public class PlayerController	 : MonoBehaviour {
 	public Collider2D attack4;
 	public Collider2D jumpAttack;
 	public Slider healthSlider; 
-	public static int level =1;
 	public Transform wallCheck;
 	public Transform playerLocation;
 	public bool isDead;
 	public Transform explosion; 
 	public Slider energySlider;
 	public GameObject dashFlame;
-	public Text rKitsText; 
-	public int rKits;
-	public Text scrapText;
-	public static int scrap; 
+ 
 	public SpriteRenderer sp2d;
 	public BoxCollider2D bc2d;
-	private Vector2 pvSize = new Vector2 (0.33f, 0.96f);
-	public GameObject shopMenu;
+	private Vector2 pvSize = new Vector2 (0.33f, 0.96f); // player hitbox 
 	public static int  dmgUp = 0;
 	public static int  def = 0; 
-
-
 
 	public void intilization(){
 		sp2d = GetComponent<SpriteRenderer> ();
 		anim = GetComponent<Animator>();
 		rb2d = GetComponent<Rigidbody2D>();
 		bc2d = GetComponent<BoxCollider2D> ();
+	
 		rb2d.simulated = true;
 		rb2d.freezeRotation = true;
 		rb2d.mass = 1;
@@ -72,14 +64,11 @@ public class PlayerController	 : MonoBehaviour {
 		Application.targetFrameRate = 60;
 		attacking = false;
 		isDead = false;
-		rKits = 0;
-		scrap = 0;
-		rKitsText.text = rKits.ToString();
-		scrapText.text = scrap.ToString ();
+
 		bc2d.size = pvSize;
 		BossTrigger.bossIntro = false; 
-		BossTrigger.bossStart = false;
-		//rb2d.collisionDetectionMode.Continuous = true; 
+		BossTrigger.bossStart = false; 
+
 	
 	}
 
@@ -111,7 +100,7 @@ public class PlayerController	 : MonoBehaviour {
 	}
 	public void playerJump(){
 		anim.SetTrigger ("Jump");
-		SoundManagerScript.PlaySound("jump");
+		FindObjectOfType<SoundManagerScript> ().PlaySound ("jump");
 		rb2d.AddForce(new Vector2(0, jumpForce));
 	}
 	void Awake () {
@@ -122,18 +111,17 @@ public class PlayerController	 : MonoBehaviour {
 	void flip (){
 		rb2d.velocity = new Vector2 (0, rb2d.velocity.y);
 		facingRight = !facingRight; 
-		Vector3 theScale = transform.localScale; //teScale is temporary variable
+		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
-	// Update is called once per frame
 	void Update(){
+		if (GameManager.playerControls) {
 		playerLocation = rb2d.transform;
 		h = Input.GetAxis ("Horizontal");
 		anim.SetFloat ("Speed", Mathf.Abs (h));
 		grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground"));
-		scrapText.text = scrap.ToString();
-		rKitsText.text = rKits.ToString();
+
 
 		if (grounded && !inHitStun) {
 			anim.SetTrigger ("Grounded"); 
@@ -174,7 +162,7 @@ public class PlayerController	 : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.J) &&!inHitStun && grounded && !dashing && !attacking) {
 			attacking = true;
 			anim.SetTrigger ("Attack");
-			SoundManagerScript.PlaySound("attack");
+			FindObjectOfType<SoundManagerScript> ().PlaySound ("attack");
 			StartCoroutine (Attack ());
 		}
 		if(Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A) ){
@@ -193,9 +181,10 @@ public class PlayerController	 : MonoBehaviour {
 		if (!grounded && Input.GetKeyDown (KeyCode.J) &&!inHitStun && !attacking && !isDead && !dashing) {
 			attacking = true;
 			anim.SetTrigger ("Jump Attack");
-			SoundManagerScript.PlaySound("attack");
+			FindObjectOfType<SoundManagerScript> ().PlaySound ("attack");
 			StartCoroutine (Attack ());
 		}
+		/*
 		if (grounded && !inHitStun && Input.GetKeyDown (KeyCode.U)) {
 			anim.SetTrigger ("Punch");
 			SoundManagerScript.PlaySound("attack");
@@ -207,7 +196,7 @@ public class PlayerController	 : MonoBehaviour {
 		if (grounded && !inHitStun && Input.GetKeyDown (KeyCode.L)) {
 			anim.SetTrigger ("Stab");
 			SoundManagerScript.PlaySound("attack");
-		}
+		} */
 		if (grounded && !inHitStun && Input.GetKeyDown (KeyCode.S) && !dashing) {
 			crouching = true;
 			anim.SetBool("Crouch",true);
@@ -220,22 +209,23 @@ public class PlayerController	 : MonoBehaviour {
 		}
 		if (!inHitStun && Input.GetKeyUp (KeyCode.O) && energySlider.value > 1) {
 			anim.SetTrigger ("Shoot");
-			SoundManagerScript.PlaySound("rangeAttack");
+			FindObjectOfType<SoundManagerScript> ().PlaySound ("rangeAttack");
 			fire ();
 		}
 		if (healthSlider.value <= 0 && !isDead) {
 			StartCoroutine (death());
 		}
-		if (Input.GetKeyDown (KeyCode.Q)&& rKits > 0) {
-			rKits -= 1;
-			healthSlider.value = 100; 
-			rKitsText.text = rKits.ToString();
+		if (Input.GetKeyDown (KeyCode.Q)&& GameManager.rKits > 0) {
+				GameManager.rKits -= 1;
+				FindObjectOfType<SoundManagerScript> ().PlaySound ("repair");
+				healthSlider.value = 100;
 		}
 
 		StartCoroutine (doubleDashRight ());
 		StartCoroutine (doubleDashLeft ());
 		StartCoroutine (backDash ());
 		StartCoroutine (comboAttack());
+		}
 
 	}
 	void fire(){
@@ -248,7 +238,7 @@ public class PlayerController	 : MonoBehaviour {
 			bool inAttack2 = false; 
 			float delta = 0;
 			anim.SetTrigger ("Bash");
-			SoundManagerScript.PlaySound("attack");
+			FindObjectOfType<SoundManagerScript> ().PlaySound ("Attack");
 			attack2.enabled = true;
 			while (delta < 1.2f) {
 				delta += Time.deltaTime;
@@ -260,7 +250,7 @@ public class PlayerController	 : MonoBehaviour {
 					attack3.enabled = true;
 					inAttack2 = true; 
 					anim.SetTrigger ("Attack");
-					SoundManagerScript.PlaySound("attack");
+					FindObjectOfType<SoundManagerScript> ().PlaySound ("Attack");
 				}
 				if (delta > 0.6f) {
 					attack3.enabled = false;
@@ -270,7 +260,7 @@ public class PlayerController	 : MonoBehaviour {
 					attack3.enabled = false;
 					attack4.enabled = true;
 					anim.SetTrigger("Launcher");
-					SoundManagerScript.PlaySound("attack");
+					FindObjectOfType<SoundManagerScript> ().PlaySound ("Attack");
 				}
 				yield return null;
 			}
@@ -282,7 +272,7 @@ public class PlayerController	 : MonoBehaviour {
 		}
 		if (Input.GetKeyUp (KeyCode.I) && !inComboAttack && !grounded) {
 			anim.SetTrigger ("Jump Attack");
-			SoundManagerScript.PlaySound("attack");
+			FindObjectOfType<SoundManagerScript> ().PlaySound ("Attack");
 			jumpAttack.enabled = true; 
 		}
 		jumpAttack.enabled = false; 
@@ -326,36 +316,31 @@ public class PlayerController	 : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.gameObject.CompareTag("eAttack")){
 			anim.SetTrigger("Hurt");
-			SoundManagerScript.PlaySound("playerHit");
+			FindObjectOfType<SoundManagerScript> ().PlaySound ("takeDamage");
 			GameObject thePlayer = GameObject.Find ("GE");
 			EnemyController enemycontroller = thePlayer.GetComponent<EnemyController> ();
 			StartCoroutine (blink ());
 			StartCoroutine (waitForHitstun());
 			float d = getDirection (enemycontroller.facingRight);
 			rb2d.AddForce (new Vector2 (rb2d.velocity.x + d*hitForce, rb2d.velocity.y + hitForce));
+			FindObjectOfType<SoundManagerScript> ().PlaySound ("player");
 			healthSlider.value -= 10;
 		}
 		if (other.gameObject.CompareTag("Spike")){
+			FindObjectOfType<SoundManagerScript> ().PlaySound ("takeDamage");
 			healthSlider.value -= 100;
-			//StartCoroutine (death(other));
 		}
 		if (other.gameObject.CompareTag ("Flag")) {
-			level = level + 1;
-			Application.LoadLevel (level);
+			FindObjectOfType<GameManager> ().nextLevel ();
 		}
-		if (other.gameObject.CompareTag ("Shop")) {
-			shopMenu.SetActive (true);
-		}
-
 	}
 	IEnumerator death(){
 		isDead = true;
 		anim.SetTrigger ("Hurt");
 		Instantiate (explosion, playerLocation);
-		SoundManagerScript.PlaySound("playerHit");
+		FindObjectOfType<SoundManagerScript> ().PlaySound ("playerHit");
 		yield return new WaitForSeconds (1);
-		Application.LoadLevel (level);
-		//rb2d.gameObject.SetActive (false);
+		FindObjectOfType<GameManager> ().playDeath ();
 	}
 	IEnumerator waitForHitstun(){
 		inHitStun = true;
@@ -380,7 +365,6 @@ public class PlayerController	 : MonoBehaviour {
 				}
 				yield return null;
 			}
-			//canDash = false;
 		}
 		yield return null;
 	}
@@ -389,7 +373,6 @@ public class PlayerController	 : MonoBehaviour {
 			float delta = 0;
 			while (delta < 0.2f) {
 				delta += Time.deltaTime;
-				//canDash  = true;
 				if (Input.GetKeyDown (KeyCode.A)) {
 					dashing = true;
 					anim.SetTrigger ("Dash");
@@ -402,7 +385,6 @@ public class PlayerController	 : MonoBehaviour {
 				}
 				yield return null;
 			}
-			//canDash = false;
 		}
 		yield return null;
 	}
@@ -415,6 +397,7 @@ public class PlayerController	 : MonoBehaviour {
 	void OnCollisionEnter2D(Collision2D other){
 		if (other.collider.CompareTag("Enemy")) {
 			rb2d.velocity = (new Vector2 (0, 0));
+			FindObjectOfType<SoundManagerScript> ().PlaySound ("takeDamage");
 			float d = getDirection (facingRight);
 			rb2d.AddForce (new Vector2(300f*-d, 300f));
 			healthSlider.value -= 1;
@@ -423,12 +406,13 @@ public class PlayerController	 : MonoBehaviour {
 		}
 		if (other.collider.CompareTag ("Fire Dino")) {
 			healthSlider.value -= 10;
+			FindObjectOfType<SoundManagerScript> ().PlaySound ("takeDamage");
 			anim.SetTrigger ("Hurt");
 			StartCoroutine (blink ());
 		}
 		if (other.collider.CompareTag ("RepairKit")) {
-			rKits += 1; 
-			rKitsText.text = rKits.ToString();
+			FindObjectOfType<GameManager>().increaseRkits ();
+
 		}
 	}
 	float getDirection(bool direction){
@@ -439,5 +423,8 @@ public class PlayerController	 : MonoBehaviour {
 			s = 1.0f;
 		}
 		return -s;
+	}
+	public void endLevel(){
+		
 	}
 }

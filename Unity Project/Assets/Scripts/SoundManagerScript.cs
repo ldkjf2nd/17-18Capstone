@@ -3,59 +3,83 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour {
-
-	public static AudioClip playerHitSound, jumpSound, enemyDeathSound, rangeAttackSound, attackSound, walkSound;
-	static AudioSource audioSrc;
-	public AudioClip otherClip;
-
-	// Use this for initialization
-	void Start () {
-		playerHitSound = Resources.Load<AudioClip> ("playerHitSound");
-		jumpSound = Resources.Load<AudioClip> ("jumpSound");
-		enemyDeathSound = Resources.Load<AudioClip> ("enemyDeathSound");
-		rangeAttackSound = Resources.Load<AudioClip> ("RangeAttackSound");
-		attackSound = Resources.Load<AudioClip> ("AttackSound");
-		walkSound = Resources.Load<AudioClip> ("walkSound");
-
-		audioSrc = GetComponent<AudioSource> ();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		if (!audioSrc.isPlaying)
-		{
-			audioSrc.clip = otherClip;
-			audioSrc.Play();
-		}
-		
-	}
-
-	public static void PlaySound(string clip)
+	public AudioClip[] sounds;
+	public AudioClip[] bgm; 
+	public AudioSource soundSource;
+	public AudioSource bgmSource;
+	public void PlaySound(string clip)
 	{
 		switch (clip) {
 		case "playerHit":
-			audioSrc.PlayOneShot (playerHitSound);
+			soundSource.PlayOneShot (sounds[0]);
 			break;
 
 		case "jump":
-			audioSrc.PlayOneShot (jumpSound);
+			soundSource.PlayOneShot (sounds[1]);
 			break;
 
 		case "enemyDeath":
-			audioSrc.PlayOneShot (enemyDeathSound);
+			soundSource.PlayOneShot (sounds[2]);
 			break;
 
 		case "rangeAttack":
-			audioSrc.PlayOneShot (rangeAttackSound);
+			soundSource.PlayOneShot (sounds[3]);
 			break;
 
 		case "attack":
-			audioSrc.PlayOneShot (attackSound);
+			soundSource.PlayOneShot (sounds[4]);
 			break;
 
 		case "walk":
-			audioSrc.PlayOneShot (walkSound);
+			soundSource.PlayOneShot (sounds[5]);
 			break;
+		case "bossLand":
+			soundSource.PlayOneShot (sounds [6]);
+			break;
+		case "dash":
+			soundSource.PlayOneShot (sounds [7]);
+			break;
+		case "explosion":
+			soundSource.PlayOneShot (sounds [8]);
+			break;
+		case "fireShot":
+			soundSource.PlayOneShot (sounds [9]);
+			break;
+		case "itemCollection":
+			soundSource.PlayOneShot (sounds [10]);
+		break;
+		case "takeDamage":
+			soundSource.PlayOneShot (sounds [11]);
+		break;
+		case "error":
+		soundSource.PlayOneShot (sounds [12]);
+		break;
+		case "openDoor":
+		soundSource.PlayOneShot (sounds [13]);
+		break;
+		case "nextDialogue":
+		soundSource.PlayOneShot (sounds [14]);
+		break;
+		case "repair":
+		soundSource.PlayOneShot (sounds [15]);
+		break;
+	}
+
+	}
+	public void PlayBGM(string clip)
+	{
+		switch (clip) {
+		case "level1":
+			bgmSource.PlayOneShot (bgm[0]);
+			break;
+
+		case "level1Boss":
+			bgmSource.PlayOneShot (bgm[1]);
+			break;
+
 		}
+	}
+	public void stopMusic(){
+		bgmSource.Stop ();
 	}
 }

@@ -66,6 +66,7 @@ public class fireDinoController : MonoBehaviour {
 		wallSequence = new string[]{ "jumpToWall", "wallFire Attack", "flame Charge" };
 		rb2d.simulated = false; 
 		anim.SetTrigger ("WallHug");
+
 	}
 	void Update(){
 		if (BossTrigger.bossStart) {
@@ -112,7 +113,6 @@ public class fireDinoController : MonoBehaviour {
 				if (!facingRight) {
 					flip ();
 				}
-				//bossFireAttack ();
 			}
 			if (playercontroller2.rb2d.position.x < rb2d.position.x && !inHitStun && onGround && !inChargeAttack) {
 				if (facingRight) {
@@ -132,14 +132,17 @@ public class fireDinoController : MonoBehaviour {
 	}
 	void flameCharge(float d){
 		anim.SetTrigger ("Fire Charge");
+		FindObjectOfType<SoundManagerScript> ().PlaySound ("fireShot");
 		rb2d.velocity = new Vector2 (15*d, 0f);
 	}
 	void bossFireAttack(){
 		anim.SetTrigger ("Attack");	
+		FindObjectOfType<SoundManagerScript> ().PlaySound ("fireShot");
 		Instantiate (bullet, rb2d.transform);
 	}
 	void wallFireAttack(){
 		anim.SetTrigger ("WallAttack");	
+		FindObjectOfType<SoundManagerScript> ().PlaySound ("fireShot");
 		Instantiate (homingShot, rb2d.transform);
 	}
 
@@ -165,19 +168,6 @@ public class fireDinoController : MonoBehaviour {
 				StartCoroutine (death ());
 			}
 		}
-
-		if (coll.gameObject.CompareTag("WallHug")){
-			
-		}
-
-		if (coll.gameObject.CompareTag ("Attack2") || coll.gameObject.CompareTag ("Attack3")) {
-		}
-		if (coll.gameObject.CompareTag ("Launcher")) {
-		}
-
-		if (coll.gameObject.CompareTag ("Jump Attack")) {
-
-		}
 	}
 	void OnCollisionEnter2D(Collision2D other){
 		if (other.gameObject.CompareTag ("Wall") || other.gameObject.CompareTag("Player") && inChargeAttack) {
@@ -196,7 +186,9 @@ public class fireDinoController : MonoBehaviour {
 		anim.SetTrigger ("Death");
 		Instantiate (explosion, rb2d.transform);
 		healthHUD.SetActive (false);
-		yield return new WaitForSeconds (2);
+		yield return new WaitForSeconds (3);
+		FindObjectOfType<GameManager> ().resetRespawn ();
+		FindObjectOfType<GameManager> ().nextLevel ();
 		rb2d.gameObject.SetActive (false);
 		inDeath = false;
 	}

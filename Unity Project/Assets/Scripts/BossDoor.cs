@@ -18,7 +18,9 @@ public class BossDoor : MonoBehaviour {
 	}
 	void OnCollisionEnter2D(Collision2D other){
 		if (other.collider.CompareTag("Player")) {
+			FindObjectOfType<SoundManagerScript > ().PlaySound ("openDoor");
 			isOpen = true;
+			FindObjectOfType<GameManager>().setRespawn (new Vector3 (146.74f,4.7f,-3f));
 		}
 	}
 }

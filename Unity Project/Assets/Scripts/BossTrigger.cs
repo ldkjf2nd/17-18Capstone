@@ -20,6 +20,7 @@ public class BossTrigger : MonoBehaviour {
 		if (isOpen) {
 			bossDoor.MovePosition (transform.position + new Vector3 (0, 1, 0) * 5 * Time.deltaTime);
 			player.position = Vector3.MoveTowards (player.position, position, 10 * Time.deltaTime);
+			FindObjectOfType<GameManager> ().stopPlayerControls ();
 			if (player.position.x >= position.x-0.5 && player.position.y >= position.y) {
 				isOpen = false;
 				bossIntro = true;
@@ -31,7 +32,10 @@ public class BossTrigger : MonoBehaviour {
 	}
 	void OnCollisionEnter2D(Collision2D other){
 		if (other.gameObject.CompareTag ("Player")) {
+			FindObjectOfType<SoundManagerScript > ().PlaySound ("openDoor");
+			FindObjectOfType<SoundManagerScript>().stopMusic ();
 			isOpen = true;
+			FindObjectOfType<GameManager> ().setRespawn (new Vector3(191.4f, 32.9f, -3f));
 		}
 	}
 	public void TriggerDialogue(){

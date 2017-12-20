@@ -35,16 +35,16 @@ public class RollingController : MonoBehaviour {
 				flip ();
 			}
 			//bossFireAttack ();
-			bossJumpAttack (1f);
+			JumpAttack (1f);
 		}
 		if (playercontroller2.rb2d.position.x < rb2d.position.x && onGround && delta < 10 && deltaY < 5 ) {
 			if (facingRight) {
 				flip ();
 			}
-			bossJumpAttack (-1f);
+			JumpAttack (-1f);
 		}
 	}
-	public void bossJumpAttack(float direction){
+	public void JumpAttack(float direction){
 		rb2d.velocity = (new Vector2 (0, 0));
 		rb2d.AddForce(new Vector2(horizontalForce*direction, jumpForce));
 	}
@@ -57,16 +57,16 @@ public class RollingController : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D coll){
 		if (coll.gameObject.CompareTag ("Attack")) {
-			
 			health -= 25;
 			if (health <= 0) {
-				PlayerController.scrap += 12;
+				FindObjectOfType<GameManager> ().increaseScrap (12);
 				StartCoroutine (destroy ());
 			}
 		}
 	}
 	IEnumerator destroy(){
 		Instantiate (explosion, rb2d.transform);
+		FindObjectOfType<SoundManagerScript> ().PlaySound ("enemyDeath");
 		yield  return new WaitForSeconds(0.5f);
 		rb2d.gameObject.SetActive (false);
 	}

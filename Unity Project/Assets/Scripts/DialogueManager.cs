@@ -17,6 +17,8 @@ public class DialogueManager : MonoBehaviour {
 			GameObject boss = GameObject.Find ("fireDino");
 			fireDinoController fireDinoController = boss.GetComponent<fireDinoController> ();
 			fireDinoController.anim.SetTrigger ("WallAttack");
+			FindObjectOfType <SoundManagerScript> ().PlaySound ("nextDialogue");
+
 		}
 	} 
 	void Start () {
@@ -43,6 +45,8 @@ public class DialogueManager : MonoBehaviour {
 	}
 	void EndDialogue(){
 		inDialogue = false;
+		FindObjectOfType<GameManager> ().startPlayerControls ();
+		FindObjectOfType<SoundManagerScript> ().PlayBGM ("level1Boss");
 		dialogueCanvas.SetActive (false); 
 		BossTrigger.bossIntro = false;
 		BossTrigger.bossStart = true;

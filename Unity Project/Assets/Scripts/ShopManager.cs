@@ -6,18 +6,18 @@ public class ShopManager : MonoBehaviour {
 	public void buyItem(Item item){
 		GameObject thePlayer2 = GameObject.Find ("GW");
 		PlayerController playercontroller = thePlayer2.GetComponent<PlayerController> ();
-
-		if (PlayerController.scrap - item.cost < 0) {
-			print ("no money");
+		if (GameManager.scrap - item.cost < 0) {
+			FindObjectOfType<SoundManagerScript> ().PlaySound ("error");
 		} else {
-			PlayerController.scrap = PlayerController.scrap - item.cost;
+			GameManager.scrap = GameManager.scrap - item.cost;
+			FindObjectOfType<SoundManagerScript> ().PlaySound ("itemCollection");
 			item.model.SetActive(false);
 			item.costText.enabled =  false;
 			if (item.type == "def") {
 				PlayerController.def += 1;
 			}
 			if (item.type == "r") {
-				playercontroller.rKits += 1;
+				GameManager.rKits += 1;
 			}
 			if (item.type == "dmg") {
 				PlayerController.dmgUp += 1;

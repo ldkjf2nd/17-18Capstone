@@ -28,22 +28,13 @@ public class Shoot : MonoBehaviour {
 		}
 
 		this.gameObject.transform.SetParent (bulletHolder);
-		//rb2d.MovePosition (player.position);
-		//startTime = Time.time;
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-
 		Destroy (this.gameObject, 1);
-		/*
-		currentTime = Time.time;
-		print (startTime);
-		if (currentTime > startTime + 5f) {
-			print ("hi");
-			Destroy (this);
-		} */
 	}
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.CompareTag ("Enemy") || other.CompareTag("Fire Dino") ||	other.CompareTag("Wall") ) {
