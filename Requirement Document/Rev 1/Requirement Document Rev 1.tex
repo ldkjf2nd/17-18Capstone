@@ -19,7 +19,7 @@
 \begin{document}
 	\begin{center}
         \vspace*{1cm}
-        \textbf{\Large Requirement Documentation - Revision 0}
+        \textbf{\Large Requirement Documentation - Revision 1}
         \vspace{0.5cm}
         \textbf{\Large  \\Mech-APEX Zero}
         \vspace{1cm}
@@ -30,7 +30,7 @@
         Professor: Dr. Jacques Carette\\
         Team Name: Chicken and Sausages\\
         Course: Software Engineering 4GP6\\
-        Date: September 26, 2017
+        Date: February 11, 2018
         \end{flushright}
     \end{center}
 	\newpage
@@ -110,7 +110,6 @@
 	\subsection{Relevant Facts}
 
 	\begin{itemize}
-	    \item The game will follow the standard RPG progression where the player starts with the barebones necessary to complete the initial levels and will be rewarded with better armor/weapons/upgrades as they progress. The player can also scavenge for better loot.
 	    \item As with most games that utilize combos; combos that do more damage will require more keys to be pressed.
 	\end{itemize}
 	\subsection{Assumptions}
@@ -137,7 +136,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 
 	\includegraphics[width=0.8\textwidth]{product-boundary.png} \\
 
-	The focus will be to complete the fighting mechanic, various character sprite movesets, level design, and Story. Implementing elements of RPG should not be worked on at this time, when the core mechanics are not functional. Features such as combo meter, score system, achievements, and unlockables should be be focused on at later dates if enough development time is available.
+	The focus will be to complete the fighting mechanic, various character sprite movesets, level design, and Story.
 	\subsection{Product Use Case (PUC) Table}
 
 	\renewcommand{\arraystretch}{2.5}
@@ -148,8 +147,8 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 			\multicolumn{1}{l|}{\cellcolor[HTML]{C0C0C0}PUC No.}      & \multicolumn{1}{l|}{\cellcolor[HTML]{C0C0C0}PUC Name} & \multicolumn{1}{l|}{\cellcolor[HTML]{C0C0C0}Actor(s)} & \multicolumn{1}{l|}{\cellcolor[HTML]{C0C0C0}Input/Output}                            \\ \hline
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{1}}  & \multicolumn{1}{l|}{Moving in game}                   & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), x-axis position vector(IN/OUT)}                   \\ \hline
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{2}}  & \multicolumn{1}{l|}{Jumping in game}                  & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{KeyInput(IN), y-axis position vector(IN/OUT)}                    \\ \hline
-			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{3}}  & \multicolumn{1}{l|}{Interacting with items}           & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), success Boolean(OUT)}                             \\ \hline
-			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{4}}  & \multicolumn{1}{l|}{Viewing Player and Gear Status}   & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), Player information(OUT)}                          \\ \hline
+			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{3}}  & \multicolumn{1}{l|}{Interacting with items}           & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{collision Boolean(IN), success Boolean(OUT)}                             \\ \hline
+			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{4}}  & \multicolumn{1}{l|}{Viewing Player and Status}   & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), Player information(OUT)}                          \\ \hline
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{5}}  & \multicolumn{1}{l|}{Viewing Items}                    & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), items menu(OUT)}                                  \\ \hline
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{6}}  & \multicolumn{1}{l|}{Performing a melee Attack}        & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), character sprite Int,(OUT)}                       \\ \hline
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{7}}  & \multicolumn{1}{l|}{Performing a ranged Attack}       & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), character sprite Int,(OUT)}                       \\ \hline
@@ -172,10 +171,10 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 				>{\columncolor[HTML]{C0C0C0}}l lll}
 			\hline
 			\multicolumn{1}{l|}{\cellcolor[HTML]{C0C0C0}PUC No.}      & \multicolumn{1}{l|}{\cellcolor[HTML]{C0C0C0}PUC Name} & \multicolumn{1}{l|}{\cellcolor[HTML]{C0C0C0}Actor(s)} & \multicolumn{1}{l|}{\cellcolor[HTML]{C0C0C0}Input/Output}                            \\ \hline
-			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{19}} & \multicolumn{1}{l|}{Interacting with Gundam Gear}     & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), success Boolean(OUT)}                             \\ \hline
+			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{19}} & \multicolumn{1}{l|}{Interacting with upgrades}     & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{collision Boolean(IN), success Boolean(OUT)}                             \\ \hline
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{20}} & \multicolumn{1}{l|}{View level objectives}            & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), current Objectives(OUT)}                          \\ \hline
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{21}} & \multicolumn{1}{l|}{Entering a new Environment}       & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{2d velocity vector(IN), 2d position vector(OUT)}                 \\ \hline
-			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{22}} & \multicolumn{1}{l|}{Viewing achievements}             & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), Achievement Menu(OUT)}                            \\ \hline
+			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{22}} & \multicolumn{1}{l|}{Viewing Progress}             & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), Achievement Menu(OUT)}                            \\ \hline
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{23}} & \multicolumn{1}{l|}{Exit game}                        & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN)}                                                   \\ \hline
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{24}} & \multicolumn{1}{l|}{Selecting new playable character} & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), success Message(OUT)}                             \\ \hline
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{25}} & \multicolumn{1}{l|}{Displaying the Game Settings}     & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), current game
@@ -183,7 +182,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{26}} & \multicolumn{1}{l|}{Changing the Game Settings}       & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN),
 				current game settings(OUT)} \\ \hline
 			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{27}} & \multicolumn{1}{l|}{Moving the Camera}                & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{2D position vector(IN/OUT)}                                      \\ \hline
-			\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}\textbf{28}} & \multicolumn{1}{l|}{Interacting with Gundam Maintenance}                & \multicolumn{1}{l|}{Player}                           & \multicolumn{1}{l|}{Key Input(IN), Gear upgrading Menu(OUT)}                                      \\ \hline
+
 
 		\end{tabular}
 	\end{table}
@@ -251,12 +250,12 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
 			\hline
-			\textbf{PUC No.4}      & \cellcolor[HTML]{C0C0C0}\textbf{Event: Viewing Player and Gear Status}                                                                                                                                                                                                                                     \\ \hline
+			\textbf{PUC No.4}      & \cellcolor[HTML]{C0C0C0}\textbf{Event: Viewing Player and Status}                                                                                                                                                                                                                                     \\ \hline
 			\textbf{Trigger}       &The player presses the button to open the status menu.                                                                                                                                                                                                                        \\ \hline
 			\textbf{Preconditions} & The player is in control of their avatar; Player is in the game world                                                                                                                                                                                                                      \\ \hline
 			\textbf{Procedure} & \begin{tabular}[c]{@{}l@{}}
-				1.Display the current status of the player and their gear. Clearly labelling all \\information
-				the player needs (current health, ammo count, gundam status etc.)
+				1.Display the current status of the player. Clearly labelling all \\information
+				the player needs (current health, boost meter, gundam status etc.)
 
 			\end{tabular} \\ \hline
 			\textbf{Outcome}       &The players can see the current status of their character and all the gear they have equipped.       \\ \hline
@@ -498,16 +497,16 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
 			\hline
-			\textbf{PUC No.19}      & \cellcolor[HTML]{C0C0C0}\textbf{Event: Interacting with Gundam Gear } \\ \hline
-			\textbf{Trigger}       &Player hits a button mapped to interact with gundum gear  \\ \hline
+			\textbf{PUC No.19}      & \cellcolor[HTML]{C0C0C0}\textbf{Event: Interacting with upgrade item } \\ \hline
+			\textbf{Trigger}       &Player moves towards item  \\ \hline
 			\textbf{Preconditions} &The player is in control of their character; Located in the game world.  \\ \hline
 			\textbf{Procedure} &
 			\begin{tabular}[c]{@{}l@{}}
-				1. Determine the if the gear is within the player’s range\\
-				2. Get in the gear and play gear transformation animation.
+				1. Determine the if the item is within the player’s range\\
+				2. Increase relevant status as upgrade
 
 			\end{tabular} \\ \hline
-			\textbf{Outcome}       &The main character is replaced with a new sprite    \\ \hline
+			\textbf{Outcome}       &The main character status numbers increase    \\ \hline
 		\end{tabular}
 	\end{table}
 
@@ -552,13 +551,12 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 		\begin{tabular}{|
 				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
 			\hline
-			\textbf{PUC No.22}      & \cellcolor[HTML]{C0C0C0}\textbf{Event: Viewing Achievements} \\ \hline
-			\textbf{Trigger}       &    The player hits a button while highlighting “View Achievements” in the “Main Menu” \\ \hline
+			\textbf{PUC No.22}      & \cellcolor[HTML]{C0C0C0}\textbf{Event: Viewing Progress} \\ \hline
+			\textbf{Trigger}       &    The player hits a button while highlighting “View Progress” in the “Main Menu” \\ \hline
 			\textbf{Preconditions} &   The player is in the “Main Menu” \\ \hline
 			\textbf{Procedure} & \begin{tabular}[c]{@{}l@{}}
-				1. Get achievement list\\
-				2. Generate achievement list for print\\
-				3. Print achievement list\\
+				1.Get list of levels and list of levels completed\\
+				2. Generate percentage of completion\\
 
 
 			\end{tabular} \\ \hline
@@ -649,24 +647,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 
 
 
-	\begin{table}[H]
-		\begin{tabular}{|
-				>{\columncolor[HTML]{C0C0C0}}l |p{12cm}|}
-			\hline
-			\textbf{PUC No.28}      & \cellcolor[HTML]{C0C0C0}\textbf{Event: Interacting with Gundam Maintenance} \\ \hline
-			\textbf{Trigger}       &The player hits a button mapped to "Interact"    \\ \hline
-			\textbf{Preconditions} &The player is in control of their character; Located in the game world    \\ \hline
-			\textbf{Procedure} & \begin{tabular}[c]{m{0.80\textwidth}}
-				1. Determine if the player is within the range of the Gundam Maintenance.\\
-				2. A menu list of the gear is on top of the current environment.\\
-				3. Calculate how much scraps would spend on the selected gear for mobile suit upgrade.\\
-				4. New mobile suit preview will be present.
-
-			\end{tabular} \\ \hline
-			\textbf{Outcome}       &The menu of mobile suit upgrade preview will show up    \\ \hline
-		\end{tabular}
-	\end{table}
-
+	
 
 
 
@@ -797,23 +778,11 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 		\end{tabular}
 	\end{table}
 
+	
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
 			ID:010 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
-			PUC:4,5 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
-			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to change the avatar's gears.} \\ \hline
-			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to change avatar's gear as well as view current gear attributes.} \\ \hline
-			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{ \begin{tabular}{m{0.8\textwidth}}The player will be able to change avatar's gear by selecting the item from item's menu\end{tabular}} \\ \hline
-			Satisfaction: 5 & Dissatisfaction: 5 & Priority: Medium \\ \hline
-			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
-		\end{tabular}
-	\end{table}
-
-	\begin{table}[H]
-		\begin{tabular}{|l|l|l|}
-			\hline
-			ID:011 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:4,5 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The system must be able to calculate and display the avatar's current attributes modified by the used items.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{If the system cannot calculate and display the avatar's current attributes including the equipped items, the player will not know what effect has applied on with the new used item.} \\ \hline
@@ -826,7 +795,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:012 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:011 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:6 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to perform a melee attack} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Since the game is based around fighting and defeating enemies, being able to perform a melee attack is crucial to the game. Melee attacks are the backbone of most fighting games.} \\ \hline
@@ -839,7 +808,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:012 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:7 & \multicolumn{2}{l|}{Originator:Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to perform a ranged attack} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Since the game is based around fighting and defeating enemies, being able to perform a ranged attack is crucial to the game. Almost all successful fighting games supplment melee fighting with ranged attacks.} \\ \hline
@@ -852,7 +821,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:014 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:013 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:8 & \multicolumn{2}{l|}{Originator:Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to perform a combo attack} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{One of the main selling points of our game is being able to perform combo moves. It also adds a new dimesnsion to our games fighting elements. It also keeps it fresher for longer for players because learning and executing them takes a while.} \\ \hline
@@ -865,7 +834,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:015 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:014 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:6,7,8 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The system must be able to calculate the damage for obstacles according to the selected attack performed.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{When player performs an attack on obstacles, the system should be able to determine how much damage will be applied against the obstacles. } \\ \hline
@@ -878,7 +847,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:016 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:015 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:10 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to pause the game} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{If the player wishes to do something while in game, they should be able to pause the game. } \\ \hline
@@ -891,7 +860,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:017 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:016 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:11 & \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to resume the paused the game} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{If the game is paused, the player must be able to resume the game. } \\ \hline
@@ -904,7 +873,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
     	\begin{tabular}{|l|l|l|}
     	\hline
-			ID:018 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:017 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 16 & \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player’s avatar enters a level, a fixed amount of enemies are created. If all enemies are destroyed than, the game will load,to the next level.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The player requires a win condition to complete the level. } \\ \hline
@@ -918,7 +887,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:019 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:018 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 18& \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player’s collides with an invisible preset boundary, the game reloads the level and the player’s lives are decremented by one, if the the players lives are less than 0 then the game loads the game over scene.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{To prevent the player from accessing a part of the level and creating a natural boundary for the intended game world.} \\ \hline
@@ -933,10 +902,10 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:020 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:019 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 18 & \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player’s collides with an enemy, the player loses a percentage of their total health depending on what enemy he collided with, if the player’s health reaches below zero than the game reloads the current level and the player’s lives are decremented by one, if the the players lives are less than 0 then the game loads the game over scene.} \\ \hline
-			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{One of the primary fail conditions for the player} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{One of the primary fail conditions for the player. A game needs to have challenges and consequences of failing the challenge. For this game, if the player is not player well enough and takes too much damage, the avater in the context of the game will be destroyed. The player will have to suffer losing the game and start over.} \\ \hline
 			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{Assert if the instance of the object and the player that collided with each other are still within the scene} \\ \hline
 			Satisfaction: 4 & Dissatisfaction: 5 & Priority: Very High \\ \hline
 			Conflicts:N/A & \multicolumn{2}{l|}{Supporting Material:N/A} \\ \hline
@@ -949,7 +918,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:021 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:020 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 18& \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{All characters will have their own health pool.}\\\hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Mobiles suits can only sustain so much damage before they are destroyed, health points are used as a representation of the about of damage  they can take. For game play experience and real life representation, different machines will have various amounts of hp. Boss characters will have the most.} \\ \hline
@@ -963,7 +932,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0022 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0021 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 18& \multicolumn{2}{l|}{Originator:Jonathan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player attacks, he will instantiate a new box collider that covers the range of his attack, if that box collides with another object it loses a percentage  of their health that is scaled by the player’s attack, if their health goes below zero than play the death animation and destroy the object.}\\\hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The rides in a mobile suit as a weapon the player needs a means to destroy the enemy mobile suits} \\ \hline
@@ -977,7 +946,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0023 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0022 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 23& \multicolumn{2}{l|}{Originator:Yanting Zhang} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The system must be able to return the game state to the title screen.}\\\hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{There must be a way for the player to exit the game from within it.} \\ \hline
@@ -994,7 +963,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0024 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0023 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 21 & \multicolumn{2}{l|}{Originator:} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The primary gameplay mode will be Story Mission Mode where players shall complete the each levels of the game. The win condition is to complete all levels.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Primary mode should be able to explore all levels by sequence and present the story.} \\ \hline
@@ -1010,7 +979,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0025 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0024 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 24, 26 & \multicolumn{2}{l|}{Originator: Tian Guo} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{Free Mission Mode allows player can choose which playable character to use and which level to play. After select level is completed, return to mission select screen.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Alternate mode allows the player more freedom.} \\ \hline
@@ -1023,7 +992,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0026 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0025 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 25, 26 & \multicolumn{2}{l|}{Originator: Tian Guo} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{A start menu that allows the player to select Story Mission Mode, Free Mission Mode, Options to change game settings, and Exit to terminate the game.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Game should begin at menu to give player option to choose how to play and options to change settings.} \\ \hline
@@ -1036,7 +1005,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0027 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0026 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:10, 11, 25, 26 & \multicolumn{2}{l|}{Originator: Tian Guo} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{During game missions the player can open the pause menu to pause the game. The menu will consist of “Resume” to unpause the game from pause menu, Options to change certain settings, and Back to Title to return to main menu.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{During missions, player should have the ability to open pause menu if need be. Play can change settings in this screen if adjustments are needed.} \\ \hline
@@ -1049,7 +1018,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0028 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0027 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC:10, 11, 25, 26 & \multicolumn{2}{l|}{Originator: Tian Guo} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{During game missions if the player has paused the game the player will have ability to return to their game session by pressing the “Resume” button. They could also use the "Back to Title" button to return to main menu.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{During missions while the game is paused, the player should have the ability to return to the game.} \\ \hline
@@ -1063,7 +1032,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0029 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0028 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 28 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{Enemies will actively try to harm the player's avatar, potentially even kill the avatar.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Every game needs an element that is thrilling to the player, more often than not this is knowing that fact that their avatar can die. Adding this to our game will make it more marketable and will keep players intrested for longer. This will also make the game more challenging which is appealing to most gamers.} \\ \hline
@@ -1076,7 +1045,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0030 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:029 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 6,7,8 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{As the player progess's in the game and meets newer enemies, the players weapons will do the same amount of damage but the enemies will lose less health then the player's weapon's base damage, as the newer enemies will have better armor.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The game should feel progressively harder, in terms of defeating enemies, to make it more challenging. Rather than weakening the players weapons or giving them worse gear, giving the ememies better armor will give the player a better challenge, all the while not making them feel like they regressed by weakening their weapons.} \\ \hline
@@ -1089,7 +1058,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0031 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:030 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 15 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player defeats the main boss of each level the enemy should give the player feedback that it has been defeated. This feedback includes an empty hp bar and a distinct death animation.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The player needs to know when they have deafted the main boss. A depleting HP bar shows how much more damage the boss can sustain and also when players see they have an alomst empty HP bar on a tough boss fight it gives them the extra push to succeed. A death animation is good feedback to the player that the boss has ben defeated.} \\ \hline
@@ -1103,7 +1072,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0032 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0031 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 16 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player defeats an enemy, the enemy should give the player feedback that it has been defeated. This feedback includes an empty hp bar and a death animation.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The player needs to know when they have deafted an enemy A depleting HP bar shows how much more damage the enemy can sustain. A death animation is good feedback to the player that the enemy has ben defeated.} \\ \hline
@@ -1116,7 +1085,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0033 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0032 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 9 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player defeats an enemy, theres a chance they will drop scrap.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Rewarding the player after defeating an enemy is crucial for them to like the game. Making the player work hard to acieve an objective then not rewarding them is not a good requirement. This also increases the longevity of the game as the player will want to play more to collect more scrap to upgrade their suit.} \\ \hline
@@ -1129,7 +1098,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0034 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0033 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 9 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player defeats a boss, the boss will drop scrap} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Rewarding the player after defeating a boss is crucial for them to like the game. Making the player work hard to acieve an objective then not rewarding them is not a good requirement. This also increases the longevity of the game as the player will want to play more to collect more scrap to upgrade their suit.} \\ \hline
@@ -1142,7 +1111,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0035 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0034 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 3 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{When the player encounters a useable weapon they can pick it up to use it.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{When the player collides with a weapon they can pick it up. This is will keep the combot fresh as they will get to use newer/better weapon. This will also allow them to personalize their avatar as they can use which ever type of wepaon they like.} \\ \hline
@@ -1155,7 +1124,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0036 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0035 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 18 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player's avatar will be able to lose HP, when they get hit by enemies basic attacks.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Giving the enemies a basic attack will help players understand the enemies patterns and help beat them. A completely unpredicatble enemy is very hard to beat and frustrarting the player is not good in many cases.} \\ \hline
@@ -1168,7 +1137,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:0037 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
+			ID:0036 & \multicolumn{2}{l|}{Type:Functional Requirement} \\ \hline
 			PUC: 18 & \multicolumn{2}{l|}{Originator: Saim Zahid} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The player's avatar will be able to lose HP, when they get hit by enemies special attacks.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Giving the enemies a special attack will add a new dimension to the fight. They will be alot stronger and have a new animation. This will make the fight alot more thrilling all the while making it more challenging.} \\ \hline
@@ -1224,7 +1193,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\subsection{Requisite Assets}
 	\subsubsection{Audio}
 	\begin{table}[H]
-		\begin{tabular}{|1|1|1|}
+		\begin{tabular}{|l|l|l|}
 			\hline
 			Asset Type & Number Required & Rationale\\ \hline
 			Character Sound Effect & 2  &\multicolumn{1}{m{0.45\textwidth}|}{Require minimum two sets for playable characters' sound effects} \\ \hline
@@ -1234,7 +1203,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 	\end{table}
 	\subsubsection{Visual}
 	\begin{table}[H]
-		\begin{tabular}{|1|1|1|}
+		\begin{tabular}{|l|l|l|}
 			\hline
 			Asset Type & Number Required & Rationale\\ \hline
 			Main Character Sprite & 2 Sets &\multicolumn{1}{m{0.5\textwidth}|}{Require minimum two sets for playable } \\ \hline
@@ -1303,6 +1272,32 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 		\end{tabular}
 	\end{table}
 
+	\begin{table}[H]
+		\begin{tabular}{|l|l|l|}
+			\hline
+			ID:213 & \multicolumn{2}{l|}{Type:Non-Functional Requirement(Understandability and Politeness)} \\ \hline
+			PUC:1, 2, 6, 7, 8, 14, 15, 16 & \multicolumn{2}{l|}{Originator:Tian Guo} \\ \hline
+			Description & \multicolumn{2}{m{0.85\textwidth}|}{Requirement of how to display tutorial and helpful information} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The game shall have information displayed for player to see.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{Information must be displayed in text boxes clearly readable by the player.} \\ \hline
+			Satisfaction: 5 & Dissatisfaction: 5 & Priority: Very High \\ \hline
+			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
+		\end{tabular}
+	\end{table}
+
+	\begin{table}[H]
+		\begin{tabular}{|l|l|l|}
+			\hline
+			ID:217 & \multicolumn{2}{l|}{Type:Non-Functional Requirement(Understandability and Politeness)} \\ \hline
+			PUC:13, 14, 15 & \multicolumn{2}{l|}{Originator:Tian Guo} \\ \hline
+			Description & \multicolumn{2}{m{0.85\textwidth}|}{Requirement of how to display story and world relevant information} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The game shall have information displayed for player to see.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{Information must be displayed in text boxes clearly readable by the player.} \\ \hline
+			Satisfaction: 5 & Dissatisfaction: 5 & Priority: Very High \\ \hline
+			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
+		\end{tabular}
+	\end{table}
+
 	\subsection{Accessibility Requirements}
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
@@ -1326,7 +1321,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 			PUC: 1, 2, 6, 7, 8  & \multicolumn{2}{l|}{Originator: Tian Guo} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{Requirement of how fast and responsive the game should be.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Due to the game’s genre as a platformer and the focus on combos, the game must feel very responsive. The game’s theme is Sci-Fi and Mecha, therefore the speed does not need to be very fast.} \\ \hline
-			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{Players input must not have large latency. The latency should be below 90ms and unnoticeable to the player.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{Players input must not have large latency. Response from the game should be almost instantaneous.} \\ \hline
 			Satisfaction: 5 & Dissatisfaction: 5 & Priority: Very High \\ \hline
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
 		\end{tabular}
@@ -1379,10 +1374,10 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 		\begin{tabular}{|l|l|l|}
 			\hline
 			ID:210 & \multicolumn{2}{l|}{Type:Non-Functional Requirement(Performance - Capacity)} \\ \hline
-			PUC:1, 17, 21 & \multicolumn{2}{l|}{Originator: Yichneg Chen} \\ \hline
+			PUC: 1, 17, 21 & \multicolumn{2}{l|}{Originator: Yichneg Chen} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The system should be able to create and maintain at most thirty(30) characters in one game level, and at most ten(10) characters on the screen.} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{With too many characters showing up on one screen could dramtically affect game performance.} \\ \hline
-			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{The game must allow thirty characters to show up in one level, ten characters show up while system performance is not affected too much.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{The game must allow fifteen to thirty characters to show up in one level. Fifteen to thirty enemies is a good interval for balance of the level. The player would not feel the level is too difficult or take too long. The upper limit of thirty also would not significantly affect game performance.} \\ \hline
 			Satisfaction: 5 & Dissatisfaction: 5 & Priority: Very High \\ \hline
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
 		\end{tabular}
@@ -1396,7 +1391,7 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 			PUC: All & \multicolumn{2}{l|}{Originator: Yichneg Chen} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The game should be coded in a way where adding new levels are possible without changing previously written code} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The game can be expanded upon later, downloadable content could be added, most importantly code can be reused for different games.} \\ \hline
-			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to play the game for at least fifteen minutes, and the player must be able to explore} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{Game will follow standard coding practices and split in module and scripts to prevent difficulty in replacing a particular part. } \\ \hline
 			Satisfaction: 5 & Dissatisfaction: 5 & Priority: Very High \\ \hline
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
 		\end{tabular}
@@ -1413,19 +1408,6 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{The player must be able to play the game for at least fifteen minutes. And the player must be able to explore} \\ \hline
 			Satisfaction: 5 & Dissatisfaction: 5 & Priority: Very High \\ \hline
 			Conflicts: N/A & \multicolumn{2}{l|}{Supporting Material: N/A} \\ \hline
-		\end{tabular}
-	\end{table}
-
-	\section{Operational and Environmental Requirements}
-	\begin{table}[H]
-		\begin{tabular}{|l|l|l|}
-			\hline
-			ID:213 & \multicolumn{2}{l|}{Type:Operational and Environmental Requirements} \\ \hline
-			PUC: All & \multicolumn{2}{l|}{Originator: Jonathan Yu} \\ \hline
-			Description & \multicolumn{2}{m{0.85\textwidth}|}{The game will not overuse the CPU or overheat the power supply} \\ \hline
-			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{This could cause an explosion potentially harming the user and the surrounding environment.} \\ \hline
-			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{If CPU temperature reaches its threshold the game should terminate.} \\ \hline
-			Priority: Low \\ \hline
 		\end{tabular}
 	\end{table}
 
@@ -1455,12 +1437,10 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 		\end{tabular}
 	\end{table}
 
-	\section{Standard Requirements}
-
 	\begin{table}[H]
 		\begin{tabular}{|l|l|l|}
 			\hline
-			ID:216 & \multicolumn{2}{l|}{Type:Standard Requirements} \\ \hline
+			ID:216 & \multicolumn{2}{l|}{Type:Legal Requirements} \\ \hline
 			PUC: All & \multicolumn{2}{l|}{Originator: Jonahtan Yu} \\ \hline
 			Description & \multicolumn{2}{m{0.85\textwidth}|}{The product shall adhere to the standards set by the professor} \\ \hline
 			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{The professor grades our product, not following standards can affect our grades in a negative way.} \\ \hline
@@ -1469,12 +1449,22 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 		\end{tabular}
 	\end{table}
 
+
+
+	
 	\section{Release Requirements}
-	Desktop: OS: Windows XP SP2+, Mac OS X 10.9+, Ubuntu 12.04+, SteamOS+. \\
-	Graphics card: DX9 (shader model 3.0) or DX11 with feature level 9.3 capabilities\\
-	CPU: SSE2 instruction set support. \\
-	Audio levels: Recommended to be listened to at a comfortable level. \\
-	Lighting levels: Recommended 200 lux or a lit room.
+
+	\begin{table}[H]
+		\begin{tabular}{|l|l|l|}
+			\hline
+			ID:218 & \multicolumn{2}{l|}{Type:Release Requirements} \\ \hline
+			PUC: All & \multicolumn{2}{l|}{Originator: Tian Guo} \\ \hline
+			Description & \multicolumn{2}{m{0.85\textwidth}|}{The product shall shall be able to run on standard hardware requirements on release} \\ \hline
+			Rationale & \multicolumn{2}{m{0.85\textwidth}|}{Product should be able to run on computer hardware that most people has or better.} \\ \hline
+			Fit Criterion & \multicolumn{2}{m{0.85\textwidth}|}{Should be able to run on the following detailed specification as a bare minimum: Desktop: OS: Windows XP SP2+, Mac OS X 10.9+, Ubuntu 12.04+, SteamOS+. Graphics card: DX9 (shader model 3.0) or DX11 with feature level 9.3 capabilities. CPU: SSE2 instruction set support. Audio levels: Recommended to be listened to at a comfortable level.} \\ \hline
+			Priority& \multicolumn{2}{m{0.85\textwidth}|}{Very High} \\ \hline
+		\end{tabular}
+	\end{table}
 
 	\section{Project Schedule}
 	The project will follow the guide up on the courses webpage. The work will be done before the deadline of every task set up by Dr. Carette.\\
@@ -1485,6 +1475,13 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 		\item Button Mapping and Hitbox set up: Nov 17
 		\item Level Design and Platform set up: Nov 24
 		\item Finalization and Testing: Dec 1
+		\item Movement and Combat Mechanic bug fix: Feb 19
+		\item Boost meter mechanic implementation: Feb 19
+		\item General bug fixes from Git Feedback: Feb 23
+		\item New level designs: Mar 2
+		\item New bosses implementation with new levels: Mar 2 
+		\item Verification and Validation Testing: Mar 4
+		\item Final implementation: Mar 25
 	\end{itemize}
 	Schedule subject to change based on progress.
 
@@ -1515,11 +1512,9 @@ The fighting mechanics of Super Smash Bros Franchise will be used to inspire the
 
 	\section{Waiting List}
 	\begin{itemize}
-		\item Expansions to the game introducing new weapons and even more combos.(PUC No.8)
-		\item Achievement list(PUC No.22)
-		\item Mobile suit upgrade and Gundam Maintenance(PUC No.28)
-		\item Interact with Gundam Gear(PUC No.19)
-		\item Use items and items pick up(PUC No.3)
+		\item Expansions to the game introducing even more combos.(PUC No.8)
+		\item Expansion of the number of levels
+		\item Expansion of the number of enemies
 	\end{itemize}
 
 	\section{Ideas for Solution}
