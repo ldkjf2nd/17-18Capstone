@@ -2,36 +2,38 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundManagerScript : MonoBehaviour {
+public class SoundManagerScript : MonoBehaviour
+{
 	public AudioClip[] sounds;
-	public AudioClip[] bgm; 
+	public AudioClip[] bgm;
 	public AudioSource soundSource;
 	public AudioSource bgmSource;
-	public void PlaySound(string clip)
+
+	public void PlaySound (string clip)
 	{
 		switch (clip) {
 		case "playerHit":
-			soundSource.PlayOneShot (sounds[0]);
+			soundSource.PlayOneShot (sounds [0]);
 			break;
 
 		case "jump":
-			soundSource.PlayOneShot (sounds[1]);
+			soundSource.PlayOneShot (sounds [1]);
 			break;
 
 		case "enemyDeath":
-			soundSource.PlayOneShot (sounds[2]);
+			soundSource.PlayOneShot (sounds [2]);
 			break;
 
 		case "rangeAttack":
-			soundSource.PlayOneShot (sounds[3]);
+			soundSource.PlayOneShot (sounds [3]);
 			break;
 
 		case "attack":
-			soundSource.PlayOneShot (sounds[4]);
+			soundSource.PlayOneShot (sounds [4]);
 			break;
 
 		case "walk":
-			soundSource.PlayOneShot (sounds[5]);
+			soundSource.PlayOneShot (sounds [5]);
 			break;
 		case "bossLand":
 			soundSource.PlayOneShot (sounds [6]);
@@ -47,39 +49,42 @@ public class SoundManagerScript : MonoBehaviour {
 			break;
 		case "itemCollection":
 			soundSource.PlayOneShot (sounds [10]);
-		break;
+			break;
 		case "takeDamage":
 			soundSource.PlayOneShot (sounds [11]);
-		break;
+			break;
 		case "error":
-		soundSource.PlayOneShot (sounds [12]);
-		break;
+			soundSource.PlayOneShot (sounds [12]);
+			break;
 		case "openDoor":
-		soundSource.PlayOneShot (sounds [13]);
-		break;
+			soundSource.PlayOneShot (sounds [13]);
+			break;
 		case "nextDialogue":
-		soundSource.PlayOneShot (sounds [14]);
-		break;
+			soundSource.PlayOneShot (sounds [14]);
+			break;
 		case "repair":
-		soundSource.PlayOneShot (sounds [15]);
-		break;
-	}
+			soundSource.PlayOneShot (sounds [15]);
+			break;
+		}
 
 	}
-	public void PlayBGM(string clip)
+
+	public void PlayBGM (string clip)
 	{
 		switch (clip) {
 		case "level1":
-			bgmSource.PlayOneShot (bgm[0]);
+			bgmSource.PlayOneShot (bgm [0]);
 			break;
 
 		case "level1Boss":
-			bgmSource.PlayOneShot (bgm[1]);
+			bgmSource.PlayOneShot (bgm [1]);
 			break;
 
 		}
 	}
-	public void stopMusic(){
+
+	public void stopMusic ()
+	{
 		bgmSource.Stop ();
 	}
 }

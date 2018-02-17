@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shoot : MonoBehaviour {
+public class Shoot : MonoBehaviour
+{
 	//public Rigidbody2D player;
 	private Rigidbody2D rb2d;
 	private Transform tr2d;
@@ -14,7 +15,8 @@ public class Shoot : MonoBehaviour {
 	private GameObject bullet;
 	public Transform bulletHolder;
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		tr2d = GetComponent<Transform> ();	
 		rb2d = GetComponent<Rigidbody2D> ();
 		rb2d.simulated = true;
@@ -32,12 +34,15 @@ public class Shoot : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 
 		Destroy (this.gameObject, 1);
 	}
-	void OnTriggerEnter2D(Collider2D other){
-		if (other.CompareTag ("Enemy") || other.CompareTag("Fire Dino") ||	other.CompareTag("Wall") ) {
+
+	void OnTriggerEnter2D (Collider2D other)
+	{
+		if (other.CompareTag ("Enemy") || other.CompareTag ("Fire Dino") ||	other.CompareTag ("Wall")) {
 			Destroy (this.gameObject);
 		}
 	}

@@ -1,27 +1,28 @@
-﻿	using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.UI;
 
-public class PlayerController	 : MonoBehaviour {
+public class PlayerController	 : MonoBehaviour
+{
 	[HideInInspector] public bool facingRight = true;
-	[HideInInspector] public bool jump = false; 
+	[HideInInspector] public bool jump = false;
 	private Vector2 stop = new Vector2 (0, 0);
 	public float hitForce = 300f;
-	private float moveForce = 300f; 
+	private float moveForce = 300f;
 	private float maxSpeed = 30f;
 	private float jumpForce = 500f;
 	private int direction;
 	public bool attacking = false;
-	public Transform groundCheck; 
+	public Transform groundCheck;
 	public Collider2D attack;
-    public float h; 
+	public float h;
 	private int boostMeter = 100;
 	public static bool grounded = false;
 	public Animator anim;
 	public Rigidbody2D rb2d;
-    public Controller Controller;
+	public Controller Controller;
 	public Vector3 startLocation;
 	public bool inHitStun;
 	public bool canDash = false;
@@ -35,24 +36,26 @@ public class PlayerController	 : MonoBehaviour {
 	public Collider2D attack3;
 	public Collider2D attack4;
 	public Collider2D jumpAttack;
-	public Slider healthSlider; 
+	public Slider healthSlider;
 	public Transform wallCheck;
 	public Transform playerLocation;
 	public bool isDead;
-	public Transform explosion; 
+	public Transform explosion;
 	public Slider energySlider;
 	public GameObject dashFlame;
  
 	public SpriteRenderer sp2d;
 	public BoxCollider2D bc2d;
-	private Vector2 pvSize = new Vector2 (0.33f, 0.96f); // player hitbox 
-	public static int  dmgUp = 0;
-	public static int  def = 0; 
+	private Vector2 pvSize = new Vector2 (0.33f, 0.96f);
+	// player hitbox
+	public static int dmgUp = 0;
+	public static int def = 0;
 
-	public void intilization(){
+	public void intilization ()
+	{
 		sp2d = GetComponent<SpriteRenderer> ();
-		anim = GetComponent<Animator>();
-		rb2d = GetComponent<Rigidbody2D>();
+		anim = GetComponent<Animator> ();
+		rb2d = GetComponent<Rigidbody2D> ();
 		bc2d = GetComponent<BoxCollider2D> ();
 	
 		rb2d.simulated = true;
@@ -60,7 +63,7 @@ public class PlayerController	 : MonoBehaviour {
 		rb2d.mass = 1;
 		rb2d.tag = "Player";
 		inComboAttack = false;
-		dashFlame.SetActive(false);
+		dashFlame.SetActive (false);
 		Application.targetFrameRate = 60;
 		attacking = false;
 		isDead = false;
@@ -72,119 +75,129 @@ public class PlayerController	 : MonoBehaviour {
 	
 	}
 
-	public void playerMoveRight(){
+	public void playerMoveRight ()
+	{
 		if (!attacking) {
 			anim.SetTrigger ("Walk");
 
 		}
 		if (dashing) {
 			rb2d.velocity = (new Vector2 (0, rb2d.velocity.y));
-			rb2d.AddForce (new Vector2 (moveForce*2, 0));
+			rb2d.AddForce (new Vector2 (moveForce * 2, 0));
 			return;
 		}
 		rb2d.velocity = (new Vector2 (0, rb2d.velocity.y));
 		rb2d.AddForce (new Vector2 (moveForce, 0));
 	}
 
-	public void playerMoveLeft(){
-		if (!attacking ) {
+	public void playerMoveLeft ()
+	{
+		if (!attacking) {
 			anim.SetTrigger ("Walk");
 		}
 		if (dashing) {
 			rb2d.velocity = (new Vector2 (0, rb2d.velocity.y));
-			rb2d.AddForce (new Vector2 (-moveForce*2, 0));
+			rb2d.AddForce (new Vector2 (-moveForce * 2, 0));
 			return;
 		}
 		rb2d.velocity = (new Vector2 (0, rb2d.velocity.y));
 		rb2d.AddForce (new Vector2 (-moveForce, 0));
 	}
-	public void playerJump(){
+
+	public void playerJump ()
+	{
 		anim.SetTrigger ("Jump");
 		FindObjectOfType<SoundManagerScript> ().PlaySound ("jump");
-		rb2d.AddForce(new Vector2(0, jumpForce));
+		rb2d.AddForce (new Vector2 (0, jumpForce));
 	}
-	void Awake () {
+
+	void Awake ()
+	{
 		intilization ();
 		StartCoroutine (boost ());
-        Controller = new Controller();
+		Controller = new Controller ();
 	}
-	void flip (){
+
+	void flip ()
+	{
 		rb2d.velocity = new Vector2 (0, rb2d.velocity.y);
 		facingRight = !facingRight; 
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
-	void Update(){
+
+	void Update ()
+	{
 		if (GameManager.playerControls) {
-		playerLocation = rb2d.transform;
-		h = Input.GetAxis ("Horizontal");
-		anim.SetFloat ("Speed", Mathf.Abs (h));
-		grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground"));
+			playerLocation = rb2d.transform;
+			h = Input.GetAxis ("Horizontal");
+			anim.SetFloat ("Speed", Mathf.Abs (h));
+			grounded = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground"));
 
 
-		if (grounded && !inHitStun) {
-			anim.SetTrigger ("Grounded"); 
-		}
-		if (!grounded && !attacking && !inHitStun ) {
-			anim.SetTrigger ("Jump");
-		}
-		if (h > 0 &&!inHitStun && !isDead && !dashing &&!crouching) {
-			if (!facingRight) {
-				flip ();
+			if (grounded && !inHitStun) {
+				anim.SetTrigger ("Grounded"); 
 			}
-			playerMoveRight ();
-		}
-
-		if (h < 0 &&!inHitStun && !isDead && !dashing &&!crouching) {
-			if (facingRight) {
-				flip ();
+			if (!grounded && !attacking && !inHitStun) {
+				anim.SetTrigger ("Jump");
 			}
-			playerMoveLeft ();
-		}
+			if (h > 0 && !inHitStun && !isDead && !dashing && !crouching) {
+				if (!facingRight) {
+					flip ();
+				}
+				playerMoveRight ();
+			}
 
-		if (h == 0 &&!inHitStun && !isDead) {
-			anim.SetTrigger ("Idle");
-			rb2d.velocity = new Vector2 (0, rb2d.velocity.y);
-		}
+			if (h < 0 && !inHitStun && !isDead && !dashing && !crouching) {
+				if (facingRight) {
+					flip ();
+				}
+				playerMoveLeft ();
+			}
 
-		if (Input.GetButtonDown ("Jump") && grounded &&!inHitStun && !isDead) {
-			playerJump ();
-		}
+			if (h == 0 && !inHitStun && !isDead) {
+				anim.SetTrigger ("Idle");
+				rb2d.velocity = new Vector2 (0, rb2d.velocity.y);
+			}
 
-		/* if (Input.GetButton ("Jump") && !grounded &&!inHitStun) {
+			if (Input.GetButtonDown ("Jump") && grounded && !inHitStun && !isDead) {
+				playerJump ();
+			}
+
+			/* if (Input.GetButton ("Jump") && !grounded &&!inHitStun) {
 			if (boostMeter > 0) {
 				boostMeter -= 10;
 				rb2d.AddForce (new Vector2 (rb2d.velocity.x, 20f));
 			}
 		} */
 
-		if (Input.GetKeyDown (KeyCode.J) &&!inHitStun && grounded && !dashing && !attacking) {
-			attacking = true;
-			anim.SetTrigger ("Attack");
-			FindObjectOfType<SoundManagerScript> ().PlaySound ("attack");
-			StartCoroutine (Attack ());
-		}
-		if(Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A) ){
-			anim.SetBool("Dash",false);
-			dashing = false;
-			dashFlame.SetActive(false);
-		}
-		if (dashing && Input.GetKeyDown(KeyCode.J) &&!inHitStun && !attacking && !isDead && grounded){
-			anim.SetTrigger ("DashAttack");
-			dashing = false;
-			float d = getDirection (facingRight);
-			rb2d.velocity = new Vector2 (5*d, 0);
-			StartCoroutine (Attack ());
+			if (Input.GetKeyDown (KeyCode.J) && !inHitStun && grounded && !dashing && !attacking) {
+				attacking = true;
+				anim.SetTrigger ("Attack");
+				FindObjectOfType<SoundManagerScript> ().PlaySound ("attack");
+				StartCoroutine (Attack ());
+			}
+			if (Input.GetKeyUp (KeyCode.D) || Input.GetKeyUp (KeyCode.A)) {
+				anim.SetBool ("Dash", false);
+				dashing = false;
+				dashFlame.SetActive (false);
+			}
+			if (dashing && Input.GetKeyDown (KeyCode.J) && !inHitStun && !attacking && !isDead && grounded) {
+				anim.SetTrigger ("DashAttack");
+				dashing = false;
+				float d = getDirection (facingRight);
+				rb2d.velocity = new Vector2 (5 * d, 0);
+				StartCoroutine (Attack ());
 
-		}
-		if (!grounded && Input.GetKeyDown (KeyCode.J) &&!inHitStun && !attacking && !isDead && !dashing) {
-			attacking = true;
-			anim.SetTrigger ("Jump Attack");
-			FindObjectOfType<SoundManagerScript> ().PlaySound ("attack");
-			StartCoroutine (Attack ());
-		}
-		/*
+			}
+			if (!grounded && Input.GetKeyDown (KeyCode.J) && !inHitStun && !attacking && !isDead && !dashing) {
+				attacking = true;
+				anim.SetTrigger ("Jump Attack");
+				FindObjectOfType<SoundManagerScript> ().PlaySound ("attack");
+				StartCoroutine (Attack ());
+			}
+			/*
 		if (grounded && !inHitStun && Input.GetKeyDown (KeyCode.U)) {
 			anim.SetTrigger ("Punch");
 			SoundManagerScript.PlaySound("attack");
@@ -197,43 +210,47 @@ public class PlayerController	 : MonoBehaviour {
 			anim.SetTrigger ("Stab");
 			SoundManagerScript.PlaySound("attack");
 		} */
-		if (grounded && !inHitStun && Input.GetKeyDown (KeyCode.S) && !dashing) {
-			crouching = true;
-			anim.SetBool("Crouch",true);
-			bc2d.size = new Vector2(0.33f, 0.55f);
-		}
-		if (!inHitStun && Input.GetKeyUp  (KeyCode.S)) {
-			anim.SetBool("Crouch",false);
-			crouching = false;
-			bc2d.size = pvSize;
-		}
-		if (!inHitStun && Input.GetKeyUp (KeyCode.O) && energySlider.value > 1) {
-			anim.SetTrigger ("Shoot");
-			FindObjectOfType<SoundManagerScript> ().PlaySound ("rangeAttack");
-			fire ();
-		}
-		if (healthSlider.value <= 0 && !isDead) {
-			StartCoroutine (death());
-		}
-		if (Input.GetKeyDown (KeyCode.Q)&& GameManager.rKits > 0) {
+			if (grounded && !inHitStun && Input.GetKeyDown (KeyCode.S) && !dashing) {
+				crouching = true;
+				anim.SetBool ("Crouch", true);
+				bc2d.size = new Vector2 (0.33f, 0.55f);
+			}
+			if (!inHitStun && Input.GetKeyUp (KeyCode.S)) {
+				anim.SetBool ("Crouch", false);
+				crouching = false;
+				bc2d.size = pvSize;
+			}
+			if (!inHitStun && Input.GetKeyUp (KeyCode.O) && energySlider.value > 1) {
+				anim.SetTrigger ("Shoot");
+				FindObjectOfType<SoundManagerScript> ().PlaySound ("rangeAttack");
+				fire ();
+			}
+			if (healthSlider.value <= 0 && !isDead) {
+				StartCoroutine (death ());
+			}
+			if (Input.GetKeyDown (KeyCode.Q) && GameManager.rKits > 0) {
 				GameManager.rKits -= 1;
 				FindObjectOfType<SoundManagerScript> ().PlaySound ("repair");
 				healthSlider.value = 100;
-		}
+			}
 
-		StartCoroutine (doubleDashRight ());
-		StartCoroutine (doubleDashLeft ());
-		StartCoroutine (backDash ());
-		StartCoroutine (comboAttack());
+			StartCoroutine (doubleDashRight ());
+			StartCoroutine (doubleDashLeft ());
+			StartCoroutine (backDash ());
+			StartCoroutine (comboAttack ());
 		}
 
 	}
-	void fire(){
+
+	void fire ()
+	{
 		energySlider.value -= 1;
 		Instantiate (bullet, playerLocation);
 	}
-	IEnumerator comboAttack(){ 
-		if (Input.GetKeyDown (KeyCode.I) && !inComboAttack && grounded &&!inHitStun && !attacking && !isDead) {
+
+	IEnumerator comboAttack ()
+	{ 
+		if (Input.GetKeyDown (KeyCode.I) && !inComboAttack && grounded && !inHitStun && !attacking && !isDead) {
 			inComboAttack = true;
 			bool inAttack2 = false; 
 			float delta = 0;
@@ -259,7 +276,7 @@ public class PlayerController	 : MonoBehaviour {
 					inAttack2 = false;
 					attack3.enabled = false;
 					attack4.enabled = true;
-					anim.SetTrigger("Launcher");
+					anim.SetTrigger ("Launcher");
 					FindObjectOfType<SoundManagerScript> ().PlaySound ("Attack");
 				}
 				yield return null;
@@ -279,17 +296,18 @@ public class PlayerController	 : MonoBehaviour {
 		yield return null;
 	}
 
-	IEnumerator backDash(){
-		if (Input.GetButtonDown("Backdash")&&!inHitStun &&!attacking &&!isDead ){
+	IEnumerator backDash ()
+	{
+		if (Input.GetButtonDown ("Backdash") && !inHitStun && !attacking && !isDead) {
 			float delta = 0;
 			backdashing = true; 
 			float d = getDirection (facingRight);
-			anim.SetTrigger("Backdash");
-			while(delta < 0.3f){
+			anim.SetTrigger ("Backdash");
+			while (delta < 0.3f) {
 				delta += Time.deltaTime;
 				float translation = Time.deltaTime * 10;
-				rb2d.MovePosition(rb2d.position + -d*dashVelocity*translation);
-			yield return null;
+				rb2d.MovePosition (rb2d.position + -d * dashVelocity * translation);
+				yield return null;
 			}
 			backdashing = false; 
 		}
@@ -297,36 +315,37 @@ public class PlayerController	 : MonoBehaviour {
 	}
 
 			
-	IEnumerator boost()
+	IEnumerator boost ()
 	{
 		while (boostMeter < 100) {
 			boostMeter += 10;
 			yield return new WaitForSeconds (1);
 		}
-	} 
+	}
 
-    IEnumerator Attack()
-    {
-        attack.enabled = true;
-        yield return new WaitForSeconds(0.5f);
-        attack.enabled = false;
+	IEnumerator Attack ()
+	{
+		attack.enabled = true;
+		yield return new WaitForSeconds (0.5f);
+		attack.enabled = false;
 		attacking = false;
-    }
-		
-	void OnTriggerEnter2D(Collider2D other){
-		if (other.gameObject.CompareTag("eAttack")){
-			anim.SetTrigger("Hurt");
+	}
+
+	void OnTriggerEnter2D (Collider2D other)
+	{
+		if (other.gameObject.CompareTag ("eAttack")) {
+			anim.SetTrigger ("Hurt");
 			FindObjectOfType<SoundManagerScript> ().PlaySound ("takeDamage");
 			GameObject thePlayer = GameObject.Find ("GE");
 			EnemyController enemycontroller = thePlayer.GetComponent<EnemyController> ();
 			StartCoroutine (blink ());
-			StartCoroutine (waitForHitstun());
+			StartCoroutine (waitForHitstun ());
 			float d = getDirection (enemycontroller.facingRight);
-			rb2d.AddForce (new Vector2 (rb2d.velocity.x + d*hitForce, rb2d.velocity.y + hitForce));
+			rb2d.AddForce (new Vector2 (rb2d.velocity.x + d * hitForce, rb2d.velocity.y + hitForce));
 			FindObjectOfType<SoundManagerScript> ().PlaySound ("player");
 			healthSlider.value -= 10;
 		}
-		if (other.gameObject.CompareTag("Spike")){
+		if (other.gameObject.CompareTag ("Spike")) {
 			FindObjectOfType<SoundManagerScript> ().PlaySound ("takeDamage");
 			healthSlider.value -= 100;
 		}
@@ -334,7 +353,9 @@ public class PlayerController	 : MonoBehaviour {
 			FindObjectOfType<GameManager> ().nextLevel ();
 		}
 	}
-	IEnumerator death(){
+
+	IEnumerator death ()
+	{
 		isDead = true;
 		anim.SetTrigger ("Hurt");
 		Instantiate (explosion, playerLocation);
@@ -342,23 +363,27 @@ public class PlayerController	 : MonoBehaviour {
 		yield return new WaitForSeconds (1);
 		FindObjectOfType<GameManager> ().playDeath ();
 	}
-	IEnumerator waitForHitstun(){
+
+	IEnumerator waitForHitstun ()
+	{
 		inHitStun = true;
 		yield return new WaitForSeconds (0.5f);
 		inHitStun = false;
 	}
-	IEnumerator doubleDashRight(){
-		if (Input.GetKeyUp (KeyCode.D) && facingRight && grounded &&!inHitStun &&!attacking &&!isDead &&!crouching) {
+
+	IEnumerator doubleDashRight ()
+	{
+		if (Input.GetKeyUp (KeyCode.D) && facingRight && grounded && !inHitStun && !attacking && !isDead && !crouching) {
 			float delta = 0;
 			while (delta < 0.2f) {
 				delta += Time.deltaTime;
 				//canDash  = true;
 				if (Input.GetKeyDown (KeyCode.D)) {
 					dashing = true;
-					dashFlame.SetActive(true);
-					anim.SetBool ("Dash",true);
-					rb2d.AddForce (new Vector2 (moveForce*2, 0));
-					if(Input.GetKeyUp(KeyCode.D)){
+					dashFlame.SetActive (true);
+					anim.SetBool ("Dash", true);
+					rb2d.AddForce (new Vector2 (moveForce * 2, 0));
+					if (Input.GetKeyUp (KeyCode.D)) {
 						dashing = false;
 					}
 				
@@ -368,17 +393,19 @@ public class PlayerController	 : MonoBehaviour {
 		}
 		yield return null;
 	}
-	IEnumerator doubleDashLeft(){
-		if (Input.GetKeyUp (KeyCode.A) && !facingRight && grounded &&!inHitStun &&!attacking &&!isDead &&!crouching) {
+
+	IEnumerator doubleDashLeft ()
+	{
+		if (Input.GetKeyUp (KeyCode.A) && !facingRight && grounded && !inHitStun && !attacking && !isDead && !crouching) {
 			float delta = 0;
 			while (delta < 0.2f) {
 				delta += Time.deltaTime;
 				if (Input.GetKeyDown (KeyCode.A)) {
 					dashing = true;
 					anim.SetTrigger ("Dash");
-					dashFlame.SetActive(true);
-					rb2d.AddForce (new Vector2 (-moveForce*2, 0));
-					if(Input.GetKeyUp(KeyCode.D)){
+					dashFlame.SetActive (true);
+					rb2d.AddForce (new Vector2 (-moveForce * 2, 0));
+					if (Input.GetKeyUp (KeyCode.D)) {
 						dashing = false;
 					}
 
@@ -388,18 +415,21 @@ public class PlayerController	 : MonoBehaviour {
 		}
 		yield return null;
 	}
-	IEnumerator blink(){
+
+	IEnumerator blink ()
+	{
 		sp2d.color = Color.red;
 		yield return new WaitForSeconds (0.2f);
 		sp2d.color = Color.white;
 	}
 
-	void OnCollisionEnter2D(Collision2D other){
-		if (other.collider.CompareTag("Enemy")) {
+	void OnCollisionEnter2D (Collision2D other)
+	{
+		if (other.collider.CompareTag ("Enemy")) {
 			rb2d.velocity = (new Vector2 (0, 0));
 			FindObjectOfType<SoundManagerScript> ().PlaySound ("takeDamage");
 			float d = getDirection (facingRight);
-			rb2d.AddForce (new Vector2(300f*-d, 300f));
+			rb2d.AddForce (new Vector2 (300f * -d, 300f));
 			healthSlider.value -= 1;
 			anim.SetTrigger ("Hurt");
 			StartCoroutine (blink ());
@@ -411,11 +441,13 @@ public class PlayerController	 : MonoBehaviour {
 			StartCoroutine (blink ());
 		}
 		if (other.collider.CompareTag ("RepairKit")) {
-			FindObjectOfType<GameManager>().increaseRkits ();
+			FindObjectOfType<GameManager> ().increaseRkits ();
 
 		}
 	}
-	float getDirection(bool direction){
+
+	float getDirection (bool direction)
+	{
 		float s;
 		if (direction) {
 			s = -1.0f;
@@ -424,7 +456,9 @@ public class PlayerController	 : MonoBehaviour {
 		}
 		return -s;
 	}
-	public void endLevel(){
+
+	public void endLevel ()
+	{
 		
 	}
 }

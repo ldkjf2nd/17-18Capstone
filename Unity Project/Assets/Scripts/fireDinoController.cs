@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class fireDinoController : MonoBehaviour {
+public class fireDinoController : MonoBehaviour
+{
 	private Rigidbody2D rb2d;
 	public Animator anim;
 	private float jumpForce = 7500f;
@@ -20,7 +21,7 @@ public class fireDinoController : MonoBehaviour {
 	public float deltaY;
 	public Animator fire;
 	public Slider healthSlider;
-	public GameObject healthHUD; 
+	public GameObject healthHUD;
 	public SpriteRenderer sp2d;
 	public BoxCollider2D[] hurtBox;
 	public bool canShoot;
@@ -45,7 +46,8 @@ public class fireDinoController : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		rb2d = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();	
 		sp2d = GetComponent<SpriteRenderer> ();
@@ -56,7 +58,7 @@ public class fireDinoController : MonoBehaviour {
 		hurtBox [1].size = new Vector2 (0.41f, 0.09f);
 		hurtBox [2].offset = new Vector2 (-0.15f, 0.18f);
 		hurtBox [2].size = new Vector2 (0.49f, 0.21f);
-		lastPosition = new Vector3(0f,0f,0f);
+		lastPosition = new Vector3 (0f, 0f, 0f);
 		seqDone = false;
 		onWall = false;
 		t = Time.deltaTime;
@@ -68,7 +70,9 @@ public class fireDinoController : MonoBehaviour {
 		anim.SetTrigger ("WallHug");
 
 	}
-	void Update(){
+
+	void Update ()
+	{
 		if (BossTrigger.bossStart) {
 			onGround = Physics2D.Linecast (transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground"));
 			GameObject thePlayer2 = GameObject.Find ("GW");
@@ -81,15 +85,15 @@ public class fireDinoController : MonoBehaviour {
 				StartCoroutine (bossIntro ());
 			}
 			if (wallStage < 3) {
-				if (wallSequence [wallStage % 3] == "jumpToWall" && healthSlider.value < 50 && !jumpingToWall && !wallAttacking && !inWallCharge && !inIntro ) {
+				if (wallSequence [wallStage % 3] == "jumpToWall" && healthSlider.value < 50 && !jumpingToWall && !wallAttacking && !inWallCharge && !inIntro) {
 					StartCoroutine (jumpToWall ());
 					wallStage++;
 				}
-				if (wallSequence [wallStage % 3] == "wallFire Attack" && onWall && !wallAttacking && !inWallCharge  && !inIntro && !inFireBallAttack) {
+				if (wallSequence [wallStage % 3] == "wallFire Attack" && onWall && !wallAttacking && !inWallCharge && !inIntro && !inFireBallAttack) {
 					StartCoroutine (wallAttack ());
 					wallStage++;
 				}
-				if (wallSequence [wallStage % 3] == "flame Charge" && onWall && !wallAttacking && !inWallCharge  && !inIntro && !inFireBallAttack) {
+				if (wallSequence [wallStage % 3] == "flame Charge" && onWall && !wallAttacking && !inWallCharge && !inIntro && !inFireBallAttack) {
 					StartCoroutine (wallCharge ());
 					wallStage++;
 				}
@@ -130,33 +134,44 @@ public class fireDinoController : MonoBehaviour {
 			}
 		}
 	}
-	void flameCharge(float d){
+
+	void flameCharge (float d)
+	{
 		anim.SetTrigger ("Fire Charge");
 		FindObjectOfType<SoundManagerScript> ().PlaySound ("fireShot");
-		rb2d.velocity = new Vector2 (15*d, 0f);
+		rb2d.velocity = new Vector2 (15 * d, 0f);
 	}
-	void bossFireAttack(){
+
+	void bossFireAttack ()
+	{
 		anim.SetTrigger ("Attack");	
 		FindObjectOfType<SoundManagerScript> ().PlaySound ("fireShot");
 		Instantiate (bullet, rb2d.transform);
 	}
-	void wallFireAttack(){
+
+	void wallFireAttack ()
+	{
 		anim.SetTrigger ("WallAttack");	
 		FindObjectOfType<SoundManagerScript> ().PlaySound ("fireShot");
 		Instantiate (homingShot, rb2d.transform);
 	}
 
-	public void bossJumpAttack(float direction){
+	public void bossJumpAttack (float direction)
+	{
 		rb2d.velocity = (new Vector2 (0, 0));
-		rb2d.AddForce(new Vector2(horizontalForce*direction, jumpForce));
+		rb2d.AddForce (new Vector2 (horizontalForce * direction, jumpForce));
 	}
-	void flip (){
-			facingRight = !facingRight; 
-			Vector3 theScale = transform.localScale; //teScale is temporary variable
-			theScale.x *= -1;
-			transform.localScale = theScale;
+
+	void flip ()
+	{
+		facingRight = !facingRight; 
+		Vector3 theScale = transform.localScale; //teScale is temporary variable
+		theScale.x *= -1;
+		transform.localScale = theScale;
 	}
-	void OnTriggerEnter2D(Collider2D coll){
+
+	void OnTriggerEnter2D (Collider2D coll)
+	{
 		if (coll.gameObject.CompareTag ("Attack")) {
 			healthSlider.value -= 1;
 			GameObject thePlayer2 = GameObject.Find ("GW");
@@ -169,19 +184,25 @@ public class fireDinoController : MonoBehaviour {
 			}
 		}
 	}
-	void OnCollisionEnter2D(Collision2D other){
-		if (other.gameObject.CompareTag ("Wall") || other.gameObject.CompareTag("Player") && inChargeAttack) {
+
+	void OnCollisionEnter2D (Collision2D other)
+	{
+		if (other.gameObject.CompareTag ("Wall") || other.gameObject.CompareTag ("Player") && inChargeAttack) {
 			anim.SetTrigger ("Idle");
 			rb2d.velocity = new Vector2 (0, 0);
 		}
 		
 	}
-	IEnumerator blink(){
+
+	IEnumerator blink ()
+	{
 		sp2d.color = Color.red;
 		yield return new WaitForSeconds (0.2f);
 		sp2d.color = Color.white;
 	}
-	IEnumerator death(){
+
+	IEnumerator death ()
+	{
 		inDeath = true; 
 		anim.SetTrigger ("Death");
 		Instantiate (explosion, rb2d.transform);
@@ -192,7 +213,9 @@ public class fireDinoController : MonoBehaviour {
 		rb2d.gameObject.SetActive (false);
 		inDeath = false;
 	}
-	void setGroundHitBox(){
+
+	void setGroundHitBox ()
+	{
 		hurtBox [0].offset = new Vector2 (0f, -0.08f);
 		hurtBox [0].size = new Vector2 (0.46f, 0.4f);
 		hurtBox [1].offset = new Vector2 (-0.38f, 0.04f);
@@ -200,13 +223,16 @@ public class fireDinoController : MonoBehaviour {
 		hurtBox [2].offset = new Vector2 (-0.15f, 0.18f);
 		hurtBox [2].size = new Vector2 (0.49f, 0.21f);
 	}
-	void setJumpHitBox(){
+
+	void setJumpHitBox ()
+	{
 		hurtBox [0].offset = new Vector2 (0.21f, 0.04f);
 		hurtBox [1].offset = new Vector2 (-0.32f, 0.38f);
 		hurtBox [2].offset = new Vector2 (0.14f, 0.34f);
 	}
 
-	IEnumerator jumpAttack(){
+	IEnumerator jumpAttack ()
+	{
 		inJumpAttack = true;
 		for (int i = 0; i < 3; i++) {
 			float d = getDirection (facingRight);
@@ -216,15 +242,17 @@ public class fireDinoController : MonoBehaviour {
 		inJumpAttack = false;
 	}
 
-	IEnumerator chargeAttack(){
+	IEnumerator chargeAttack ()
+	{
 		inChargeAttack = true;
 		float d = getDirection (facingRight);
 		flameCharge (d);
 		yield return new WaitForSeconds (5f); 
 		inChargeAttack = false;
 	}
-		
-	IEnumerator tripleFlameShot(){
+
+	IEnumerator tripleFlameShot ()
+	{
 		inFireBallAttack = true;
 		for (int i = 0; i < 3; i++) {
 			bossFireAttack ();
@@ -232,37 +260,42 @@ public class fireDinoController : MonoBehaviour {
 		}
 		inFireBallAttack = false;
 	}
-	IEnumerator wallAttack(){
-			wallAttacking = true;
-			for (int i = 0; i < 6; i++) {
-				wallFireAttack ();
-				yield return new WaitForSeconds (1f); 
-			}
-			wallAttacking = false;
+
+	IEnumerator wallAttack ()
+	{
+		wallAttacking = true;
+		for (int i = 0; i < 6; i++) {
+			wallFireAttack ();
+			yield return new WaitForSeconds (1f); 
 		}
-	IEnumerator jumpToWall(){	
+		wallAttacking = false;
+	}
+
+	IEnumerator jumpToWall ()
+	{	
 		jumpingToWall = true;
-		while(rb2d.simulated){
+		while (rb2d.simulated) {
 			transform.position = Vector3.MoveTowards (transform.position, new Vector3 (226.9f, 30f, -5f), 10 * Time.deltaTime);
 			if (transform.position.x > 225f && transform.position.y > 29f) {
 				transform.localScale = new Vector3 (7f, 7f, 1f);
 				facingRight = false;
-				anim.SetTrigger("WallHug");
+				anim.SetTrigger ("WallHug");
 				rb2d.simulated = false;
 				onWall = true;
-		}
-		yield return null;
-		jumpingToWall = false;
+			}
+			yield return null;
+			jumpingToWall = false;
 		}
 		
 	}
 
-	IEnumerator wallCharge(){
+	IEnumerator wallCharge ()
+	{
 		inWallCharge = true;
 		anim.SetTrigger ("WallJumpAttack");
 		rb2d.simulated = true;
 		float step = 10 * Time.deltaTime;
-		while(deltaY > 1f) {
+		while (deltaY > 1f) {
 			GameObject thePlayer2 = GameObject.Find ("GW");
 			PlayerController playercontroller2 = thePlayer2.GetComponent<PlayerController> ();
 			lastPosition = playercontroller2.transform.position;
@@ -275,7 +308,9 @@ public class fireDinoController : MonoBehaviour {
 		onWall = false;	
 		
 	}
-	IEnumerator bossIntro(){
+
+	IEnumerator bossIntro ()
+	{
 		inIntro = true;
 		rb2d.simulated = true;
 		transform.position = Vector3.MoveTowards (transform.position, new Vector3 (216.9f, 42f, -5f), 100 * Time.deltaTime);
@@ -284,8 +319,9 @@ public class fireDinoController : MonoBehaviour {
 		doneIntro = true;
 		inIntro = false;	
 	}
-		
-	float getDirection(bool direction){
+
+	float getDirection (bool direction)
+	{
 		if (direction) {
 			return 1f;
 		} else {
