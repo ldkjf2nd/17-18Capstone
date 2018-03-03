@@ -2,16 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class shopTrigger : MonoBehaviour {
-	public GameObject shopMenu; 
+public class shopTrigger : MonoBehaviour
+{
+	public GameObject shopMenu;
 	public Rigidbody2D rb2d;
-	public float deltaY; 
-	public float delta; 
+	public float deltaY;
+	public float delta;
 
-	void Start(){
-		rb2d = GetComponent<Rigidbody2D>();
+	void Start ()
+	{
+		rb2d = GetComponent<Rigidbody2D> ();
 	}
-	void Update(){
+
+	void Update ()
+	{
 		GameObject thePlayer2 = GameObject.Find ("GW");
 		PlayerController playercontroller2 = thePlayer2.GetComponent<PlayerController> ();
 		deltaY = Mathf.Abs (playercontroller2.rb2d.position.y - rb2d.position.y);

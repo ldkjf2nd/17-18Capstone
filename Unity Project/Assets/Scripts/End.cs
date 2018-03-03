@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class End : MonoBehaviour {
+public class End : MonoBehaviour
+{
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		
 	}
 	// Update is called once per frame
-	void Update () {
-		if (Input.GetKeyDown(KeyCode.Space)){
+	void Update ()
+	{
+		if (Input.GetKeyDown (KeyCode.Space)) {
 			Application.LoadLevel (0);
 		}
 	}

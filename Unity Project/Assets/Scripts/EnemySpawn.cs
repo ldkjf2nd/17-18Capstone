@@ -2,30 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemySpawn {
-public int enemyType;
-public int enemyAmount;
+public class EnemySpawn
+{
+	public int enemyType;
+	public int enemyAmount;
 
-    public EnemySpawn()
-    {
+	public EnemySpawn ()
+	{
         
-    }
+	}
 
-    public void spawnEnemy(int a, int b){
-        enemyType = a;
-        enemyAmount = b;
-    }
+	public void spawnEnemy (int a, int b)
+	{
+		enemyType = a;
+		enemyAmount = b;
+	}
 
-    public int enemySpawned(){
-    return enemyAmount;
-}
+	public int enemySpawned ()
+	{
+		return enemyAmount;
+	}
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 		
 	}
 }

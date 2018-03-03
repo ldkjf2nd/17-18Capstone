@@ -3,24 +3,28 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Collections;
 
-public class DragPanel : MonoBehaviour, IPointerDownHandler, IDragHandler {
+public class DragPanel : MonoBehaviour, IPointerDownHandler, IDragHandler
+{
 	
 	private Vector2 originalLocalPointerPosition;
 	private Vector3 originalPanelLocalPosition;
 	private RectTransform panelRectTransform;
 	private RectTransform parentRectTransform;
-	
-	void Awake () {
+
+	void Awake ()
+	{
 		panelRectTransform = transform.parent as RectTransform;
 		parentRectTransform = panelRectTransform.parent as RectTransform;
 	}
-	
-	public void OnPointerDown (PointerEventData data) {
+
+	public void OnPointerDown (PointerEventData data)
+	{
 		originalPanelLocalPosition = panelRectTransform.localPosition;
 		RectTransformUtility.ScreenPointToLocalPointInRectangle (parentRectTransform, data.position, data.pressEventCamera, out originalLocalPointerPosition);
 	}
-	
-	public void OnDrag (PointerEventData data) {
+
+	public void OnDrag (PointerEventData data)
+	{
 		if (panelRectTransform == null || parentRectTransform == null)
 			return;
 		
@@ -34,7 +38,8 @@ public class DragPanel : MonoBehaviour, IPointerDownHandler, IDragHandler {
 	}
 	
 	// Clamp panel to area of parent
-	void ClampToWindow () {
+	void ClampToWindow ()
+	{
 		Vector3 pos = panelRectTransform.localPosition;
 		
 		Vector3 minPosition = parentRectTransform.rect.min - panelRectTransform.rect.min;

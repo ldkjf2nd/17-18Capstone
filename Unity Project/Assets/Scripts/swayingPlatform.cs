@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class swayingPlatform : MonoBehaviour {
+public class swayingPlatform : MonoBehaviour
+{
 	private Vector2 startPosition;
 	private Vector2 newPosition;
 
@@ -11,16 +12,16 @@ public class swayingPlatform : MonoBehaviour {
 	public int maxDistanceY = 2;
 
 
-	void Start()
+	void Start ()
 	{
 		startPosition = transform.position;
 		newPosition = transform.position;
 	}
 
-	void Update()
+	void Update ()
 	{
-		newPosition.x = startPosition.x + (maxDistanceX * Mathf.Sin(Time.time * speed));
-		newPosition.y = startPosition.y + (maxDistanceY * Mathf.Sin(Time.time * speed));
+		newPosition.x = startPosition.x + (maxDistanceX * Mathf.Sin (Time.time * speed));
+		newPosition.y = startPosition.y + (maxDistanceY * Mathf.Sin (Time.time * speed));
 
 		transform.position = newPosition;
 	}

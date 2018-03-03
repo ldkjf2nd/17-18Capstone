@@ -2,15 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RepairKit : MonoBehaviour {
+public class RepairKit : MonoBehaviour
+{
 	public Rigidbody2D rb2d;
-	void Start () {
+
+	void Start ()
+	{
 		rb2d = GetComponent<Rigidbody2D> ();
 	}
-	void Update () {
+
+	void Update ()
+	{
 		
 	}
-	void OnCollisionEnter2D(Collision2D other){
+
+	void OnCollisionEnter2D (Collision2D other)
+	{
 		if (other.gameObject.CompareTag ("Player")) {
 			FindObjectOfType<SoundManagerScript> ().PlaySound ("itemCollection");
 			rb2d.gameObject.SetActive (false);
