@@ -1,0 +1,60 @@
+\select@language {USenglish}
+\contentsline {section}{\numberline {1}Purpose of the Project}{3}{section.1}
+\contentsline {subsection}{\numberline {a}Background}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {b}Goals}{3}{subsection.1.2}
+\contentsline {section}{\numberline {2}Stakeholders}{4}{section.2}
+\contentsline {subsection}{\numberline {a}Development Team}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {b}Instructor}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {c}Game Critics}{4}{subsection.2.3}
+\contentsline {subsection}{\numberline {d}User Participation}{4}{subsection.2.4}
+\contentsline {section}{\numberline {3}Mandated Constraints}{4}{section.3}
+\contentsline {subsection}{\numberline {a}Solution Constraints}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {b}Implementation Environment of the Current System}{4}{subsection.3.2}
+\contentsline {subsection}{\numberline {c}Partner or Collaborative Applications}{5}{subsection.3.3}
+\contentsline {subsection}{\numberline {d}Off-the-Shelf Software}{5}{subsection.3.4}
+\contentsline {subsection}{\numberline {e}Schedule Constraints}{5}{subsection.3.5}
+\contentsline {subsection}{\numberline {f}Budget Constraints}{5}{subsection.3.6}
+\contentsline {section}{\numberline {4}Naming Conventions and Terminology}{5}{section.4}
+\contentsline {section}{\numberline {5}Relevant Facts and Assumptions}{6}{section.5}
+\contentsline {subsection}{\numberline {a}Relevant Facts}{6}{subsection.5.1}
+\contentsline {subsection}{\numberline {b}Assumptions}{6}{subsection.5.2}
+\contentsline {section}{\numberline {6}The Scope of the Work}{6}{section.6}
+\contentsline {subsection}{\numberline {a}Existing Inspirations}{6}{subsection.6.1}
+\contentsline {subsection}{\numberline {b}Context of the Work}{6}{subsection.6.2}
+\contentsline {section}{\numberline {7}The Scope of the Product}{7}{section.7}
+\contentsline {subsection}{\numberline {a}Product Boundary}{7}{subsection.7.1}
+\contentsline {subsection}{\numberline {b}Product Use Case (PUC) Table}{8}{subsection.7.2}
+\contentsline {subsection}{\numberline {c}Individual Product Use Cases(PUCs)}{10}{subsection.7.3}
+\contentsline {section}{\numberline {8}Functional Requirements}{23}{section.8}
+\contentsline {subsection}{\numberline {a}Core Mechanic}{23}{subsection.8.1}
+\contentsline {subsection}{\numberline {b}Primary Gameplay Mode}{34}{subsection.8.2}
+\contentsline {subsection}{\numberline {c}Alternate Game Modes}{35}{subsection.8.3}
+\contentsline {section}{\numberline {9}Look and Feel Requirements}{42}{section.9}
+\contentsline {subsection}{\numberline {a}Appearance Requirements}{42}{subsection.9.1}
+\contentsline {subsection}{\numberline {b}Style Requirements}{42}{subsection.9.2}
+\contentsline {subsection}{\numberline {c}Requisite Assets}{43}{subsection.9.3}
+\contentsline {subsubsection}{\numberline {c.1}Audio}{43}{subsubsection.9.3.1}
+\contentsline {subsubsection}{\numberline {c.2}Visual}{44}{subsubsection.9.3.2}
+\contentsline {section}{\numberline {10}Usability and Humanity Requirements}{44}{section.10}
+\contentsline {subsection}{\numberline {a}Ease of Use Requirements}{44}{subsection.10.1}
+\contentsline {subsection}{\numberline {b}Personalization Requirements}{45}{subsection.10.2}
+\contentsline {subsection}{\numberline {c}Learning Requirements}{45}{subsection.10.3}
+\contentsline {subsection}{\numberline {d}Understandability and Politeness Requirements}{46}{subsection.10.4}
+\contentsline {subsection}{\numberline {e}Accessibility Requirements}{47}{subsection.10.5}
+\contentsline {section}{\numberline {11}Performance Requirements}{48}{section.11}
+\contentsline {subsection}{\numberline {a}Speed and Latency Requirements}{48}{subsection.11.1}
+\contentsline {subsection}{\numberline {b}Precision or Accuracy Requirements}{48}{subsection.11.2}
+\contentsline {subsection}{\numberline {c}Reliability and Availability Requirements}{49}{subsection.11.3}
+\contentsline {subsection}{\numberline {d}Robustness or Fault Tolerance Requirements}{49}{subsection.11.4}
+\contentsline {subsection}{\numberline {e}Capacity Requirements}{50}{subsection.11.5}
+\contentsline {section}{\numberline {12}Scalability and Extensibility Requirements}{50}{section.12}
+\contentsline {section}{\numberline {13}Longevity Requirements}{51}{section.13}
+\contentsline {section}{\numberline {14}Cultural Requirements}{51}{section.14}
+\contentsline {section}{\numberline {15}Legal Requirements}{52}{section.15}
+\contentsline {section}{\numberline {16}Release Requirements}{53}{section.16}
+\contentsline {section}{\numberline {17}Project Schedule}{53}{section.17}
+\contentsline {section}{\numberline {18}Risks}{54}{section.18}
+\contentsline {section}{\numberline {19}Costs}{54}{section.19}
+\contentsline {section}{\numberline {20}User Documentation and Training}{54}{section.20}
+\contentsline {section}{\numberline {21}Waiting List}{54}{section.21}
+\contentsline {section}{\numberline {22}Ideas for Solution}{54}{section.22}
