@@ -2,19 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeathTrigger : MonoBehaviour {
+public class DeathTrigger : MonoBehaviour
+{
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 		
 	}
 
-	void OnTriggerEnter2D(Collider2D other){
+	void OnTriggerEnter2D (Collider2D other)
+	{
 		if (other.gameObject.CompareTag ("Player"))
 			Application.LoadLevel (Application.loadedLevel);
 		else {
