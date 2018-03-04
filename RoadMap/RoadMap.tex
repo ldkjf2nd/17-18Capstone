@@ -13,10 +13,54 @@ This document contains the road map of changes from revision zero to revision on
 This section contains a list of changes from revision zero to revision one for the High Concept Document.
 
 \subsection*{High Concept Change Explination}
+This section contains a list of changes from revision zero to revision one for the High Concept Document
 
 \subsection*{Requirments Road Map}
+This section contains a list of changes from revision zero to revision one for the Requirements Document.\\\\
+Regarding requirements 213 and 217, these requirements are added later (hense their requirement number) but belong to the Understandability and Politeness section. Therefore they are located after requirement 204. 
+  \begin{enumerate}
+        \item Removed irrelevant Mandated constraints
+        \item Modified PUC 3 Interacting with Items with Boolean as input (was key input)
+        \item Modified PUC 4 Viewing Player and Gear Status to Viewing Player and Status
+        \item Modified PUC 19 Interacting with Gundam Gear to Interacting with upgrades
+        \item Modified PUC 22 Viewing Achievements to Viewing Progress
+        \item Removed PUC 28
+        \item Significantly expanded core mechanic Functional Requirements
+	 \begin{enumerate}
+		\item FR001 and FR002 Requirements for horizontal movement
+		\item FR003 and FR004 Requirements for jump action and gravity
+		\item FR005 Requirement for upgrade item interaction
+		\item FR006, FR007, FR008, FR009, and FR010  Requirements for viewing player status, items, and upgrades
+		\item FR011, FR012, and FR013 Requirements for combat actions
+		\item FR014 Requirement for damage calculation
+		\item FR015 and FR016 Requirements for pausing and unpausing the game
+		\item FR017 Requirement for enemy spawning mechanic
+		\item FR018 Requirement for level boundary
+		\item FR019 and FR020 Requirements for player taking damage and health points
+		\item FR021 Requirement for hitboxes
+		\item FR022 Requirement for returning to Title
+		\item FR023, FR024, and FR025 Requirements for gameplay modes and selection menus
+		\item FR026 and FR027 Requirements for pause menu function and layout
+		\item FR028, FR029, FR030, FR031, FR032, FR033, and FR034 Requirements for enemy behaviour, enemy health scaling, enemy death and rewards
+		\item FR035 and FR036 Requirements for Player death
+	\end{enumerate}
+        \item Added Security Requirements
+        \item Modified Release Requirement to not be as specific and more general
+        \item Added additional risks
+    \end{enumerate}
 
 \subsection*{Requirments Change Explination}
+\begin{itemize}
+		\item Change 1: Addressing feedback for Mandated constraints to only include restrictions imposed on the dev team.
+		\item Change 2: Only interaction is picking up items, implemented as Boolean check of box collision between avater and item.
+		\item Change 3 and 6: Equipment/Gear is removed from the scope for this project
+		\item Change 4: Removal of Gear will remove need to interact with Gear, upgrades however are part of the game. Interacted the same way as other items.
+		\item Change 5: Achievements is removed from the scope for this project, a menu for viewing achievements is not needed. Player can view progress of game such as how many levels are completed out of the total.
+		\item Change 7: Original 8 functional requirements were added upon and expanded to the current 36 to emcompass all necessary actions of the game, and address functions that were missing previously.
+		\item Change 8: Addressing feedback. Requirement was missing from Rev 0.
+		\item Change 9: Hardware requirements were too specific and arbitrary so we generalized it. Also moved to correct location
+		\item Change 10: Modified risk section to indicate priority for implementation and testing.
+	\end{itemize}
 
 \subsection*{Design Document Road Map}
 
