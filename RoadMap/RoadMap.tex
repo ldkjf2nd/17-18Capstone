@@ -1,32 +1,98 @@
 \documentclass[]{article}
-
+\usepackage{geometry}
+\geometry{legalpaper, portrait, margin=1.2in}
 %opening
 \title{Mech Apex Zero Road Map}
-\author{}
+\author{Tian Guo, Saim Zahid, Jonathan Yu, Yicheng Chen, Yanting Zhang }
 
 \begin{document}
 
 \maketitle
-\subsection*{Introduction}
-This document contains the road map of changes from revision zero to revision one for the High Concept Document, Requirement Document and Design Document. It also  contains an explination for the given change.
-\subsection*{High Concept Road Map}
-This section contains a list of changes from revision zero to revision one for the High Concept Document.
+\section*{Introduction}
+This document contains the road map of changes from revision zero to revision one for the High Concept Document, Requirement Document and Design Document. It also  contains a descriptive  explanation for the given changes.
+\section*{High Concept Road Map}
+This section contains a list of changes from revision zero to revision one for the High Concept Document. The change list has been divided up into the sections of the High Concept Document, if a section does not appear in this document than no major changes have been made. The changes have been summarized into points where minor spelling corrections have been omitted to remove clutter. There is a section called New section where new content has been added
+\subsubsection*{Player Motivation}
+\begin{enumerate}
+	\item rewrote the player motivation section where the main focus is on player motivation rather than the features of the game. 
+\end{enumerate}
+\subsubsection*{Unique Selling Points}
+\begin{enumerate}
+	\item Removed bullet: Level and game session does not have to be lengthy. Players can play between breaks
+	\item Removed bullet: Stand out in the current market dominated by competitive multi-player games. Avoids the on-line toxicity.
+	\item Removed bullet: Can be played according to player’s own schedule.
+	\item Removed bullet: It’s a 2D game, so players with 3D sickness or motion sickness can still play this game. And the controls would be easy to learn and play.
+	\item Removed bullet: Flexible class systems that allow the player to experiment with different characters with different combat combo styles and dialogue stories.
+	\item Removed bullet: Multiple playable characters unlocked by beating bosses, players can pick levels they want to start after beating the whole game.
+	\item Removed Bullet:  Achievement system allows player to try to challenge themselves and be competitive.
+	\item Removed Bullet: Collectible items system keeps players interested in exploring the levels. The items offer changes in game play for players to try out.
+	\item Re-phrased all bullets to be clearer, shorter and more concise 
+\end{enumerate}
+\subsubsection*{Features}
+\begin{enumerate}
+	\item Edited the movement system for only two states walking and running.
+	\item Removed multiple mobile suites to be collected 
+	\item Rewrote number 8 and is now number 2 
+	\item Rewrote number 7 and is now number 6	
+	\item Removed number 3 
+	\item Rewrote number 2 and is now number 6
+\end{enumerate}
 
-\subsection*{High Concept Change Explination}
-This section contains a list of changes from revision zero to revision one for the High Concept Document.
+\subsubsection*{New Sections}
+\begin{enumerate}
+	\item Added an Atmosphere sub section
+\end{enumerate}
+\subsubsection*{Design Goals}
+\begin{enumerate}
+	\item added Fairness as a design goal
+\end{enumerate}
 
-\subsection*{Requirments Road Map}
+\section*{High Concept Change Explanation}
+\subsubsection*{Player Motivation}
+\begin{enumerate}
+	\item The original player motivation section focused too much on game features and did not address the player's motivation to play the game
+\end{enumerate}
+\subsubsection*{Unique Selling Points}
+\begin{enumerate}
+	\item Levels and game session have been removed because although it is a feature within in the game it is not a unique selling point as all off-line games have this.
+	\item  have been removed because avoiding online toxicity is a feature to all offline games 
+	\item the bullet had been removed because this feature is universal to all offline games 
+	\item This point is a feature that applies to all games that aren't in VR
+	\item This feature has been removed because the class system is too complicated for our game and doesn't fit in to our game design of being simple and easy to pick up.
+	\item The Achievement system has been removed because doesn't fit within our design goals
+	\item Unique selling points should be phrases that excite customers (or client to fund) into buying our game. They should give a very clear picture on what our game is about and why you should buy it. 
+\end{enumerate}
+
+\subsubsection*{Features}
+\begin{enumerate}
+	\item The game initially had walking, running and dashing but on play test the feeling of running felt too imprecise for the player and was removed for a better game play experience
+	\item Removing multiply mobile suits to be collected is in the interest of time. Creating new aesthetics of characters is time consuming. That time would rather be spent on the creating more levels and polishing the game. 
+	\item There are no longer distinctions between levels. the term "battle level" is just regular levels within the game.
+	\item Reworded and removed features such as 
+	\item 6 directional moves  and 4 directional moves in the air has been removed in favor of two attack key system one of which for range and other for me-lee. This control scheme is more intuitive to the player.
+	\item Stated the feature clearly  and removed unnecessary explanations
+\end{enumerate}
+
+\subsubsection*{New Sections}
+\begin{enumerate}
+	\item Added an Atmosphere sub section because it is a required element of a high concept document that was previously missing. 
+\end{enumerate}
+\subsubsection*{Design Goals}
+\begin{enumerate}
+	\item Fairness is a design philosophy we wish to uphold because we believe it will make the game more fun and more engaging.
+\end{enumerate}
+\section*{Requirements Road Map}
 This section contains a list of changes from revision zero to revision one for the Requirements Document.\\\\
-Regarding requirements 213 and 217, these requirements are added later (hense their requirement number) but belong to the Understandability and Politeness section. Therefore they are located after requirement 204. 
-  \begin{enumerate}
-        \item Removed irrelevant Mandated constraints
-        \item Modified PUC 3 Interacting with Items with Boolean as input (was key input)
-        \item Modified PUC 4 Viewing Player and Gear Status to Viewing Player and Status
-        \item Modified PUC 19 Interacting with Gundam Gear to Interacting with upgrades
-        \item Modified PUC 22 Viewing Achievements to Viewing Progress
-        \item Removed PUC 28
-        \item Significantly expanded core mechanic Functional Requirements
-	 \begin{enumerate}
+Regarding requirements 213 and 217, these requirements are added later (hence their requirement number) but belong to the Understandability and Politeness section. Therefore they are located after requirement 204. 
+\begin{enumerate}
+	\item Removed irrelevant Mandated constraints
+	\item Modified PUC 3 Interacting with Items with Boolean as input (was key input)
+	\item Modified PUC 4 Viewing Player and Gear Status to Viewing Player and Status
+	\item Modified PUC 19 Interacting with Gundam Gear to Interacting with upgrades
+	\item Modified PUC 22 Viewing Achievements to Viewing Progress
+	\item Removed PUC 28
+	\item Significantly expanded core mechanic Functional Requirements
+	\begin{enumerate}
 		\item FR001 and FR002 Requirements for horizontal movement
 		\item FR003 and FR004 Requirements for jump action and gravity
 		\item FR005 Requirement for upgrade item interaction
@@ -44,51 +110,49 @@ Regarding requirements 213 and 217, these requirements are added later (hense th
 		\item FR028, FR029, FR030, FR031, FR032, FR033, and FR034 Requirements for enemy behaviour, enemy health scaling, enemy death and rewards
 		\item FR035 and FR036 Requirements for Player death
 	\end{enumerate}
-        \item Added Security Requirements
-        \item Modified Release Requirement to not be as specific and more general
-        \item Added additional risks
-    \end{enumerate}
+	\item Added Security Requirements
+	\item Modified Release Requirement to not be as specific and more general
+	\item Added additional risks
+\end{enumerate}
 
-\subsection*{Requirments Change Explination}
-This section contains a list of changes from revision zero to revision one for the Requirements.
+\section*{Requirements Change Explanation}
 \begin{itemize}
-		\item Change 1: Addressing feedback for Mandated constraints to only include restrictions imposed on the dev team.
-		\item Change 2: Only interaction is picking up items, implemented as Boolean check of box collision between avater and item.
-		\item Change 3 and 6: Equipment/Gear is removed from the scope for this project
-		\item Change 4: Removal of Gear will remove need to interact with Gear, upgrades however are part of the game. Interacted the same way as other items.
-		\item Change 5: Achievements is removed from the scope for this project, a menu for viewing achievements is not needed. Player can view progress of game such as how many levels are completed out of the total.
-		\item Change 7: Original 8 functional requirements were added upon and expanded to the current 36 to emcompass all necessary actions of the game, and address functions that were missing previously.
-		\item Change 8: Addressing feedback. Requirement was missing from Rev 0.
-		\item Change 9: Hardware requirements were too specific and arbitrary so we generalized it. Also moved to correct location
-		\item Change 10: Modified risk section to indicate priority for implementation and testing.
+	\item Change 1: Addressing feedback for Mandated constraints to only include restrictions imposed on the dev team.
+	\item Change 2: Only interaction is picking up items, implemented as Boolean check of box collision between avater and item.
+	\item Change 3 and 6: Equipment/Gear is removed from the scope for this project
+	\item Change 4: Removal of Gear will remove need to interact with Gear, upgrades however are part of the game. Interacted the same way as other items.
+	\item Change 5: Achievements is removed from the scope for this project, a menu for viewing achievements is not needed. Player can view progress of game such as how many levels are completed out of the total.
+	\item Change 7: Original 8 functional requirements were added upon and expanded to the current 36 to emcompass all necessary actions of the game, and address functions that were missing previously.
+	\item Change 8: Addressing feedback. Requirement was missing from Rev 0.
+	\item Change 9: Hardware requirements were too specific and arbitrary so we generalized it. Also moved to correct location
+	\item Change 10: Modified risk section to indicate priority for implementation and testing.
 \end{itemize}
 
-\subsection*{Design Document Road Map}
+\section*{Design Document Road Map}
 This section contains a list of changes from revision zero to revision one for the Design Document.
- \begin{enumerate}
-        \item Rephrased, fixed spelling, and restructured document
-        \item Added index section
-        \item Added introduction section
-        \item Added boost meter mechanic in movement section as a way to balance the boosting mechanic. Refer to Revision plan for detailed feedback and analysis
-        \item Modified health and items section by reducing RPG elements and introduce simple upgrades and recovery items
-        \item Removal of player gear status screen
-        \item Add camera offset and reworded explaination
-        \item Added combat system damage calculation formula
-        \item Modified item shop and item availability by reducing the selection of items to only upgrades and health pickups (repair kits)
-        \item Added sketch of new level as mock up
-        \item Added background music and sound effect section 
- \end{enumerate}
-\subsection*{Design Document Change Explination}
-This section contains a list of changes from revision zero to revision one for the Requirements.
- \begin{itemize}
-		\item Change 1, 2, and 3: Increase readibility of document and addressing feedback from revision 0.
-		\item Change 4: Boost meter allows player to boost as long as they have positive meter,  as a way to balance the boosting mechanic. Refer to Revision plan for detailed feedback and analysis.
-		\item Change 5: Reduce design elements that are no longer scope of project and requirements and simplify the system to better fit the feel of the game.
-		\item Change 6: Since equipable gears are no longer part of the game, the gear status menu should be removed.
-		\item Change 7: Camera offset when moving helps player to visuall identify the orientation of the in avatar. Rephrased sentences to explain the design better.
-		\item Change 8: Provide more detail of how damage is calculated in the game.
-		\item Change 9: Removed the old gear items that are no longer part of the game.
-		\item Change 10: Provide level mock up that was missing from revision 0 and address feedback. Provide info about level design.
-		\item Change 11: Section was missing from revision 0. Addressing feedback by providing choice of asset used and rationale.
- \end{itemize}
+\begin{enumerate}
+	\item Rephrased, fixed spelling, and restructured document
+	\item Added index section
+	\item Added introduction section
+	\item Added boost meter mechanic in movement section as a way to balance the boosting mechanic. Refer to Revision plan for detailed feedback and analysis
+	\item Modified health and items section by reducing RPG elements and introduce simple upgrades and recovery items
+	\item Removal of player gear status screen
+	\item Add camera offset and reworded explaination
+	\item Added combat system damage calculation formula
+	\item Modified item shop and item availability by reducing the selection of items to only upgrades and health pickups (repair kits)
+	\item Added sketch of new level as mock up
+	\item Added background music and sound effect section 
+\end{enumerate}
+\section*{Design Document Change Explanation}
+\begin{itemize}
+	\item Change 1, 2, and 3: Increase readibility of document and addressing feedback from revision 0.
+	\item Change 4: Boost meter allows player to boost as long as they have positive meter,  as a way to balance the boosting mechanic. Refer to Revision plan for detailed feedback and analysis.
+	\item Change 5: Reduce design elements that are no longer scope of project and requirements and simplify the system to better fit the feel of the game.
+	\item Change 6: Since equipable gears are no longer part of the game, the gear status menu should be removed.
+	\item Change 7: Camera offset when moving helps player to visuall identify the orientation of the in avatar. Rephrased sentences to explain the design better.
+	\item Change 8: Provide more detail of how damage is calculated in the game.
+	\item Change 9: Removed the old gear items that are no longer part of the game.
+	\item Change 10: Provide level mock up that was missing from revision 0 and address feedback. Provide info about level design.
+	\item Change 11: Section was missing from revision 0. Addressing feedback by providing choice of asset used and rationale.
+\end{itemize}
 \end{document}
