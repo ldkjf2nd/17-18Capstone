@@ -105,10 +105,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 681, y: 492}
+  m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 11
+  controlID: 126
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,10 +129,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 681, y: 492}
+  m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 12
+  controlID: 127
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,10 +153,10 @@ MonoBehaviour:
     y: 0
     width: 1370
     height: 947
-  m_MinSize: {x: 406, y: 492}
+  m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 13
+  controlID: 30
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,10 +177,10 @@ MonoBehaviour:
     y: 0
     width: 1370
     height: 373
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 14
+  controlID: 107
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -199,8 +199,8 @@ MonoBehaviour:
     y: 0
     width: 437
     height: 373
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -229,9 +229,10 @@ MonoBehaviour:
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 15}
+  - {fileID: 13}
   - {fileID: 16}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 2
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -257,11 +258,10 @@ MonoBehaviour:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
-  - {fileID: 13}
   - {fileID: 20}
   - {fileID: 21}
   m_Selected: 1
-  m_LastSelected: 0
+  m_LastSelected: 2
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -310,10 +310,11 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 465
-    width: 1368
-    height: 553
+    x: 439
+    y: 92
+    width: 929
+    height: 352
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -322,10 +323,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -684
-    m_HBaseRangeMax: 684
-    m_VBaseRangeMin: -268
-    m_VBaseRangeMax: 268
+    m_HBaseRangeMin: -464.5
+    m_HBaseRangeMax: 464.5
+    m_VBaseRangeMin: -167.5
+    m_VBaseRangeMax: 167.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -342,25 +343,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 1368
-      height: 536
+      width: 929
+      height: 335
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 684, y: 268}
+    m_Translation: {x: 464.5, y: 167.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -684
-      y: -268
-      width: 1368
-      height: 536
+      x: -464.5
+      y: -167.5
+      width: 929
+      height: 335
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1368, y: 553}
+  m_LastWindowPixelSize: {x: 929, y: 352}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -390,11 +391,12 @@ MonoBehaviour:
     y: 92
     width: 435
     height: 352
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4a070000
+    m_SelectedIDs: 4e060000
     m_LastClickedID: 0
-    m_ExpandedIDs: 3c08b7ff5009b7ff8e0ab7ff0812b7ff0c12b7ff4812b7ffcc2db7ff346cb7ff8071b7ff1072b7ff5073b7ffca7ab7ffce7ab7ff0a7bb7ffa400b8ff5aa4b8fffe0cb9fff24fb9ff6c5cb9ff185db9ff565eb9ffd065b9ffd665b9ffde65b9ffa076b9ff4c77b9ff8a78b9ff0480b9ff0a80b9ff1280b9ff00afb9ffe2b6b9ff6adfb9ffd0e5b9ff7ee6b9ffbce7b9ffe0e7b9ffe6e7b9ff18e8b9ff9abdbcff36bebcff74bfbcff00c2bcfff0c2bcfff6c2bcff28c3bcff46f0bffffcf5bfff68fabfff6662c0ffc2c7c6ff2cc8c6ff6ac9c6fff6cbc6ff28ccc6ff2eccc6ff60ccc6ffe8d0c6ff50d1c6ff94d2c6ff24d5c6ff5ad5c6ff64d5c6ff9ad5c6ffce12fdff7413fdffba14fdff4617fdff7817fdff7e17fdffb017fdff6035ffffca35ffff1037ffff9c39ffffce39ffffd439ffff063affff2845ffff9245ffffd846ffff6449ffff9649ffff9c49ffffce49ffffa6fbffff00000000863d0000e6ee00002ab80100fc10060050d208004eed08004e900a00e8ac0b0054060c00
+    m_ExpandedIDs: 0a77feff607ffeff887ffeff7082feff46acfeffe8aefeffceb2feff92e5feff6a00ffff8800fffff802ffff62e3ffff96fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,8 +414,7 @@ MonoBehaviour:
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
-  m_ExpandedScenes:
-  - Transition
+  m_ExpandedScenes: []
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -443,6 +444,7 @@ MonoBehaviour:
     y: 92
     width: 929
     height: 352
+  m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -469,15 +471,16 @@ MonoBehaviour:
     y: 92
     width: 929
     height: 352
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 40480.24479280599
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 152.92856, y: 51.013744, z: -4.8105874}
+    m_Target: {x: 1.3922915, y: 0.6481793, z: -0.035373457}
     speed: 2
-    m_Value: {x: 152.92856, y: 51.013744, z: -4.8105874}
+    m_Value: {x: 1.3922915, y: 0.6481793, z: -0.035373457}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -486,6 +489,7 @@ MonoBehaviour:
     showSkybox: 0
     showFlares: 0
     showImageEffects: 0
+    showParticleSystems: 1
   grid:
     xGrid:
       m_Target: 0
@@ -504,15 +508,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 484.3165
+    m_Target: 6.260989
     speed: 2
-    m_Value: 484.3165
+    m_Value: 6.260989
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.08717229, y: -0.89959055, z: 0.21045254, w: 0.3726226}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -544,6 +548,7 @@ MonoBehaviour:
     y: 465
     width: 1368
     height: 553
+  m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -570,8 +575,9 @@ MonoBehaviour:
     y: 465
     width: 1368
     height: 553
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: dia
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -582,34 +588,33 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/SoundEffects
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 66
   m_LastFolders:
-  - Assets/SoundEffects
+  - Assets/Scripts
   m_LastFoldersGridSize: 66
-  m_LastProjectPath: D:\project\unity\Apex\November24\Chicken and Sausages Capstone
-    Project
+  m_LastProjectPath: C:\Users\tianq\Desktop\Desk\GitRepo\17-18Capstone\Unity Project
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b02700002e2d0000342d0000503200009c32000028330000743300001a340000263c0000ae3c000012480000a6d9010000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: e43e0000
+    m_LastClickedID: 16100
+    m_ExpandedIDs: 00000000042a0000b8350000b2360000e43e00009440000096400000984000009a4000009c40000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scifi Art Demo Pack
-      m_OriginalName: Scifi Art Demo Pack
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 12502
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -623,7 +628,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b02700002e2d00003a2e000006300000d6300000503200009c3200002833000040330000743300001a340000263c0000863c000012480000
+    m_ExpandedIDs: 00000000042a0000b8350000b2360000e43e00009440000096400000984000009a4000009c400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -675,7 +680,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 75}
     m_GridSize: 66
   m_DirectoriesAreaWidth: 532
 --- !u!114 &19
@@ -700,16 +705,214 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 463
+    y: 465
     width: 1368
-    height: 555
-  m_TestTypeToolbarIndex: 0
+    height: 553
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_TestTypeToolbarIndex: 1
   m_PlayModeTestListGUI:
     m_Window: {fileID: 19}
     newResultList:
     - id: '[New Unity Project][suite]'
       name: New Unity Project
       fullName: New Unity Project
+      resultStatus: 2
+      duration: 0.7641522
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+    - id: '[C:/Users/tianq/Desktop/Desk/GitRepo/17-18Capstone/Unity Project/Library/ScriptAssemblies/Assembly-CSharp.dll][suite]'
+      name: Assembly-CSharp.dll
+      fullName: C:/Users/tianq/Desktop/Desk/GitRepo/17-18Capstone/Unity Project/Library/ScriptAssemblies/Assembly-CSharp.dll
+      resultStatus: 2
+      duration: 0.698886
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+    - id: '[Assembly-CSharp][PlayerControllerTest][suite]'
+      name: PlayerControllerTest
+      fullName: PlayerControllerTest
+      resultStatus: 2
+      duration: 0.6667442
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+    - id: '[Assembly-CSharp][PlayerControllerTest.AddPlayerHorizontalMovement]'
+      name: AddPlayerHorizontalMovement
+      fullName: PlayerControllerTest.AddPlayerHorizontalMovement
+      resultStatus: 1
+      duration: 0.028418
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][PlayerControllerTest.AddPlayerHorizontalMovementBoundaryTest]'
+      name: AddPlayerHorizontalMovementBoundaryTest
+      fullName: PlayerControllerTest.AddPlayerHorizontalMovementBoundaryTest
+      resultStatus: 1
+      duration: 0.016652
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][PlayerControllerTest.AddPlayerHorizontalMovementOverSpeedLimitTest]'
+      name: AddPlayerHorizontalMovementOverSpeedLimitTest
+      fullName: PlayerControllerTest.AddPlayerHorizontalMovementOverSpeedLimitTest
+      resultStatus: 1
+      duration: 0.0167202
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][PlayerControllerTest.AddPlayerHorizontalMovementSpeedLimitBoundaryTest]'
+      name: AddPlayerHorizontalMovementSpeedLimitBoundaryTest
+      fullName: PlayerControllerTest.AddPlayerHorizontalMovementSpeedLimitBoundaryTest
+      resultStatus: 1
+      duration: 0.016805
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][PlayerControllerTest.AddPlayerHorizontalMovementSpeedLimitTest]'
+      name: AddPlayerHorizontalMovementSpeedLimitTest
+      fullName: PlayerControllerTest.AddPlayerHorizontalMovementSpeedLimitTest
+      resultStatus: 1
+      duration: 0.0297234
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][PlayerControllerTest.boostJump]'
+      name: boostJump
+      fullName: PlayerControllerTest.boostJump
+      resultStatus: 2
+      duration: 0.0239773
+      messages: 
+      output: 
+      stacktrace: "at PlayerControllerTest.boostJump () [0x00001] in C:\\Users\\tianq\\Desktop\\Desk\\GitRepo\\17-18Capstone\\Unity
+        Project\\Assets\\Scripts\\PlayerControllerTest.cs:149\r\n"
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][PlayerControllerTest.canTripleAtk]'
+      name: canTripleAtk
+      fullName: PlayerControllerTest.canTripleAtk
+      resultStatus: 2
+      duration: 0.038819
+      messages: "  Expected: True\r\n  But was:  False\r\n"
+      output: 
+      stacktrace: "at PlayerControllerTest.canTripleAtk () [0x00018] in C:\\Users\\tianq\\Desktop\\Desk\\GitRepo\\17-18Capstone\\Unity
+        Project\\Assets\\Scripts\\PlayerControllerTest.cs:165\r\n"
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][PlayerControllerTest.characterJumpInitiate]'
+      name: characterJumpInitiate
+      fullName: PlayerControllerTest.characterJumpInitiate
+      resultStatus: 1
+      duration: 0.0182174
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][PlayerControllerTest.checkIfDoubleAttack]'
+      name: checkIfDoubleAttack
+      fullName: PlayerControllerTest.checkIfDoubleAttack
+      resultStatus: 2
+      duration: 0.016851
+      messages: "  Expected: True\r\n  But was:  False\r\n"
+      output: 
+      stacktrace: "at PlayerControllerTest.checkIfDoubleAttack () [0x00018] in C:\\Users\\tianq\\Desktop\\Desk\\GitRepo\\17-18Capstone\\Unity
+        Project\\Assets\\Scripts\\PlayerControllerTest.cs:125\r\n"
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][PlayerControllerTest.dashTest]'
+      name: dashTest
+      fullName: PlayerControllerTest.dashTest
+      resultStatus: 2
+      duration: 0.0168291
+      messages: "  Expected: True\r\n  But was:  False\r\n"
+      output: 
+      stacktrace: "at PlayerControllerTest.dashTest () [0x00017] in C:\\Users\\tianq\\Desktop\\Desk\\GitRepo\\17-18Capstone\\Unity
+        Project\\Assets\\Scripts\\PlayerControllerTest.cs:110\r\n"
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][PlayerControllerTest.isCombo]'
+      name: isCombo
+      fullName: PlayerControllerTest.isCombo
+      resultStatus: 2
+      duration: 0.016817
+      messages: "  Expected: True\r\n  But was:  False\r\n"
+      output: 
+      stacktrace: "at PlayerControllerTest.isCombo () [0x00016] in C:\\Users\\tianq\\Desktop\\Desk\\GitRepo\\17-18Capstone\\Unity
+        Project\\Assets\\Scripts\\PlayerControllerTest.cs:156\r\n"
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][PlayerControllerTest.isDead]'
+      name: isDead
+      fullName: PlayerControllerTest.isDead
+      resultStatus: 1
+      duration: 0.0166627
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][PlayerControllerTest.PlayerFlipInitiate]'
+      name: PlayerFlipInitiate
+      fullName: PlayerControllerTest.PlayerFlipInitiate
+      resultStatus: 1
+      duration: 0.0166922
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][PlayerTest][suite]'
+      name: PlayerTest
+      fullName: PlayerTest
       resultStatus: 0
       duration: 0
       messages: 
@@ -719,13 +922,37 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 1
-    m_ResultText: 
+    - id: '[Assembly-CSharp][PlayerTest.PlayerJumpForceTest]'
+      name: PlayerJumpForceTest
+      fullName: PlayerTest.PlayerJumpForceTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    - id: '[Assembly-CSharp][PlayerTest.PlayerTestSimplePasses]'
+      name: PlayerTestSimplePasses
+      fullName: PlayerTest.PlayerTestSimplePasses
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+    m_ResultText: AddPlayerHorizontalMovement (0.028s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 168a0b1effffff7f
+      m_SelectedIDs: 76c5e44f
+      m_LastClickedID: 1340392822
+      m_ExpandedIDs: 94698689e376710a168a0b1e622f0542a7179964ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -765,11 +992,11 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 1
-    - id: '[D:/project/unity/Apex/November24/Chicken and Sausages Capstone Project/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
+    - id: '[C:/Users/tianq/Desktop/Desk/GitRepo/17-18Capstone/Unity Project/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
       name: Assembly-CSharp-Editor.dll
-      fullName: D:/project/unity/Apex/November24/Chicken and Sausages Capstone Project/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-      resultStatus: 0
-      duration: 0
+      fullName: C:/Users/tianq/Desktop/Desk/GitRepo/17-18Capstone/Unity Project/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+      resultStatus: 1
+      duration: 0.0618115
       messages: 
       output: 
       stacktrace: 
@@ -777,11 +1004,11 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 1
-    - id: '[Assembly-CSharp-Editor][ControllerTest][suite]'
-      name: ControllerTest
-      fullName: ControllerTest
-      resultStatus: 0
-      duration: 0
+    - id: '[Assembly-CSharp-Editor][LogitTests][suite]'
+      name: LogitTests
+      fullName: LogitTests
+      resultStatus: 1
+      duration: 0.0529762
       messages: 
       output: 
       stacktrace: 
@@ -789,11 +1016,11 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 1
-    - id: '[Assembly-CSharp-Editor][ControllerTest.AddPlayerHorizontalMovement]'
-      name: AddPlayerHorizontalMovement
-      fullName: ControllerTest.AddPlayerHorizontalMovement
-      resultStatus: 0
-      duration: 0
+    - id: '[Assembly-CSharp-Editor][LogitTests.AmrOTE2DTest]'
+      name: AmrOTE2DTest
+      fullName: LogitTests.AmrOTE2DTest
+      resultStatus: 1
+      duration: 0.0085642
       messages: 
       output: 
       stacktrace: 
@@ -801,11 +1028,11 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp-Editor][ControllerTest.AddPlayerHorizontalMovementBoundaryTest]'
-      name: AddPlayerHorizontalMovementBoundaryTest
-      fullName: ControllerTest.AddPlayerHorizontalMovementBoundaryTest
-      resultStatus: 0
-      duration: 0
+    - id: '[Assembly-CSharp-Editor][LogitTests.Att0TE2DTest]'
+      name: Att0TE2DTest
+      fullName: LogitTests.Att0TE2DTest
+      resultStatus: 1
+      duration: 0.004099
       messages: 
       output: 
       stacktrace: 
@@ -813,11 +1040,11 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp-Editor][ControllerTest.AddPlayerHorizontalMovementOverSpeedLimitTest]'
-      name: AddPlayerHorizontalMovementOverSpeedLimitTest
-      fullName: ControllerTest.AddPlayerHorizontalMovementOverSpeedLimitTest
-      resultStatus: 0
-      duration: 0
+    - id: '[Assembly-CSharp-Editor][LogitTests.BDFixedUpdateTest]'
+      name: BDFixedUpdateTest
+      fullName: LogitTests.BDFixedUpdateTest
+      resultStatus: 1
+      duration: 0.008542
       messages: 
       output: 
       stacktrace: 
@@ -825,11 +1052,11 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp-Editor][ControllerTest.AddPlayerHorizontalMovementSpeedLimitBoundaryTest]'
-      name: AddPlayerHorizontalMovementSpeedLimitBoundaryTest
-      fullName: ControllerTest.AddPlayerHorizontalMovementSpeedLimitBoundaryTest
-      resultStatus: 0
-      duration: 0
+    - id: '[Assembly-CSharp-Editor][LogitTests.BDOnCollisionEnter2DTest]'
+      name: BDOnCollisionEnter2DTest
+      fullName: LogitTests.BDOnCollisionEnter2DTest
+      resultStatus: 1
+      duration: 0.0040467
       messages: 
       output: 
       stacktrace: 
@@ -837,11 +1064,11 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp-Editor][ControllerTest.AddPlayerHorizontalMovementSpeedLimitTest]'
-      name: AddPlayerHorizontalMovementSpeedLimitTest
-      fullName: ControllerTest.AddPlayerHorizontalMovementSpeedLimitTest
-      resultStatus: 0
-      duration: 0
+    - id: '[Assembly-CSharp-Editor][LogitTests.BTFixedUpdateTest]'
+      name: BTFixedUpdateTest
+      fullName: LogitTests.BTFixedUpdateTest
+      resultStatus: 1
+      duration: 0.0097012
       messages: 
       output: 
       stacktrace: 
@@ -849,11 +1076,11 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp-Editor][ControllerTest.boostJump]'
-      name: boostJump
-      fullName: ControllerTest.boostJump
-      resultStatus: 0
-      duration: 0
+    - id: '[Assembly-CSharp-Editor][LogitTests.cSLateUpdateTest]'
+      name: cSLateUpdateTest
+      fullName: LogitTests.cSLateUpdateTest
+      resultStatus: 1
+      duration: 0.005748
       messages: 
       output: 
       stacktrace: 
@@ -861,11 +1088,11 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp-Editor][ControllerTest.canTripleAtk]'
-      name: canTripleAtk
-      fullName: ControllerTest.canTripleAtk
-      resultStatus: 0
-      duration: 0
+    - id: '[Assembly-CSharp-Editor][LogitTests.DialogueManagerTest]'
+      name: DialogueManagerTest
+      fullName: LogitTests.DialogueManagerTest
+      resultStatus: 1
+      duration: 0.0307783
       messages: 
       output: 
       stacktrace: 
@@ -873,11 +1100,11 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp-Editor][ControllerTest.characterJumpInitiate]'
-      name: characterJumpInitiate
-      fullName: ControllerTest.characterJumpInitiate
-      resultStatus: 0
-      duration: 0
+    - id: '[Assembly-CSharp-Editor][LogitTests.DTOTE2DTest]'
+      name: DTOTE2DTest
+      fullName: LogitTests.DTOTE2DTest
+      resultStatus: 1
+      duration: 0.0197486
       messages: 
       output: 
       stacktrace: 
@@ -885,11 +1112,11 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp-Editor][ControllerTest.checkIfDoubleAttack]'
-      name: checkIfDoubleAttack
-      fullName: ControllerTest.checkIfDoubleAttack
-      resultStatus: 0
-      duration: 0
+    - id: '[Assembly-CSharp-Editor][LogitTests.LogitTestsSimplePasses]'
+      name: LogitTestsSimplePasses
+      fullName: LogitTests.LogitTestsSimplePasses
+      resultStatus: 1
+      duration: 0.0069774
       messages: 
       output: 
       stacktrace: 
@@ -897,11 +1124,11 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp-Editor][ControllerTest.dashTest]'
-      name: dashTest
-      fullName: ControllerTest.dashTest
-      resultStatus: 0
-      duration: 0
+    - id: '[Assembly-CSharp-Editor][LogitTests.LogitTestsWithEnumeratorPasses]'
+      name: LogitTestsWithEnumeratorPasses
+      fullName: LogitTests.LogitTestsWithEnumeratorPasses
+      resultStatus: 1
+      duration: 0.0101564
       messages: 
       output: 
       stacktrace: 
@@ -909,11 +1136,11 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp-Editor][ControllerTest.isCombo]'
-      name: isCombo
-      fullName: ControllerTest.isCombo
-      resultStatus: 0
-      duration: 0
+    - id: '[Assembly-CSharp-Editor][LogitTests.Quit]'
+      name: Quit
+      fullName: LogitTests.Quit
+      resultStatus: 1
+      duration: 0.0047582
       messages: 
       output: 
       stacktrace: 
@@ -921,37 +1148,13 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
-    - id: '[Assembly-CSharp-Editor][ControllerTest.isDead]'
-      name: isDead
-      fullName: ControllerTest.isDead
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][ControllerTest.PlayerFlipInitiate]'
-      name: PlayerFlipInitiate
-      fullName: ControllerTest.PlayerFlipInitiate
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    m_ResultText: New Unity Project (0.000s)
+    m_ResultText: LogitTestsWithEnumeratorPasses (0.010s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 168a0b1e
-      m_LastClickedID: 504072726
-      m_ExpandedIDs: 2c01b78356ed73b7168a0b1effffff7f
+      m_SelectedIDs: 4b276541
+      m_LastClickedID: 1097148235
+      m_ExpandedIDs: 2c01b78356ed73b7168a0b1ef81d0b3b7a61be6bffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -999,32 +1202,13 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 463
+    y: 465
     width: 1368
-    height: 555
-  m_ViewPositions:
-    m_KeySerializationHelper:
-    - {fileID: 1107354043716589988, guid: ba0800ff312a1fd40a1150e885c1276b, type: 2}
-    - {fileID: 1107734424165718266, guid: 9ba69b22d7a4adb4ca177d9e7dd3f0dc, type: 2}
-    - {fileID: 1107668712402065744, guid: d0fed2df75cea2a4a8e99f9a79122885, type: 2}
-    - {fileID: 1107804798846923170, guid: 1f8838be9b6381947af26435c7f63873, type: 2}
-    - {fileID: 1107857471927087494, guid: 93ac1ec73fab6fc488ac3d2b531e8fd0, type: 2}
-    - {fileID: 1107640974637100880, guid: 4ff342191aaebd945bcf2b7763f99b53, type: 2}
-    - {fileID: 1107573159307966442, guid: 03168c9b6eaa0d848ae7e8ecafbee0e1, type: 2}
-    - {fileID: 1107427246544846214, guid: 374b72855a14c444aa2105a6a7b06bc0, type: 2}
-    - {fileID: 1107671344772667080, guid: 9430e5c1577142d4bb02f62ab3b58588, type: 2}
-    - {fileID: 1107852534594161246, guid: 22bec1c376f25624c970cb9555f24475, type: 2}
-    m_ValueSerializationHelper:
-    - {x: 665.00006, y: 310}
-    - {x: 587.00006, y: 162.6}
-    - {x: 746.2001, y: 301}
-    - {x: 718, y: 54.200012}
-    - {x: 353.80002, y: 156.6}
-    - {x: 535, y: 158.40001}
-    - {x: 764.2, y: 295}
-    - {x: 764.2, y: 235}
-    - {x: 764.2, y: 235}
-    - {x: 764.2, y: 235}
+    height: 553
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_ViewTransforms:
+    m_KeySerializationHelper: []
+    m_ValueSerializationHelper: []
   m_PreviewAnimator: {fileID: 0}
   m_AnimatorController: {fileID: 0}
   m_BreadCrumbs: []
@@ -1064,6 +1248,7 @@ MonoBehaviour:
     y: 463
     width: 1535
     height: 555
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_AnimEditor: {fileID: 0}
   m_Locked: 0
 --- !u!114 &22
@@ -1092,6 +1277,7 @@ MonoBehaviour:
     y: 92
     width: 548
     height: 926
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
@@ -1124,6 +1310,7 @@ MonoBehaviour:
     y: 100
     width: 275
     height: 917
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   m_GlobalObjectTypeName: 
   m_RegisteredViewURLs:
