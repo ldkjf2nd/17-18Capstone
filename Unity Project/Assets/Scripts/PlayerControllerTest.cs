@@ -8,6 +8,9 @@ public class PlayerControllerTest
 {
 	//tests for player controller logic
 	Controller controller = new Controller ();
+	bool attackKey;
+	bool rangeKey;
+	bool itemKey;
 
 	[Test]
 	public void AddPlayerHorizontalMovement ()
@@ -169,5 +172,50 @@ public class PlayerControllerTest
 	}
 
 
+	public bool playerAttack ()
+	{
+		if (attackKey) {
+			return true;
+		}
+		return false;
+	}
 
+	[Test]
+	public void playerAttackTest() {
+		attackKey = true;
+		Assert.AreEqual (true, playerAttack ());
+		attackKey = false;
+		Assert.AreEqual (false, playerAttack ());
+	}
+
+	public bool rangeAttack ()
+	{
+		if (rangeKey) {
+			return true;
+		}
+		return false;
+	}
+
+	[Test]
+	public void rangeAttackTest() {
+		rangeKey = true;
+		Assert.AreEqual (true, rangeAttack ());
+		rangeKey = false;
+		Assert.AreEqual (false, rangeAttack ());
+	}
+
+	public bool useItem() {
+		if (itemKey) {
+			return true;
+		}
+		return false;
+	}
+
+	[Test]
+	public void useItemTest() {
+		itemKey = true;
+		Assert.AreEqual (true, useItem());
+		itemKey = false;
+		Assert.AreEqual (false, useItem ());
+	}
 }
