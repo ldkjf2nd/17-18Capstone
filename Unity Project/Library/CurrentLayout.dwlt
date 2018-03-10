@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -105,10 +105,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 681, y: 492}
+  m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
-  controlID: 51
+  controlID: 126
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,10 +129,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 681, y: 492}
+  m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 52
+  controlID: 127
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,10 +153,10 @@ MonoBehaviour:
     y: 0
     width: 1370
     height: 947
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 89
+  controlID: 75
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,10 +177,10 @@ MonoBehaviour:
     y: 0
     width: 1370
     height: 373
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 68
+  controlID: 31
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -199,8 +199,8 @@ MonoBehaviour:
     y: 0
     width: 437
     height: 373
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -224,8 +224,8 @@ MonoBehaviour:
     y: 0
     width: 933
     height: 373
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 15}
@@ -394,9 +394,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a070000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: fee7feff1ae8feff24ebfeffa8effeffc4effeffd2f2feffd4f6fefff0f6fefff8f9feff1afbfeff36fbfeff88fefeff5402ffff7002ffff7005ffff4006ffff5c06ffff5e09ffffbc8effff4294ffffb096ffffccc9ffff6ad2ffffbef0ffff64f5ffff96fbffff00000000
+    m_ExpandedIDs: 7efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -599,9 +599,9 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e23e0000
-    m_LastClickedID: 16098
-    m_ExpandedIDs: 00000000022a0000b6350000b0360000e23e0000924000009440000096400000984000009a40000000ca9a3bffffff7f
+    m_SelectedIDs: f43e0000
+    m_LastClickedID: 16116
+    m_ExpandedIDs: 00000000142a0000c8350000c2360000f43e00003a4000003c4000003e400000404000004240000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -629,7 +629,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000022a0000b6350000b0360000e23e0000924000009440000096400000984000009a400000
+    m_ExpandedIDs: 00000000142a0000c8350000c2360000f43e00003a4000003c4000003e4000004040000042400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -656,7 +656,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300008c34000034350000a03600007c3500005c330000ea2e0000a44ffcffc4270000b82a00002c440000ba3c000050290000f02e0000904c0000944c0000204c0000de390000163a00005e29000004290000fe26010006270100102800009af90400505300005c3b0000f829000000000000dc290000882a000062280000422b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1029,282 +1029,6 @@ MonoBehaviour:
       ignoredOrSkipped: 0
       description: 
       isSuite: 1
-    - id: '[C:/Users/tianq/Desktop/Desk/GitRepo/17-18Capstone/Unity Project/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]'
-      name: Assembly-CSharp-Editor.dll
-      fullName: C:/Users/tianq/Desktop/Desk/GitRepo/17-18Capstone/Unity Project/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-      resultStatus: 1
-      duration: 0.0387483
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-    - id: '[Assembly-CSharp-Editor][EnemyControllerTest][suite]'
-      name: EnemyControllerTest
-      fullName: EnemyControllerTest
-      resultStatus: 1
-      duration: 0.0278869
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-    - id: '[Assembly-CSharp-Editor][EnemyControllerTest.AttackTest]'
-      name: AttackTest
-      fullName: EnemyControllerTest.AttackTest
-      resultStatus: 1
-      duration: 0.0115221
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][EnemyControllerTest.deathTest]'
-      name: deathTest
-      fullName: EnemyControllerTest.deathTest
-      resultStatus: 1
-      duration: 0.0101782
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][EnemyControllerTest.enemyMoveLeftTest]'
-      name: enemyMoveLeftTest
-      fullName: EnemyControllerTest.enemyMoveLeftTest
-      resultStatus: 1
-      duration: 0.0048012
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][EnemyControllerTest.enemyMoveRightTest]'
-      name: enemyMoveRightTest
-      fullName: EnemyControllerTest.enemyMoveRightTest
-      resultStatus: 1
-      duration: 0.0038109
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][EnemyControllerTest.flipTest]'
-      name: flipTest
-      fullName: EnemyControllerTest.flipTest
-      resultStatus: 1
-      duration: 0.0041246
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][EnemyControllerTest.OnColissionEnter2DTest]'
-      name: OnColissionEnter2DTest
-      fullName: EnemyControllerTest.OnColissionEnter2DTest
-      resultStatus: 1
-      duration: 0.0039605
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][EnemyControllerTest.waitForHitstunLTest]'
-      name: waitForHitstunLTest
-      fullName: EnemyControllerTest.waitForHitstunLTest
-      resultStatus: 1
-      duration: 0.0140082
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][EnemyControllerTest.waitForHitstunTest]'
-      name: waitForHitstunTest
-      fullName: EnemyControllerTest.waitForHitstunTest
-      resultStatus: 1
-      duration: 0.003957
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][fireDinoControllerTest][suite]'
-      name: fireDinoControllerTest
-      fullName: fireDinoControllerTest
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-    - id: '[Assembly-CSharp-Editor][fireDinoControllerTest.fireDinoControllerTestSimplePasses]'
-      name: fireDinoControllerTestSimplePasses
-      fullName: fireDinoControllerTest.fireDinoControllerTestSimplePasses
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][fireDinoControllerTest.fireDinoControllerTestWithEnumeratorPasses]'
-      name: fireDinoControllerTestWithEnumeratorPasses
-      fullName: fireDinoControllerTest.fireDinoControllerTestWithEnumeratorPasses
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][LogicTests][suite]'
-      name: LogicTests
-      fullName: LogicTests
-      resultStatus: 1
-      duration: 0.1362127
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-    - id: '[Assembly-CSharp-Editor][LogicTests.AmrOTE2DTest]'
-      name: AmrOTE2DTest
-      fullName: LogicTests.AmrOTE2DTest
-      resultStatus: 1
-      duration: 0.0057045
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][LogicTests.Att0TE2DTest]'
-      name: Att0TE2DTest
-      fullName: LogicTests.Att0TE2DTest
-      resultStatus: 1
-      duration: 0.0068856
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][LogicTests.BDFixedUpdateTest]'
-      name: BDFixedUpdateTest
-      fullName: LogicTests.BDFixedUpdateTest
-      resultStatus: 1
-      duration: 0.0084646
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][LogicTests.BDOnCollisionEnter2DTest]'
-      name: BDOnCollisionEnter2DTest
-      fullName: LogicTests.BDOnCollisionEnter2DTest
-      resultStatus: 1
-      duration: 0.0040035
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][LogicTests.BTFixedUpdateTest]'
-      name: BTFixedUpdateTest
-      fullName: LogicTests.BTFixedUpdateTest
-      resultStatus: 1
-      duration: 0.0043236
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][LogicTests.cSLateUpdateTest]'
-      name: cSLateUpdateTest
-      fullName: LogicTests.cSLateUpdateTest
-      resultStatus: 1
-      duration: 0.0060967
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][LogicTests.DialogueManagerTest]'
-      name: DialogueManagerTest
-      fullName: LogicTests.DialogueManagerTest
-      resultStatus: 1
-      duration: 0.0053295
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][LogicTests.DTOTE2DTest]'
-      name: DTOTE2DTest
-      fullName: LogicTests.DTOTE2DTest
-      resultStatus: 1
-      duration: 0.0043216
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-    - id: '[Assembly-CSharp-Editor][LogicTests.Quit]'
-      name: Quit
-      fullName: LogicTests.Quit
-      resultStatus: 1
-      duration: 0.0078404
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
     m_ResultText: AttackTest (0.012s)
     m_ResultStacktrace: 
     m_TestListState:
