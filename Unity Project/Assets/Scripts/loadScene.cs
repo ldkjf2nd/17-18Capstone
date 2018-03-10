@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class loadScene : MonoBehaviour
-{
+public class loadScene : MonoBehaviour {
 
-	public void LoadByIndex (int sceneIndex)
+	public void LoadByIndex(int sceneIndex)
 	{
 		SceneManager.LoadScene (sceneIndex);
 	}
+	public void exitGame (){
+		Application.Quit();
+	}
+
+
+
 }

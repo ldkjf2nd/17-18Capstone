@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-[RequireComponent (typeof(Image))]
+[RequireComponent(typeof(Image))]
 public class ScrollDetailTexture : MonoBehaviour
 {
 	public bool uniqueMaterial = false;
@@ -16,11 +16,12 @@ public class ScrollDetailTexture : MonoBehaviour
 
 	void OnEnable ()
 	{
-		mSprite = GetComponent<Image> ();
+		mSprite = GetComponent<Image>();
 		mOriginal = mSprite.material;
 
-		if (uniqueMaterial && mSprite.material != null) {
-			mCopy = new Material (mOriginal);
+		if (uniqueMaterial && mSprite.material != null)
+		{
+			mCopy = new Material(mOriginal);
 			mCopy.name = "Copy of " + mOriginal.name;
 			mCopy.hideFlags = HideFlags.DontSave;
 			mSprite.material = mCopy;
@@ -29,12 +30,13 @@ public class ScrollDetailTexture : MonoBehaviour
 
 	void OnDisable ()
 	{
-		if (mCopy != null) {
+		if (mCopy != null)
+		{
 			mSprite.material = mOriginal;
 			if (Application.isEditor)
-				UnityEngine.Object.DestroyImmediate (mCopy);
+				UnityEngine.Object.DestroyImmediate(mCopy);
 			else
-				UnityEngine.Object.Destroy (mCopy);
+				UnityEngine.Object.Destroy(mCopy);
 			mCopy = null;
 		}
 		mOriginal = null;
@@ -44,11 +46,13 @@ public class ScrollDetailTexture : MonoBehaviour
 	{
 		Material mat = (mCopy != null) ? mCopy : mOriginal;
 
-		if (mat != null) {
-			Texture tex = mat.GetTexture ("_DetailTex");
+		if (mat != null)
+		{
+			Texture tex = mat.GetTexture("_DetailTex");
 
-			if (tex != null) {
-				mat.SetTextureOffset ("_DetailTex", scrollPerSecond * Time.time);
+			if (tex != null)
+			{
+				mat.SetTextureOffset("_DetailTex", scrollPerSecond * Time.time);
 
 				// TODO: It would be better to add support for MaterialBlocks on UIRenderer,
 				// because currently only one Update() function's matrix can be active at a time.

@@ -2,19 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spike : MonoBehaviour
-{
+public class Spike : MonoBehaviour {
 	private Rigidbody2D rb2d;
 	public float delta;
 	// Use this for initialization
-	void Start ()
-	{
+	void Start () {
 		rb2d = GetComponent<Rigidbody2D> ();
 	}
 	
 	// Update is called once per frame
-	void Update ()
-	{
+	void Update () {
 		GameObject thePlayer2 = GameObject.Find ("GW");
 		PlayerController playercontroller2 = thePlayer2.GetComponent<PlayerController> ();
 

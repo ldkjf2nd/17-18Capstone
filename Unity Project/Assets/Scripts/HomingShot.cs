@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HomingShot : MonoBehaviour
-{
+public class HomingShot : MonoBehaviour {
 	//public Rigidbody2D player;
 	private Rigidbody2D rb2d;
 	private Transform tr2d;
@@ -17,8 +16,7 @@ public class HomingShot : MonoBehaviour
 	public Transform bulletHolder;
 	public Vector3 lastPosition;
 	// Use this for initialization
-	void Start ()
-	{
+	void Start () {
 		tr2d = GetComponent<Transform> ();	
 		rb2d = GetComponent<Rigidbody2D> ();
 		rb2d.simulated = true;
@@ -34,8 +32,7 @@ public class HomingShot : MonoBehaviour
 	}
 
 	// Update is called once per frame
-	void Update ()
-	{
+	void Update () {
 		GameObject PC1 = GameObject.Find ("GW");
 		PlayerController PC = PC1.GetComponent<PlayerController> ();
 		delta = Mathf.Abs (PC.rb2d.position.x - rb2d.position.x);
@@ -44,10 +41,8 @@ public class HomingShot : MonoBehaviour
 		transform.position = Vector3.MoveTowards (transform.position, lastPosition, step);
 		Destroy (this.gameObject, 3);
 	}
-
-	void OnTriggerEnter2D (Collider2D other)
-	{
-		if (other.CompareTag ("Player") || other.CompareTag ("Wall")) {
+	void OnTriggerEnter2D(Collider2D other){
+		if (other.CompareTag ("Player")|| other.CompareTag("Wall")) {
 			Destroy (this.gameObject);
 		}
 	}

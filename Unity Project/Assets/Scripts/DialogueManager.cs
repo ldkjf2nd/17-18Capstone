@@ -3,17 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogueManager : MonoBehaviour
-{
-	private Queue<string> sentences;
-	public Text nameText;
+public class DialogueManager : MonoBehaviour {
+	private Queue<string> sentences; 
+	public Text nameText; 
 	public Text dialogueText;
 	public Image image;
-	public GameObject dialogueCanvas;
+	public GameObject dialogueCanvas; 
 	public static bool inDialogue;
 	// Use this for initialization
-	void Update ()
-	{
+	void Update(){
 		if (Input.GetKeyDown (KeyCode.J) && inDialogue) {
 			DisplayNextSentence ();
 			GameObject boss = GameObject.Find ("fireDino");
@@ -22,13 +20,10 @@ public class DialogueManager : MonoBehaviour
 			FindObjectOfType <SoundManagerScript> ().PlaySound ("nextDialogue");
 
 		}
-	}
-
-	void Start ()
-	{
+	} 
+	void Start () {
 		sentences = new Queue<string> ();
 	}
-
 	public void StartDialogue (Dialogue dialogue)
 	{
 		dialogueCanvas.SetActive (true);
@@ -38,21 +33,17 @@ public class DialogueManager : MonoBehaviour
 		foreach (string sentence in dialogue.sentences) {
 			sentences.Enqueue (sentence);
 		}
-		DisplayNextSentence ();
-	}
+		DisplayNextSentence ();	}
 
-	public void DisplayNextSentence ()
-	{
+	public void DisplayNextSentence(){
 		if (sentences.Count == 0) {
-			EndDialogue ();
+			EndDialogue();
 			return;
 		}
 		string sentence = sentences.Dequeue ();
 		dialogueText.text = sentence;
 	}
-
-	void EndDialogue ()
-	{
+	void EndDialogue(){
 		inDialogue = false;
 		FindObjectOfType<GameManager> ().startPlayerControls ();
 		FindObjectOfType<SoundManagerScript> ().PlayBGM ("level1Boss");

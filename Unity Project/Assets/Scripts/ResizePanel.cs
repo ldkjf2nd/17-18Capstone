@@ -2,8 +2,7 @@
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class ResizePanel : MonoBehaviour, IPointerDownHandler, IDragHandler
-{
+public class ResizePanel : MonoBehaviour, IPointerDownHandler, IDragHandler {
 	
 	public Vector2 minSize = new Vector2 (100, 100);
 	public Vector2 maxSize = new Vector2 (400, 400);
@@ -11,20 +10,17 @@ public class ResizePanel : MonoBehaviour, IPointerDownHandler, IDragHandler
 	private RectTransform panelRectTransform;
 	private Vector2 originalLocalPointerPosition;
 	private Vector2 originalSizeDelta;
-
-	void Awake ()
-	{
+	
+	void Awake () {
 		panelRectTransform = transform.parent.GetComponent<RectTransform> ();
 	}
-
-	public void OnPointerDown (PointerEventData data)
-	{
+	
+	public void OnPointerDown (PointerEventData data) {
 		originalSizeDelta = panelRectTransform.sizeDelta;
 		RectTransformUtility.ScreenPointToLocalPointInRectangle (panelRectTransform, data.position, data.pressEventCamera, out originalLocalPointerPosition);
 	}
-
-	public void OnDrag (PointerEventData data)
-	{
+	
+	public void OnDrag (PointerEventData data) {
 		if (panelRectTransform == null)
 			return;
 		
