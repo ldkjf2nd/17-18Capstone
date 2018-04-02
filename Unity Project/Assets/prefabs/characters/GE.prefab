@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33060341691783352}
   - component: {fileID: 23774327201763342}
   - component: {fileID: 61722951051468062}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: attack
   m_TagString: eAttack
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 50830433919108574}
   - component: {fileID: 61800995088396190}
   - component: {fileID: 114972387585623680}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GE
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1647124935803604}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 79.474045, y: -5.7332153, z: 0}
+  m_LocalPosition: {x: -15.51, y: -7.5, z: 2}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 4829850468943616}
@@ -146,7 +146,7 @@ BoxCollider2D:
   m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -215,26 +215,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e76064553bcef794d943084bf8d31989, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb2d: {fileID: 0}
   playercontroller: {fileID: 0}
   EnemyCount: 0
-  health: 100
+  preAttackTime: 1
+  health: 10
   isDead: 0
   inAction: 0
   facingRight: 1
+  inAirHit: 0
   enemyDistance: 50
   enemyAttackRange: 4
+  enemyWalkRange: 10
+  enemyWalkRangeY: 5
   delta: 0
   attack1:
     attackDamage: 1
     attackCollider: {fileID: 61722951051468062}
-    startDelayTime: 0.1
+    startDelayTime: 0.5
     durationTime: 0.3
-    knockBackForce: {x: 0, y: 0, z: 0}
-    hitStunTime: 0.3
+    knockBackForce: {x: 200, y: 0}
+    hitStunTime: 0.5
     animationTrigger: Attack
     attackSound: attack
     cancelTime: 0
+    endTime: 1.2
   deltaY: 0
+  explosion: {fileID: 0}
+  inAirStick: 0
+  inWait: 0
+  inAirCombo: 0
+  inMark: 0
+  marked: 0
 --- !u!212 &212560363254577752
 SpriteRenderer:
   m_ObjectHideFlags: 1

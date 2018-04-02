@@ -157,13 +157,11 @@ public class fireDinoController : MonoBehaviour {
 			transform.localScale = theScale;
 	}
 	void OnTriggerEnter2D(Collider2D coll){
-		if (coll.gameObject.CompareTag ("Attack")) {
+		if (coll.gameObject.CompareTag ("Attack")|| coll.gameObject.CompareTag ("Attack2")|| coll.gameObject.CompareTag ("Launcher") ){
 			healthSlider.value -= 1;
-			GameObject thePlayer2 = GameObject.Find ("GW");
-			PlayerController playercontroller2 = thePlayer2.GetComponent<PlayerController> ();
-			playercontroller2.energySlider.value += 5;
 			healthHUD.SetActive (true);
 			StartCoroutine (blink ());
+			FindObjectOfType<GameManager> ().increaseEnergy (5);
 			if (healthSlider.value <= 0) {
 				StartCoroutine (death ());
 			}
@@ -174,6 +172,7 @@ public class fireDinoController : MonoBehaviour {
 			anim.SetTrigger ("Idle");
 			rb2d.velocity = new Vector2 (0, 0);
 		}
+			
 		
 	}
 	IEnumerator blink(){
@@ -183,7 +182,7 @@ public class fireDinoController : MonoBehaviour {
 	}
 	IEnumerator death(){
 		inDeath = true; 
-		anim.SetTrigger ("Death");
+		anim.SetTrigger ("Death"); 
 		Instantiate (explosion, rb2d.transform);
 		healthHUD.SetActive (false);
 		yield return new WaitForSeconds (3);
@@ -278,7 +277,7 @@ public class fireDinoController : MonoBehaviour {
 	IEnumerator bossIntro(){
 		inIntro = true;
 		rb2d.simulated = true;
-		transform.position = Vector3.MoveTowards (transform.position, new Vector3 (216.9f, 42f, -5f), 100 * Time.deltaTime);
+		transform.position = Vector3.MoveTowards (transform.position, new Vector3 (224f, 42f, -5f), 1000 * Time.deltaTime);
 		anim.SetTrigger ("WallJumpAttack");
 		yield return new WaitForSeconds (5f); 
 		doneIntro = true;
@@ -292,4 +291,5 @@ public class fireDinoController : MonoBehaviour {
 			return -1f;
 		}
 	}
+
 }

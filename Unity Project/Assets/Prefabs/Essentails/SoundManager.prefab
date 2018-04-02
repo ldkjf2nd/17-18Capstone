@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1926485473404788}
+  m_IsPrefabParent: 1
+--- !u!1 &1926485473404788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4248558435478904}
+  - component: {fileID: 114587068124521180}
+  - component: {fileID: 82491435075590494}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4248558435478904
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926485473404788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 180.7889, y: 16.172005, z: -11.0625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82491435075590494
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926485473404788}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114587068124521180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926485473404788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a5abb964f49d8744aacfe5010f168ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - {fileID: 8300000, guid: 69460533d184a37438057c20885e1c52, type: 3}
+  - {fileID: 8300000, guid: f1ef9d7a883fec049a4d8fabc72a1cb7, type: 3}
+  - {fileID: 8300000, guid: a6d3920d7372b8946a3c2e342189cb96, type: 3}
+  - {fileID: 8300000, guid: 84de36206ae6f0c42b1f55f022552aa7, type: 3}
+  - {fileID: 8300000, guid: c3a4252dcb379b344a8b7a12aa5c2d65, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 2e1d54baaacf0ce4980214cd575eb9e4, type: 3}
+  - {fileID: 8300000, guid: 4eb151c67062ebb40a979a7669a668df, type: 3}
+  - {fileID: 8300000, guid: a6d3920d7372b8946a3c2e342189cb96, type: 3}
+  - {fileID: 8300000, guid: b24806e8b2532fc4bbc8659e3f664607, type: 3}
+  - {fileID: 8300000, guid: d3f213c178fdae448ad18d609e801d6f, type: 3}
+  - {fileID: 8300000, guid: 69460533d184a37438057c20885e1c52, type: 3}
+  - {fileID: 8300000, guid: 854873eab164bcb409d3bbc5003b3cf1, type: 3}
+  - {fileID: 8300000, guid: a10fc91a7fdbe4c4cbd9a274efac55ac, type: 3}
+  - {fileID: 8300000, guid: cb70e2559bfa8d04f8e193fa303ce105, type: 3}
+  - {fileID: 8300000, guid: 2e6cb9ce904b7a04187c4b06e5b66d3a, type: 3}
+  - {fileID: 8300000, guid: b24806e8b2532fc4bbc8659e3f664607, type: 3}
+  - {fileID: 8300000, guid: b24806e8b2532fc4bbc8659e3f664607, type: 3}
+  - {fileID: 8300000, guid: b24806e8b2532fc4bbc8659e3f664607, type: 3}
+  - {fileID: 8300000, guid: b24806e8b2532fc4bbc8659e3f664607, type: 3}
+  - {fileID: 8300000, guid: 0cfa801376538644b8d9b6b194e10430, type: 3}
+  - {fileID: 8300000, guid: 1d891b67ee79055498095eee1b8f8a32, type: 3}
+  - {fileID: 8300000, guid: b24806e8b2532fc4bbc8659e3f664607, type: 3}
+  - {fileID: 8300000, guid: b24806e8b2532fc4bbc8659e3f664607, type: 3}
+  - {fileID: 8300000, guid: b24806e8b2532fc4bbc8659e3f664607, type: 3}
+  bgm:
+  - {fileID: 8300000, guid: da8ab8da63cb3ac41be36463997b66d4, type: 3}
+  - {fileID: 8300000, guid: 303e56ad4d7443a469115a4e6a047f3c, type: 3}
+  - {fileID: 8300000, guid: 2b7d02de0e824de4db9e91560e6ab3db, type: 3}
+  - {fileID: 8300000, guid: de874786b0a271541aca22a2eca322d1, type: 3}
+  - {fileID: 8300000, guid: 6fb670c3233371d4987ebecbd0677f50, type: 3}
+  - {fileID: 8300000, guid: eb759a9ba31a4ed48a7fd395131ff7a6, type: 3}
+  - {fileID: 8300000, guid: 8ab947356c1a9fb42aef501053b5bd83, type: 3}
+  - {fileID: 8300000, guid: 11f65f908cc07484e9eab3467e63bebc, type: 3}
+  - {fileID: 8300000, guid: 6fb670c3233371d4987ebecbd0677f50, type: 3}
+  - {fileID: 8300000, guid: 2b7d02de0e824de4db9e91560e6ab3db, type: 3}
+  - {fileID: 8300000, guid: 817ee2b1c4f4c7c4880c0dcbb9c4a90f, type: 3}
+  - {fileID: 8300000, guid: 817ee2b1c4f4c7c4880c0dcbb9c4a90f, type: 3}
+  loopList:
+  - main
+  - transition
+  - level1
+  - level2
+  - level3
+  - level4
+  - level5
+  - level6
+  - level7
+  bossList:
+  - Main Menu
+  - Transition
+  - level1Boss
+  - level2Boss
+  - level3Boss
+  - level4Boss
+  - level5Boss
+  - level6Boss
+  - 
+  soundSource: {fileID: 0}
+  bgmSource: {fileID: 0}
+  stopMusic: 0

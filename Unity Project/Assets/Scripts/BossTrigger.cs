@@ -11,9 +11,12 @@ public class BossTrigger : MonoBehaviour {
 	public static bool bossStart = false; 
 	public Dialogue dialogue;
 	// Use this for initialization
+
 	void Start () {
 		bossDoor = GetComponent<Rigidbody2D>();
 		isOpen = false;
+		Rigidbody2D[] gw = GameObject.Find ("GW").GetComponents<Rigidbody2D>();
+		player = gw[0];
 	}
 	// Update is called once per frame
 	void FixedUpdate () {
@@ -21,21 +24,21 @@ public class BossTrigger : MonoBehaviour {
 			bossDoor.MovePosition (transform.position + new Vector3 (0, 1, 0) * 5 * Time.deltaTime);
 			player.position = Vector3.MoveTowards (player.position, position, 10 * Time.deltaTime);
 			FindObjectOfType<GameManager> ().stopPlayerControls ();
-			if (player.position.x >= position.x-0.5 && player.position.y >= position.y) {
+			if (player.position.x > position.x-1f && player.position.y < position.y) {
 				isOpen = false;
 				bossIntro = true;
 				TriggerDialogue();
 
 			}
-
+		
 		}
 	}
 	void OnCollisionEnter2D(Collision2D other){
 		if (other.gameObject.CompareTag ("Player")) {
 			FindObjectOfType<SoundManagerScript > ().PlaySound ("openDoor");
-			FindObjectOfType<SoundManagerScript>().stopMusic ();
+			FindObjectOfType<SoundManagerScript>().PlayBGM ("sil");
 			isOpen = true;
-			FindObjectOfType<GameManager> ().setRespawn (new Vector3(191.4f, 32.9f, -3f));
+			FindObjectOfType<GameManager> ().setRespawn (new Vector3(transform.position.x -5f, transform.position.y, transform.position.z));
 		}
 	}
 	public void TriggerDialogue(){

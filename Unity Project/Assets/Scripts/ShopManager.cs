@@ -14,13 +14,13 @@ public class ShopManager : MonoBehaviour {
 			item.model.SetActive(false);
 			item.costText.enabled =  false;
 			if (item.type == "def") {
-				PlayerController.def += 1;
+				FindObjectOfType<GameManager>().increaseHealth(item.healthBoost);
 			}
 			if (item.type == "r") {
 				GameManager.rKits += 1;
 			}
 			if (item.type == "dmg") {
-				PlayerController.dmgUp += 1;
+				FindObjectOfType < GameManager> ().increaseDamage (item.cost);
 			}
 		}
 	}

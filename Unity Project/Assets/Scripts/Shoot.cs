@@ -37,7 +37,7 @@ public class Shoot : MonoBehaviour {
 		Destroy (this.gameObject, 1);
 	}
 	void OnTriggerEnter2D(Collider2D other){
-		if (other.CompareTag ("Enemy") || other.CompareTag("Fire Dino") ||	other.CompareTag("Wall") ) {
+		if (other.CompareTag ("Enemy") || other.CompareTag("Fire Dino") ||	other.CompareTag("Wall")|| other.CompareTag("Octo") ||other.CompareTag("RM") ) {
 			Destroy (this.gameObject);
 		}
 	}
